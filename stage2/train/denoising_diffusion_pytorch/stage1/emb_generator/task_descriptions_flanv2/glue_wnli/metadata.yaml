@@ -1,0 +1,31 @@
+assistant_prefill: ''
+descriptions:
+- Determine if the given statement logically follows from the provided context.
+- Check whether the conclusion is accurate based on the given information.
+- Assess if the second sentence is a correct interpretation of the first.
+- Verify if the inferred meaning matches the original statement.
+- Decide whether the proposed claim is supported by the text.
+- Evaluate if the answer aligns with the facts in the passage.
+- Confirm if the explanation is consistent with the scenario.
+- Judge whether the conclusion is true given the initial statement.
+- Determine if the follow-up statement is a valid deduction.
+- Analyze if the second part correctly reflects the first part.
+- Check if the derived statement is a logical consequence.
+- See if the claim can be justified by the preceding text.
+- Decide if the interpretation is faithful to the original meaning.
+- Assess whether the reasoning is sound based on the context.
+- Verify if the conclusion is implied by the given details.
+- Determine if the answer is a reasonable assumption.
+- Evaluate if the statement logically follows from the evidence.
+- Confirm if the proposed idea is backed by the text.
+- Judge whether the response is consistent with the facts.
+- Analyze if the second statement is a correct summary of the first.
+ds_kwargs:
+  path: glue_wnli
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

@@ -1,0 +1,51 @@
+assistant_prefill: ''
+descriptions:
+- The task involves reading a background article and applying the knowledge to answer
+  a question about a new situation.
+- The task requires understanding scientific concepts from a passage and using them
+  to solve a real-world scenario.
+- The task is about connecting information from a given text to determine the correct
+  answer in a related context.
+- The task involves reasoning based on scientific principles described in a passage
+  to answer a follow-up question.
+- The task is to use learned facts from an article to make an informed decision about
+  a hypothetical situation.
+- The task requires analyzing a scientific explanation and applying it to a practical
+  example.
+- The task is about interpreting biological or chemical concepts and using them to
+  answer a specific question.
+- The task involves comparing two scenarios based on knowledge from a provided background
+  text.
+- The task is to deduce the correct answer by recalling and applying details from
+  a scientific passage.
+- The task requires identifying which subject in a scenario aligns with the information
+  given in the background article.
+- The task is about recognizing how scientific principles manifest in different real-life
+  cases.
+- The task involves using prior knowledge from a text to explain differences in a
+  given situation.
+- The task is to determine which individual or object in a scenario matches the description
+  from the passage.
+- The task requires understanding cause-and-effect relationships described in the
+  text to answer a question.
+- The task is about predicting outcomes based on scientific facts provided in the
+  background information.
+- The task involves distinguishing between two subjects using details from the given
+  article.
+- The task is to apply biological or chemical knowledge to explain observations in
+  a new context.
+- The task requires identifying which case in a scenario follows the pattern described
+  in the passage.
+- The task is about using evidence from the text to support the correct answer in
+  a related question.
+- The task involves matching real-world examples to the scientific explanations provided
+  in the background article.
+ds_kwargs:
+  path: ropes_read_background_situation
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

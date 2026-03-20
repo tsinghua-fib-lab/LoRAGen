@@ -1,0 +1,39 @@
+assistant_prefill: ''
+descriptions:
+- The task involves comparing two scenarios or conditions to determine which one fits
+  a given description.
+- The task requires analyzing a situation and background information to identify the
+  correct outcome.
+- The task is about understanding cause-and-effect relationships in a given context.
+- The task involves using provided background knowledge to answer a specific question
+  about a situation.
+- The task is to determine which of two options aligns with the described conditions.
+- The task requires applying scientific or factual knowledge to solve a problem.
+- The task involves interpreting real-world scenarios based on given explanations.
+- The task is about identifying patterns or trends in described situations.
+- The task requires distinguishing between two possibilities using contextual clues.
+- The task involves evaluating differences between two cases based on background information.
+- The task is to deduce the correct answer by linking the situation to the provided
+  facts.
+- The task requires recognizing which scenario matches the given criteria.
+- The task involves making logical conclusions from a described event and supporting
+  details.
+- The task is about comparing two instances to see which one meets a specific condition.
+- The task requires understanding how certain factors influence an outcome.
+- The task involves determining which of two options is consistent with the background
+  knowledge.
+- The task is to identify which scenario fits the described phenomenon.
+- The task requires analyzing how changes in conditions affect results.
+- The task involves using factual information to answer a question about a real-world
+  example.
+- The task is about selecting the correct scenario based on scientific or logical
+  reasoning.
+ds_kwargs:
+  path: ropes_new_situation_background_answer
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

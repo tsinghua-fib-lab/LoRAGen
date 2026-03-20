@@ -1,0 +1,32 @@
+assistant_prefill: ''
+descriptions:
+- The task involves identifying the correct answer based on given facts.
+- The task requires matching factual statements to the most relevant outcome.
+- The task is about connecting provided information to the most logical conclusion.
+- The task involves selecting the best explanation based on the given context.
+- The task is to determine the most accurate relationship between the facts and the
+  answer.
+- The task requires understanding how described processes lead to specific results.
+- The task is about recognizing the key element that fits the given scenario.
+- The task involves identifying the primary factor described in the facts.
+- The task is to find the most consistent answer with the provided information.
+- The task requires deducing the correct concept from the given statements.
+- The task is about linking cause and effect based on the facts.
+- The task involves selecting the answer that aligns with the described phenomenon.
+- The task is to determine what the given facts explain or result in.
+- The task requires identifying the main subject based on the context.
+- The task is about understanding the role or function described in the facts.
+- The task involves finding the most relevant outcome of the given process.
+- The task is to recognize the essential component mentioned in the facts.
+- The task requires determining what the described behavior or mechanism leads to.
+- The task is about selecting the answer that best fits the described situation.
+- The task involves identifying the correct concept based on the provided explanation.
+ds_kwargs:
+  path: qasc_qa_with_separated_facts_1
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

@@ -1,0 +1,40 @@
+assistant_prefill: ''
+descriptions:
+- The task involves understanding how one factor affects another based on given information.
+- The task requires identifying the relationship between two variables in a given
+  scenario.
+- The task is about determining how changes in one condition influence another condition.
+- The task involves predicting an outcome based on a described cause-and-effect relationship.
+- The task is to infer how altering one factor impacts a related factor.
+- The task requires recognizing patterns or trends described in a passage.
+- The task is about applying a given rule or principle to a specific situation.
+- The task involves deducing the effect of a change in a system based on provided
+  information.
+- The task is to compare outcomes under different conditions using a given relationship.
+- The task requires understanding how increasing or decreasing one quantity affects
+  another.
+- The task is about interpreting how a described phenomenon influences a measurable
+  result.
+- The task involves analyzing how a described property changes under varying circumstances.
+- The task is to determine the direction of change (increase or decrease) in a dependent
+  variable.
+- The task requires linking a cause to its effect based on a provided explanation.
+- The task is about evaluating how a described mechanism operates under different
+  inputs.
+- The task involves reasoning about how a system behaves when a key factor is adjusted.
+- The task is to assess the impact of a described condition on an observable outcome.
+- The task requires identifying how a described relationship manifests in a practical
+  example.
+- The task is about understanding how a scientific or logical principle applies to
+  a real-world scenario.
+- The task involves drawing conclusions about how one aspect influences another based
+  on a given explanation.
+ds_kwargs:
+  path: quartz_having_read_above_passage
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

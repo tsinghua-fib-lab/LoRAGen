@@ -1,0 +1,32 @@
+assistant_prefill: ''
+descriptions:
+- Identify the connection between two entities based on the given information.
+- Determine how one named subject relates to another in the provided context.
+- Find the association between two specific terms using the background details.
+- Figure out the link between two items mentioned in the text.
+- Understand the relationship between a person and a place or concept.
+- Discover how a person, place, or thing is connected to another in the passage.
+- Extract the type of relationship between two given names from the information.
+- Recognize the nature of the bond between two entities in the text.
+- Pinpoint the specific way one subject is tied to another.
+- Analyze the given facts to determine how two things are related.
+- Establish the connection between a person and a country, organization, or event.
+- Identify the role or relevance of one entity in relation to another.
+- Determine the interaction or association between two named subjects.
+- Uncover the type of relationship (e.g., origin, affiliation, involvement) between
+  two things.
+- Examine the text to find how one thing is linked to another.
+- Decipher the connection between a person and their work, location, or achievement.
+- Assess the provided details to define the relationship between two elements.
+- Interpret the given information to find how two subjects are associated.
+- Identify the context in which one entity is connected to another.
+- Determine the nature of the tie between two items based on the facts given.
+ds_kwargs:
+  path: wiki_hop_original_explain_relation
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

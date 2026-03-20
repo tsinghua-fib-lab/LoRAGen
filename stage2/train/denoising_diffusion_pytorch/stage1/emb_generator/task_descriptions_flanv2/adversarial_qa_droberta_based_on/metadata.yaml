@@ -1,0 +1,36 @@
+assistant_prefill: ''
+descriptions:
+- The task involves finding a specific piece of information in a given text based
+  on a question.
+- The task requires identifying the correct answer from a provided passage.
+- The task is about locating the exact information in a text that answers a given
+  question.
+- The task involves extracting a fact from a passage that directly responds to a query.
+- The task is to pinpoint the relevant part of a text that answers a specific question.
+- The task requires selecting the correct detail from a context that matches the question.
+- The task involves searching a passage to find the answer to a given question.
+- The task is about determining which part of a text provides the answer to a query.
+- The task requires matching a question with the correct information in a passage.
+- The task involves retrieving a specific fact from a block of text based on a question.
+- The task is to identify the key piece of information in a passage that answers a
+  question.
+- The task requires finding the exact words in a text that respond to a given query.
+- The task involves locating the answer to a question within a provided context.
+- The task is about recognizing the part of a passage that directly answers a question.
+- The task requires pulling out the correct detail from a text that fits the question.
+- The task involves determining the answer to a question by reading a given passage.
+- The task is to find the relevant information in a text that addresses a specific
+  question.
+- The task requires extracting the precise answer from a passage based on a query.
+- The task involves identifying the part of a text that contains the answer to a question.
+- The task is about selecting the correct information from a passage that answers
+  a given question.
+ds_kwargs:
+  path: adversarial_qa_droberta_based_on
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

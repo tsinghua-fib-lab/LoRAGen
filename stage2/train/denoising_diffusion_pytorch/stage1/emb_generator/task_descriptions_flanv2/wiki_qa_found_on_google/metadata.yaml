@@ -1,0 +1,33 @@
+assistant_prefill: ''
+descriptions:
+- The task involves checking if a given answer matches the question asked.
+- The task is about verifying whether a provided answer correctly addresses the question.
+- The task requires determining if the given response is relevant to the question.
+- The task is to assess whether the answer found corresponds to the question's topic.
+- The task involves evaluating if the provided answer is factually correct for the
+  question.
+- The task is about confirming whether the answer directly answers the question.
+- The task requires judging if the given response is accurate for the question.
+- The task is to decide if the answer is appropriate for the question asked.
+- The task involves checking if the answer aligns with the question's intent.
+- The task is about determining if the answer is a valid response to the question.
+- The task requires verifying if the answer fits the context of the question.
+- The task is to see if the answer provides the correct information for the question.
+- The task involves confirming whether the answer is on-topic for the question.
+- The task is about checking if the answer is a precise match for the question.
+- The task requires assessing if the answer is logically connected to the question.
+- The task is to determine if the answer is a suitable reply to the question.
+- The task involves examining if the answer is a correct solution to the question.
+- The task is about validating whether the answer satisfies the question's requirements.
+- The task requires analyzing if the answer is a proper fit for the question.
+- The task is to evaluate if the answer is a relevant and correct response to the
+  question.
+ds_kwargs:
+  path: wiki_qa_found_on_google
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

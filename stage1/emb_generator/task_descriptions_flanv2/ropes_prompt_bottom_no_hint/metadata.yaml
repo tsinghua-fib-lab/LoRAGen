@@ -1,0 +1,44 @@
+assistant_prefill: ''
+descriptions:
+- The task involves reading a short paragraph and answering a question based on the
+  information provided.
+- The task requires understanding a given scenario and identifying the correct answer
+  from the details.
+- The task is about analyzing a passage and selecting the right response based on
+  the facts.
+- The task involves comparing different situations described in a text and determining
+  the correct answer.
+- The task is to read a brief story and answer a question that tests comprehension
+  of the content.
+- The task requires extracting key details from a paragraph to answer a specific question.
+- The task is about interpreting a given context and providing the appropriate answer.
+- The task involves reasoning through a scenario to find the correct response.
+- The task is to understand cause-and-effect relationships in a passage and answer
+  accordingly.
+- The task requires identifying differences or similarities in described situations
+  to answer the question.
+- The task is about recalling specific details from a text to answer correctly.
+- The task involves making logical inferences from a given paragraph to answer the
+  question.
+- The task is to apply knowledge from a short passage to determine the right answer.
+- The task requires recognizing patterns or contrasts in the provided information
+  to answer.
+- The task is about distinguishing between described entities or actions to answer
+  the question.
+- The task involves evaluating the given information to select the most accurate response.
+- The task is to understand the implications of a scenario and answer based on those
+  implications.
+- The task requires identifying which part of the passage corresponds to the question
+  asked.
+- The task is about connecting the details in the text to the correct answer.
+- The task involves deducing the answer by analyzing the relationships in the given
+  paragraph.
+ds_kwargs:
+  path: ropes_prompt_bottom_no_hint
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

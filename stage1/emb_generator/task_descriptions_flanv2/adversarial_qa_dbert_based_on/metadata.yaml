@@ -1,0 +1,39 @@
+assistant_prefill: ''
+descriptions:
+- The task involves finding specific information in a given text to answer a direct
+  question.
+- The task requires identifying key details from a passage that directly respond to
+  a question.
+- The task is about locating exact answers within a provided context based on a question.
+- The task involves extracting precise facts from a text to match a given query.
+- The task is to pinpoint the correct information in a passage that answers a specific
+  question.
+- The task requires matching a question with the relevant part of a given text.
+- The task is about retrieving exact phrases or names from a passage that fit a question.
+- The task involves selecting the right piece of information from a context to answer
+  a question.
+- The task is to find the part of a text that directly corresponds to a given question.
+- The task requires identifying the correct statement in a passage that answers a
+  question.
+- The task is about pulling out the relevant details from a text to satisfy a query.
+- The task involves searching a passage for the exact answer to a specific question.
+- The task is to determine which part of a given text contains the answer to a question.
+- The task requires recognizing the correct information in a context that answers
+  a question.
+- The task is about isolating the necessary facts from a passage to respond to a query.
+- The task involves reading a text and identifying the part that answers a given question.
+- The task is to extract the exact words or names from a passage that fit a question.
+- The task requires finding the relevant sentence or phrase in a text that answers
+  a question.
+- The task is about locating the specific detail in a context that matches a question.
+- The task involves determining the correct piece of information from a passage that
+  answers a question.
+ds_kwargs:
+  path: adversarial_qa_dbert_based_on
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

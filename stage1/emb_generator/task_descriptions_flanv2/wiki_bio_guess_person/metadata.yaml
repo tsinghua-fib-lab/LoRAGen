@@ -1,0 +1,41 @@
+assistant_prefill: ''
+descriptions:
+- The task is to identify a person based on given details about their life, career,
+  or background.
+- The task involves matching biographical information to the correct individual.
+- The task requires recognizing a person from facts like their birth date, occupation,
+  or achievements.
+- The task is about deducing a person's identity using clues such as their clubs,
+  awards, or roles.
+- The task involves figuring out who a person is by analyzing their career stats,
+  birth details, or affiliations.
+- The task is to guess a person's name based on their personal and professional history.
+- The task requires identifying a famous individual from snippets of their life story.
+- The task is about connecting scattered facts to determine the correct person.
+- The task involves solving who a person is by piecing together their background information.
+- The task is to find out the name of a person described through their career milestones.
+- The task requires recognizing a person from their birth details, work, or achievements.
+- The task is about identifying someone based on their sports, music, or other professional
+  details.
+- The task involves determining a person's identity from their life events and roles.
+- The task is to guess a person's name using facts like their birthplace, teams, or
+  instruments.
+- The task requires figuring out who someone is from their timeline, awards, or associations.
+- The task is about matching a person to their biographical or career-related information.
+- The task involves identifying an individual from their personal and work-related
+  facts.
+- The task is to deduce a person's identity from their height, position, or other
+  attributes.
+- The task requires naming a person based on their clubs, national team, or birth
+  records.
+- The task is about solving the identity of a person using their full name, profession,
+  or history.
+ds_kwargs:
+  path: wiki_bio_guess_person
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

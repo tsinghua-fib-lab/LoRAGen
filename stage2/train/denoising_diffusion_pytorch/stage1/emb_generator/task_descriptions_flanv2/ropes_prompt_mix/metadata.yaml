@@ -1,0 +1,44 @@
+assistant_prefill: ''
+descriptions:
+- The task involves reading a short passage and answering a question based on the
+  information provided, along with a helpful hint.
+- The task requires understanding cause-and-effect relationships described in a given
+  scenario.
+- The task involves comparing two situations or entities based on given details.
+- The task is about analyzing environmental or scientific information to draw conclusions.
+- The task requires applying knowledge from a hint to answer a question about a real-world
+  scenario.
+- The task involves interpreting how different conditions affect outcomes in a described
+  situation.
+- The task is about identifying which of two subjects meets a specific condition based
+  on the given facts.
+- The task requires reasoning about natural phenomena or human activities using provided
+  context.
+- The task involves determining which scenario aligns with a particular scientific
+  or logical principle.
+- The task is about understanding how changes in one factor influence another in a
+  described system.
+- The task requires making inferences based on factual details and supporting hints.
+- The task involves evaluating two cases to see which one fits a given criterion.
+- The task is about recognizing patterns or trends from a short passage and applying
+  them to a question.
+- The task requires connecting scientific concepts to real-world examples provided
+  in the text.
+- The task involves assessing the impact of different variables on a described outcome.
+- The task is about distinguishing between two subjects based on their described characteristics.
+- The task requires using contextual clues to determine the correct answer to a factual
+  question.
+- The task involves understanding how human actions or natural processes lead to specific
+  results.
+- The task is about predicting outcomes based on given conditions and supporting information.
+- The task requires analyzing a scenario to determine which subject meets the specified
+  condition.
+ds_kwargs:
+  path: ropes_prompt_mix
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

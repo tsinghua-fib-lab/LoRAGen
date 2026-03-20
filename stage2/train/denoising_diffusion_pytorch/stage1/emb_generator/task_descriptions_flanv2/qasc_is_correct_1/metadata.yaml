@@ -1,0 +1,45 @@
+assistant_prefill: ''
+descriptions:
+- The task involves verifying if a given answer matches the information provided in
+  a statement.
+- The task checks whether a proposed answer correctly answers a question based on
+  a given fact.
+- The task requires determining if an answer aligns with the details given in a preceding
+  statement.
+- The task assesses whether a suggested answer fits the context of a provided piece
+  of information.
+- The task involves confirming if an answer logically follows from a given statement.
+- The task evaluates if an answer is consistent with the facts presented in a preceding
+  sentence.
+- The task checks if an answer accurately reflects the meaning of a provided statement.
+- The task requires validating whether an answer correctly corresponds to a given
+  piece of knowledge.
+- The task involves judging if an answer is appropriate based on a supplied fact.
+- The task determines if an answer is a valid response to a question derived from
+  a given statement.
+- The task assesses if an answer is factually correct in relation to a provided piece
+  of information.
+- The task verifies if an answer makes sense given the context of a preceding statement.
+- The task involves checking if an answer is a plausible response based on a given
+  fact.
+- The task evaluates whether an answer is justified by the information in a provided
+  statement.
+- The task requires deciding if an answer is coherent with the details given in a
+  prior sentence.
+- The task checks if an answer logically connects to a provided piece of knowledge.
+- The task involves confirming if an answer is a reasonable conclusion from a given
+  statement.
+- The task assesses if an answer is supported by the facts in a preceding sentence.
+- The task determines if an answer is a correct interpretation of a provided piece
+  of information.
+- The task verifies if an answer is a valid match for a question based on a given
+  statement.
+ds_kwargs:
+  path: qasc_is_correct_1
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

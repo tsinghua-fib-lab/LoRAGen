@@ -1,0 +1,434 @@
+assistant_prefill: ''
+descriptions:
+- Focus on comprehending the essence of textual details to validate or disprove statements
+  arising from those details succinctly.
+- This task requires you to gauge the validity of various assertions in diverse fields,
+  from geography to science, using supporting details found in the input.
+- This task asks you to validate or dismiss statements by connecting them back to
+  facts described in the initial input. Delve into comprehension for correct evaluation.
+- Analyze input passages for underlying truths, engaging with binary fact-based questions
+  that require close consideration of presented details.
+- This task requires careful reading of descriptive passages to check for factual
+  correctness regarding specific inquiries about those passages.
+- You are required to digest textual content and critically evaluate claims made within
+  it. Your task is to distinguish between truth and falsehood.
+- Analyze the statements and decide if the information supports a particular assertion,
+  indicating whether it is true or false.
+- The objective is to assess statements against background information. You will determine
+  if what's being asked aligns with the facts given.
+- You are questioning specific claims related to known facts; your role is to verify
+  these claims with informed reasoning.
+- The objective is to assess whether a specific claim is valid according to the details
+  given. Analyzing the context is key to your judgment.
+- Use your analytical skills to determine the accuracy of statements drawn from given
+  readings. Each question asks whether information aligns with what's provided.
+- This activity focuses on evaluating factual statements against evidence or accepted
+  knowledge in specific areas, from historical events to scientific principles.
+- As you engage with the text, your goal is to identify whether particular claims
+  can be substantiated through careful analysis of the information given.
+- Here, you will investigate a series of declarations and ascertain their truthfulness
+  based on provided excerpts. Focus on understanding details and forming judgments
+  accordingly.
+- You will interpret information from different topics and make judgments about the
+  validity of certain statements, using logical reasoning and recall skills.
+- Analyze assertions presented against detailed narratives and judge their accuracy
+  based on your understanding of the material covered.
+- This activity tasks you with closely reading descriptions of events and answering
+  whether the included statements about those events are legitimate.
+- Your responsibility is to succinctly conclude the accuracy of statements related
+  to a range of subjects by applying well-informed judgment.
+- You will be tasked with identifying the correctness of statements in a varied range
+  of topics. Your decisions will depend on how well you can connect facts to claims
+  presented.
+- Determine if summarized assertions made about various subjects are consistent with
+  detailed descriptions. Accuracy in interpretation is key for this task.
+- Evaluate statements concerning historical events or cultural topics based on context
+  clues provided in a descriptive format, categorizing them as correct or incorrect.
+- This task prompts you to sift through details and evaluate whether particular declarations
+  about concepts or events reflect reality. Critical thinking is key here.
+- Engage with textual content to verify claims made in associated questions. Careful
+  attention to detail is necessary for accurate responses.
+- Interpret the supplied text and answer questions regarding its content with a focus
+  on confirming whether specific statements are truthful based on that context.
+- You need to assess whether provided statements about subjects can be confirmed based
+  on contextual clues and overall understanding of the information.
+- Evaluate given propositions critically, drawing from what you know to inform your
+  decision-making process regarding truthfulness.
+- Detect and analyze claims present in the inputs by contrasting them with known information
+  or logical reasoning, which is crucial for concluding their veracity.
+- Your role is to investigate claims for authenticity based on background descriptions,
+  utilizing critical thinking skills to discern truth from falsehood.
+- You are required to evaluate factual information about a specific topic. This includes
+  interpreting details and drawing conclusions about the validity of the query posed.
+- This task requires you to utilize context clues and information provided to validate
+  or reject claims about specific topics.
+- Your role involves fact-checking statements based on knowledge contained within
+  descriptive text. Awareness of nuances in wording may affect conclusions drawn.
+- You'll need to draw conclusions from descriptive passages, determining if presented
+  statements reflect reality as illustrated. Focus involves comprehension of nuanced
+  content.
+- This activity demands close reading and comprehension skills to discern factual
+  correctness from elaborative descriptions on varied subjects.
+- You will evaluate specific claims regarding various topics and decide if they are
+  true or false based on the textual evidence presented.
+- Your role is to confirm the accuracy of statements by drawing insights from descriptive
+  texts. A sound understanding of the content is essential.
+- The challenge lies in reviewing presented facts to determine if a particular assertion
+  is correct or incorrect, necessitating careful reading.
+- This task calls for analytical reasoning as you engage with varying topics, filtering
+  out accurate statements based on substantial textual evidence.
+- The objective here is to examine given texts and identify if the claims they make
+  are accurate, reflecting a need for comprehension and analytical skills.
+- Engage with texts across a range of subjects where you will validate or refute given
+  statements based on the information provided.
+- You are asked to interpret contextual information from various narratives and determine
+  if specific statements about those narratives are indeed accurate.
+- Your job involves evaluating factual assertions against background knowledge or
+  presented data. This requires discerning accurate information from the text.
+- The objective is to read through informative passages and translate that understanding
+  into a direct response about the truth of certain assertions mentioned in questions.
+- You will engage with propositions where each requires a judgment call regarding
+  its truthfulness, rooted in textual evidence and logical deduction.
+- Your focus should be on interpreting details from passages to decide if a statement
+  aligns with the information provided or not.
+- The task consists of analyzing descriptive content to validate or invalidate claims
+  made about notable occurrences in history, society, or culture.
+- Your task is to determine the truth value of statements based on the provided context.
+  Analyze the given information carefully to assess whether the statement can be confirmed
+  as true or false.
+- Your task is to evaluate statements based on the information provided in a passage.
+  Determine whether the claims about the topics are true or false.
+- Evaluate claims based on contextual evidence that shows whether they are accurate.
+  Your task requires careful interpretation of details.
+- You are tasked with determining the truth of a statement based on the information
+  provided. This requires critical reading and comprehension.
+- "You\u2019re tasked with evaluating assertions about different topics and confirming\
+  \ their accuracy with a simple true or false judgment."
+- In this task, you need to evaluate various claims presented in questions. You will
+  use the context and facts provided to decide if these claims hold true or are false.
+- Analyze the context and facts given in the input to answer specific questions. Your
+  understanding of the subject will guide you in deciding the accuracy of each statement.
+- Evaluate provided facts and ascertain whether specific claims in questions hold
+  true in light of this information while disregarding any lengthy explanations.
+- Your goal is to ascertain whether particular claims about various subjects are true
+  or false based on the information presented in the input.
+- Your task is to discern the accuracy of various claims against background information,
+  assessing whether they stand true or false as positioned by questions.
+- Examine a series of statements, utilizing your understanding of the topics involved
+  to identify which are accurate.
+- In this task, you examine detailed information to confirm or deny assertions made
+  in questions, relying on comprehension of the material.
+- "You\u2019ll read about diverse subjects and be prompted with questions that require\
+  \ a judgment on their truth value according to provided information."
+- Assess the relationship between key concepts and provide a true or false response
+  based on established facts.
+- Expect to navigate through informative content and form objective conclusions about
+  claims presented in question format based on clear evidence in the text.
+- Interpret written descriptions and form judgments about related inquiries, affirming
+  if statements resonate with the provided context's accuracy.
+- Address questions by delving into informative passages, where judicious reflection
+  leads you to truth assessments based on factual context given.
+- You are engaged in verifying facts by closely examining texts that describe events
+  or concepts and deciding if the presented claims are correct.
+- The exercise emphasizes comprehension skills, where you must dissect textual information
+  and its implication to resolve queries about factual claims.
+- Analyze questions regarding various subjects and decide if the given statements
+  are correct based on known information.
+- Interpret complex pieces of text carefully; your job involves matching inquiry specifics
+  with relevant assertions found within those texts.
+- Engage with a passage about a variety of subjects and decide on the truthfulness
+  of specific statements related to that passage.
+- Your job is to analyze various scenarios and claims about events, people, or places
+  and decide whether they are true or false based on the provided context.
+- Your task is to assess statements related to the content from various fields, ensuring
+  thorough understanding of complex information before reaching a conclusion.
+- Your task is to critically think about specific assertions and decide whether they
+  accurately reflect reality.
+- The challenge involves careful reading of descriptions across different topics,
+  leading you to evaluate the veracity of individual assertions based on information
+  at hand.
+- You will be verifying claims based on contextual evidence from the input material,
+  determining if they are correct or incorrect.
+- Examine various questions regarding different subjects and produce a true or false
+  assessment based on the insights drawn from related descriptions.
+- "Your expertise will be tested as you navigate through descriptions containing assertions\
+  \ needing validation\u2014affirming their accuracy or identifying them as falsehoods."
+- Relying on concise reading of prose, you will assess claims and refine your conclusions
+  through a focused evaluation of provided narratives or descriptions.
+- Your objective is to discern whether certain claims hold up against factual information
+  available in various fields of knowledge.
+- You are tasked with evaluating the legitimacy of statements through logical reasoning
+  and comprehension of the given information.
+- In this exercise, judge various statements against the context given, employing
+  critical thinking to reach a conclusion regarding their validity.
+- Perform a fact-checking role where you scrutinize questions presented against their
+  contextual background to validate their truth status comprehensively.
+- This involves a straightforward analysis where you decide if given information aligns
+  with specific claims. You're examining the claims based on thorough understanding.
+- You will evaluate factual assertions by correlating them with relevant details extracted
+  from informative texts. Clarity in comprehension is vital.
+- You should synthesize information from complex texts to verify whether particular
+  statements hold true according to what's described.
+- This task centers on assessing narratives for their factual content, demanding both
+  comprehension and judgment based on the information provided.
+- Determine the truthfulness of statements related to various subjects based on prior
+  information. Skills in critical thinking and contextual analysis are crucial here.
+- The task centers around checking the accuracy of claims with respect to detailed
+  scenarios provided, engaging analytical thinking throughout your reasoning process.
+- The work requires inspecting assertions contained in the input carefully, using
+  detailed knowledge about diverse topics to guide your responses.
+- Your assignment requires synthesizing provided information to correctly answer fact-based
+  questions. Focus on accuracy and relevance of the details shared.
+- Your responsibility is to use provided context to evaluate the truth status of given
+  statements, requiring attention to detail and logical deduction.
+- In this task, you will reflect on written information and its implications. Consider
+  whether the questions posed correspond with what is mentioned in the input text.
+- In this task, you must use critical thinking to discern the validity of claims rooted
+  in historical or contextual narratives presented for review.
+- Engage with content to verify the authenticity of claims made in questions regarding
+  different topics. This involves analyzing received details and using logic.
+- In this task, you must navigate assertions posed in various queries and determine
+  their truthfulness based on the background detail supplied.
+- The aim is to differentiate between true and false statements by referencing solid
+  background knowledge shared within the question input.
+- You need to identify whether particular statements align with established facts.
+  Engage your reasoning skills to confirm their truthfulness based on context provided.
+- You will assess various statements for their veracity against the background knowledge
+  presented. Understanding and logical reasoning are key components of this task.
+- This assignment involves sifting through detailed information and identifying the
+  truth status of assertions related to significant historical events and figures.
+- This task encompasses reading comprehension where you'll differentiate between accurate
+  claims and inaccuracies found in specific descriptions provided.
+- This task calls for sharper analytical skills as you dissect information and respond
+  accurately about seen claims concerning diverse topics addressed in the provided
+  material.
+- Identify correct statements among propositions by leveraging analytical thinking
+  and awareness of established facts.
+- Engage with a series of questions that test your comprehension of specific details
+  from texts. Your goal is to assess each statement against the provided content.
+- Your role is to verify specific assertions by comparing them against the relevant
+  information supplied in the input. Make a judgment about their validity based on
+  this evidence.
+- Analyzing various pieces of information from provided texts is crucial in forming
+  judgments regarding the truthfulness of certain statements concerning history and
+  culture.
+- You need to evaluate a statement based on factual information or common knowledge
+  to determine its validity.
+- Analyze textual data critically by solving inquiries regarding their accuracy. This
+  requires coherently linking information from various sources in your analysis.
+- Apply your understanding of different areas to listen for inconsistencies in statements
+  and validate them as true or false accordingly.
+- This activity challenges you to read passages that provide essential information,
+  then assess whether specific questions regarding that material are factual.
+- This assignment involves assessing factual statements related to different subjects.
+  You will draw on your understanding and the details provided to ascertain the accuracy
+  of each statement.
+- The task involves determining the truth of a statement based on provided informational
+  texts. You need to evaluate whether the question aligns with the information given.
+- Here, you will review factual contexts pertaining to different subjects, requiring
+  a grasp of relevant knowledge to distinguish between truth and untruth.
+- This activity asks you to validate statements by engaging with background material,
+  requiring you to synthesize information logically.
+- Evaluate factual claims against a background of evidence provided in written format.
+  Concentrate on identifying which statements hold true based on what you've read.
+- The task involves evaluating statements regarding historical and factual information
+  to determine their truthfulness or accuracy.
+- This task requires you to utilize informational content to answer questions regarding
+  validity, demanding good comprehension and reasoning abilities.
+- Determine if statements can be regarded as true or false based on your analysis
+  of accompanying content. Focus on accuracy and reliability of presented facts.
+- This activity involves examining narrative content before concluding if specific
+  inquiries reflect reality based on that content's clarity and relevance.
+- Assess whether particular claims are correct by correlating them with supporting
+  details provided in an input passage. This demands logical assessment skills.
+- Interpret questions that probe real-world knowledge and provide succinct affirmative
+  or negative responses based on your insights.
+- The task involves determining the truthfulness of a given statement based on provided
+  context. Use reasoning and comprehension skills to assess whether the statement
+  is correct or not.
+- Analyze the statement in question to ascertain if it holds true or not, relying
+  on the facts outlined in the preceding information.
+- Assess each presented situation critically, determining their alignment with reality
+  through analytical judgment.
+- This task entails verifying statements about diverse topics using given contextual
+  knowledge. Critical evaluation will lead you to conclude whether the statement holds
+  true or is false.
+- Utilize your knowledge across multiple domains to assess statements, determining
+  their veracity in relation to factual data.
+- The job is to analyze provided texts and respond to inquiries about their content,
+  verifying facts and clarifications as necessary.
+- The objective is to analyze descriptions given in the input and respond with an
+  evaluation of the truthfulness of presented claims.
+- By evaluating claims against background information, you will determine their authenticity,
+  relying on your understanding of diverse subjects.
+- You will evaluate statements regarding various topics, confirming whether they are
+  true or false based on the evidence given in the text.
+- Become familiar with factual details in provided texts and determine whether ensuing
+  queries about these truths can be validated as correct or incorrect.
+- The challenge lies in appraising various statements about topics ranging from anatomy
+  to literature, confirming their validity through detailed examination of provided
+  information.
+- This task challenges your ability to derive factual conclusions from written descriptions.
+  You need to discern if the claims align with the information presented.
+- This task requires you to probe into specifics provided in each input and question
+  relationships to establish factual correctness.
+- This task involves evaluating statements to ascertain their accuracy compared to
+  detailed accounts or facts presented in previous sections of text.
+- This task requires you to sift through given information and make quick determinations
+  about the validity of certain statements related to it.
+- Use deductive reasoning to analyze given information, enabling you to state whether
+  assertions about topics are accurate or deceptive directly.
+- Your job is to validate assertions by considering documented descriptions and history
+  provided within the text framework. Accuracy in your assessments will be critical.
+- You are asked to evaluate statements against factual data from a given context.
+  Your judgment should reflect whether the assertions hold true or not.
+- In this activity, you'll analyze different statements and discern if they are true
+  or false by drawing upon your understanding of the subjects discussed.
+- Consider whether described scenarios align with factual reality, using analytical
+  skills to draw conclusions.
+- Engage critically with short passages, evaluating question assertions against provided
+  facts to confirm their correctness or incorrectness concisely.
+- The focus of this task is on verifying facts against information presented about
+  different subjects, prompting you to think critically about what constitutes truth.
+- The task involves determining the truth value of a statement based on provided information.
+  You will assess the accuracy of claims regarding various topics.
+- This task revolves around discerning facts from descriptions provided. You will
+  analyze each question critically and decide if it aligns with what you have read.
+- Your role is to assess the validity of claims presented in relation to a given text.
+  Use critical thinking skills to ascertain if they are accurate.
+- Test your ability to interpret information by answering yes-or-no questions about
+  certain details. Focus on whether the statement is supported by the preceding content.
+- Your role is to read through descriptive passages and evaluate factual statements
+  about characters, events, or locations in order to deliver a true or false response.
+- The task requires you to determine the truthfulness of statements based on provided
+  information. Analyze the context to decide if the assertion is accurate or not.
+- Engage with statement-driven queries by closely examining given information for
+  clarity, and gauge whether those inquiries reflect real-world accuracy.
+- The focus here is on fact-checking; you'll interpret narrative details to ascertain
+  whether specific assertions accurately reflect the context described.
+- "Your role is to validate specific claims by matching them with factual information.\
+  \ You\u2019ll interpret data to make informed conclusions on each assertion's accuracy."
+- Engage with topics that require you to juxtapose existing knowledge against new
+  claims for factual accuracy.
+- You will explore textual content, relating it directly to posed questions, ensuring
+  that your responses reflect accurate interpretations of that content.
+- Reflect on inquiries about existence or validity in various subjects and evaluate
+  their truthfulness based on objective criteria.
+- Engage with provided content to ascertain if certain claims made in questions are
+  factual or not, supporting your decision with text comprehension.
+- The challenge lies in discerning the accuracy of information related to prominent
+  topics by fulfilling inquiries with simple truth evaluations.
+- Your job is to assess claims and provide a simple acknowledgment of their truthfulness
+  as indicated by the context in the input material.
+- You will assess the correctness of various assertions by referring to information
+  provided in textual form. Make quick judgments regarding their truthfulness.
+- You will be presented with statements related to different subjects. Your job is
+  to critically analyze these statements for their validity using the context supplied.
+- You will investigate factual claims about various topics using information from
+  provided texts, deciding if those claims stand true upon reflection.
+- "You will need to leverage your understanding of a range of topics\u2014including\
+  \ history, geography, and pop culture\u2014to verify the correctness of statements\
+  \ posed in questions."
+- This role requires you to assess assertions for their alignment with specific details
+  from informative passages, emphasizing clear comprehension and logical reasoning.
+- Engage with a series of questions that challenge your knowledge regarding particular
+  subjects. Your task is simply to state whether they are true or false.
+- Determine the truthfulness of various claims, relying on your comprehension of the
+  subject matter presented.
+- Your job is to confirm or deny the veracity of questions posed about specific topics.
+  This requires a keen understanding of the facts discussed in the related passages.
+- The task involves determining the truthfulness of statements based on the information
+  provided in a text. It requires critical thinking to assess accuracy.
+- Delve into descriptive texts related to diverse subjects and gauge the veracity
+  of claims presented as inquiries about those subjects.
+- You are tasked with identifying the truth about assertions related to topics covered
+  in short descriptive snippets, ensuring clarity in judgment calls.
+- Assess statements for their truthfulness by referencing information surrounding
+  them. You need to apply knowledge across multiple domains for accurate verification.
+- The focus here is on understanding and interpreting textual information to confirm
+  or deny specific statements presented in questions.
+- This task involves logical reasoning applied to various descriptions, leading you
+  to assess whether particular statements made within them can be classified as true
+  or false.
+- The objective is to scrutinize pieces of information taken from various narratives.
+  Based on your interpretation, decide if the assertions are true or false.
+- Your mission involves evaluating a collection of factual sentences regarding different
+  subjects, determining whether each one is accurate or misleading based on referenced
+  content.
+- Here, you will process factual information from a descriptive source and respond
+  to inquiries by determining if they correctly reflect the content.
+- The aim is to translate concise knowledge into clear assessments regarding factual
+  correctness, shaping your answers around rich descriptions while maintaining brevity.
+- The objective is to understand factual contexts from passages and accurately judge
+  questions regarding them as either true or false based on your reading.
+- This task requires you to assess information presented in descriptions and answer
+  whether specific assertions made within them hold true or not.
+- Your assignment is to decide if specific claims made in the input are correct or
+  incorrect based on relevant knowledge. This requires comprehension of definitions
+  and relationships.
+- Your task is to confirm or deny specific claims based on contextual clues and historical
+  facts elaborated in the given passages.
+- Assess various statements in light of the information provided in a reading selection.
+  Your decision should be rooted in the understanding of the material.
+- Your role revolves around critical examination of text-based information to identify
+  true or false statements regarding various subjects addressed within it.
+- "To perform well, extract and synthesize relevant data within the information set,\
+  \ which will guide your decision on each claim\u2019s validity."
+- Evaluate statements through analysis of given content, making conclusions about
+  their accuracy based on what has been described previously.
+- 'Engage with assertions across diverse fields by critically assessing them against
+  detailed narratives provided. The goal is clear: validate each claim effectively
+  through analysis.'
+- Your role is to succinctly identify the validity of statements by drawing upon understanding
+  derived from accompanying informational context.
+- In this endeavor, you will encounter various factual claims. Use your comprehension
+  and reasoning abilities to determine which statements hold true within the given
+  context.
+- For this task, you will read through statements and decide if they accurately reflect
+  the information presented. This requires careful reading and analytical thinking.
+- Analyze provided information to check the correctness of statements regarding specific
+  issues. Utilize your understanding to make reasonable assessments.
+- You will evaluate factual questions based on context clues in the input material.
+  Your judgment should reflect the correctness of each assertion as per the details
+  given.
+- Think critically about the provided assertions, weighing their veracity based on
+  context clues within the input material. Your judgment will reflect your analytical
+  skills.
+- Assess claims made within a given context and use your interpretive skills to classify
+  each assertion as true or false accordingly.
+- The challenge is to analyze text-based information and respond to inquiries about
+  its content, deciding whether each statement reflects reality as described.
+- "In this task, you\u2019ll read about different topics and consider questions that\
+  \ probe for factual correctness. Your judgment will focus on evaluating truth claims."
+- Concentrate on parsing textual content effectively so you can offer straightforward
+  validations or rebuttals regarding claims made in related questions.
+- In this exercise, supplement your critical thinking ability by validating or disproving
+  statements using insights gleamed from comprehensive readings.
+- Engage with statements by reviewing their accuracy in relation to context. Your
+  goal is to discern whether each claim can be accepted as true or rejected as false.
+- Your main focus here is to analyze different bits of information and decide on their
+  truthfulness relative to each corresponding question posed.
+- Assess a variety of topics and summarize your findings as either true or false based
+  on your prior knowledge and reasoning ability.
+- In this task, analyze information provided in a context to establish the accuracy
+  of a statement. This requires comprehension and critical thinking.
+- The objective is to validate claims made in a given context. You must rely on your
+  comprehension skills to distinguish facts from inaccuracies.
+- Your mission revolves around interpreting multiple narratives and answering fact-check
+  queries by discerning their correctness through comprehension insights.
+- This task involves interpreting a text and responding to factual inquiries. Assess
+  the details presented and conclude if the statements hold true or not.
+- Your responsibility is using literary comprehension skills to ascertain if statements
+  related to historical events, games, or laws are valid according to textual excerpts.
+ds_kwargs:
+  path: google/boolq
+  split: train
+response_field: answer
+system_message: ''
+user_prompt_template: '{passage}
+
+
+  Question: {question}?
+
+
+  Please answer with only `true` or `false` without any explanation.'

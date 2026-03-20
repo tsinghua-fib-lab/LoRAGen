@@ -1,0 +1,36 @@
+assistant_prefill: ''
+descriptions:
+- The task involves understanding cause-and-effect relationships in scientific concepts.
+- The task requires reasoning about how changes in one variable affect another based
+  on given principles.
+- The task tests comprehension of basic physics or biology principles through logical
+  deduction.
+- The task asks about the outcomes of altering specific conditions in natural or mechanical
+  systems.
+- The task involves predicting results based on stated scientific rules or laws.
+- The task examines how properties like mass, speed, or energy influence outcomes.
+- The task explores how environmental or physical changes impact observable phenomena.
+- The task assesses understanding of proportional relationships in scientific contexts.
+- The task involves applying given definitions or rules to hypothetical scenarios.
+- The task checks whether one can infer consequences from described scientific processes.
+- The task evaluates the ability to link theoretical concepts to practical examples.
+- The task requires drawing conclusions about natural or mechanical behaviors from
+  given facts.
+- The task focuses on how altering one factor influences another in a system.
+- The task involves interpreting how changes in conditions affect outcomes in science.
+- The task tests knowledge of how traits or energy levels shift under different circumstances.
+- The task asks about the direction of change when a specific variable is adjusted.
+- The task examines understanding of how physical laws apply to real-world situations.
+- The task involves reasoning about the effects of modifications in natural or artificial
+  systems.
+- The task assesses the ability to predict outcomes based on scientific principles.
+- The task requires deducing how a described change would influence a given scenario.
+ds_kwargs:
+  path: quartz_paragraph_question_plain_concat
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

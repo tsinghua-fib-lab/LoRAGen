@@ -1,0 +1,31 @@
+assistant_prefill: ''
+descriptions:
+- Determine if the given movie review expresses a positive or negative sentiment.
+- Identify whether the sentiment in the review is favorable or unfavorable.
+- Assess if the opinion in the movie review is good or bad.
+- Classify the emotional tone of the review as positive or negative.
+- Decide if the reviewer liked or disliked the movie based on the given text.
+- Evaluate whether the review reflects a happy or unhappy reaction.
+- Figure out if the reviewer had a positive or negative experience with the movie.
+- Judge if the review conveys approval or disapproval of the movie.
+- Recognize if the reviewer's attitude toward the movie is optimistic or pessimistic.
+- Interpret whether the review leans toward praise or criticism.
+- Determine the overall feeling of the review—supportive or unsupportive.
+- Analyze if the review suggests satisfaction or dissatisfaction.
+- Check if the reviewer's impression of the movie is complimentary or uncomplimentary.
+- Gauge if the review is enthusiastic or disappointed.
+- Examine if the reviewer's words indicate enjoyment or displeasure.
+- Assess the reviewer's stance—whether they recommend or dislike the movie.
+- Identify if the review highlights strengths or weaknesses of the movie.
+- Determine if the reviewer's tone is appreciative or disapproving.
+- Categorize the review as either supportive or critical.
+- Understand if the reviewer's reaction to the movie is favorable or unfavorable.
+ds_kwargs:
+  path: glue_sst2
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

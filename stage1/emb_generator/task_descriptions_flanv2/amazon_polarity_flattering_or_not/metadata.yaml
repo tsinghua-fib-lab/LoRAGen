@@ -1,0 +1,32 @@
+assistant_prefill: ''
+descriptions:
+- Determine whether the given product review expresses a positive or negative opinion.
+- Assess the tone of the review to decide if it is favorable or unfavorable toward
+  the product.
+- Classify the sentiment of the review as either praising or criticizing the product.
+- Evaluate if the review speaks highly or poorly of the product.
+- Judge whether the reviewer's opinion of the product is complimentary or disapproving.
+- Decide if the review presents the product in a good or bad light.
+- Identify if the reviewer is satisfied or dissatisfied with the product.
+- Determine if the review reflects a happy or unhappy customer experience.
+- Analyze whether the review is positive or negative in its description of the product.
+- Check if the reviewer recommends or discourages buying the product.
+- Assess whether the review highlights strengths or weaknesses of the product.
+- Figure out if the reviewer is impressed or disappointed with the product.
+- Gauge whether the review leans toward approval or disapproval of the product.
+- Examine if the review conveys enthusiasm or frustration about the product.
+- Determine if the reviewer's overall impression of the product is good or bad.
+- See if the review is supportive or critical of the product.
+- Identify whether the reviewer expresses admiration or dissatisfaction with the product.
+- Check if the review is written in a way that promotes or discourages the product.
+- Analyze whether the reviewer's tone is appreciative or complaining.
+- Determine if the review makes the product seem appealing or unappealing.
+ds_kwargs:
+  path: amazon_polarity_flattering_or_not
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

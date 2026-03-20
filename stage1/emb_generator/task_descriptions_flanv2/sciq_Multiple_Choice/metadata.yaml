@@ -1,0 +1,41 @@
+assistant_prefill: ''
+descriptions:
+- The task involves reading a paragraph and answering a question based on the information
+  provided.
+- The task requires understanding a given text and identifying the correct answer
+  to a related question.
+- The task is about extracting key details from a passage to answer a specific question.
+- The task focuses on comprehending a short text and selecting the right answer from
+  given choices.
+- The task involves recalling facts or concepts from a provided paragraph to answer
+  a question.
+- The task tests the ability to interpret information in a text and apply it to a
+  question.
+- The task is about finding the correct information in a passage to respond to a query.
+- The task requires analyzing a paragraph to determine the accurate answer to a question.
+- The task involves using context from a given text to answer a related question.
+- The task is about reading a short passage and identifying the correct response based
+  on its content.
+- The task focuses on understanding scientific or factual information to answer a
+  question.
+- The task involves processing written information to find the answer to a specific
+  query.
+- The task requires grasping the main idea of a paragraph to answer a question correctly.
+- The task is about connecting details in a text to the correct answer for a question.
+- The task involves interpreting a passage to provide the right response to a question.
+- The task tests knowledge by asking a question based on a provided paragraph.
+- The task is about reading and understanding a text to answer a factual question.
+- The task requires identifying the most relevant information in a passage to answer
+  a question.
+- The task involves using given information to determine the correct answer to a query.
+- The task is about comprehending a written excerpt and selecting the appropriate
+  response.
+ds_kwargs:
+  path: sciq_Multiple_Choice
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

@@ -1,0 +1,4 @@
+[submodule "text-to-lora"]
+	path = text-to-lora
+	url = https://github.com/SakanaAI/text-to-lora.git
+	branch = main

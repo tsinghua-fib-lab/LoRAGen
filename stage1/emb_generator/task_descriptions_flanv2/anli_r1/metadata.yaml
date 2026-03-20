@@ -1,0 +1,31 @@
+assistant_prefill: ''
+descriptions:
+- Determine if a given statement is true based on the provided text.
+- Check whether a claim can be confirmed using the information in the passage.
+- Assess if the text supports the truth of a given sentence.
+- Verify if a fact is correct according to the details in the passage.
+- Decide whether the statement logically follows from the given information.
+- Evaluate if the text provides enough evidence to confirm a claim.
+- Confirm or deny if a sentence is accurate based on the provided context.
+- Judge whether the passage allows for a definite conclusion about the statement.
+- Determine if the text explicitly or implicitly supports the given assertion.
+- Check if the statement aligns with the facts presented in the passage.
+- See if the text contains information that proves or disproves the claim.
+- Figure out if the given sentence is a valid inference from the passage.
+- Establish whether the statement is consistent with the details in the text.
+- Decide if the passage confirms, contradicts, or leaves the statement uncertain.
+- Analyze whether the text provides enough information to validate the claim.
+- Determine if the statement is a correct interpretation of the passage.
+- Assess whether the claim can be logically derived from the given text.
+- Check if the text directly or indirectly supports the truth of the statement.
+- Confirm if the passage contains facts that make the sentence true.
+- Decide if the statement is a reasonable conclusion based on the provided information.
+ds_kwargs:
+  path: anli_r1
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

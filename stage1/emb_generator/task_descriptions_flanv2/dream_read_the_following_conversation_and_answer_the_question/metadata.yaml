@@ -1,0 +1,51 @@
+assistant_prefill: ''
+descriptions:
+- The task involves understanding conversations and identifying the reason behind
+  a speaker's actions or statements.
+- The task requires reading dialogues and determining the cause or motivation for
+  a character's behavior.
+- The task is about interpreting spoken exchanges to find out why someone does or
+  says something.
+- The task focuses on analyzing conversations to uncover the purpose behind a person's
+  request or comment.
+- The task involves comprehending dialogue to figure out the explanation for a specific
+  situation.
+- The task is to read interactions between people and deduce the basis for their statements
+  or actions.
+- The task requires understanding verbal exchanges to identify the underlying reason
+  for a speaker's words.
+- The task is about extracting meaning from conversations to determine what prompted
+  a person's response.
+- The task involves interpreting discussions to find the justification for a character's
+  behavior.
+- The task focuses on grasping dialogue to recognize the cause of a particular event
+  or remark.
+- The task is to read conversations and infer the motivation behind a speaker's question
+  or statement.
+- The task requires analyzing spoken interactions to discover why a person reacts
+  a certain way.
+- The task involves examining dialogues to understand the reason for a character's
+  decision or opinion.
+- The task is about processing conversations to determine the source of a speaker's
+  concern or request.
+- The task focuses on interpreting verbal exchanges to identify the trigger for a
+  person's response.
+- The task requires reading dialogues to find out what leads to a specific action
+  or statement.
+- The task involves understanding spoken interactions to uncover the explanation for
+  a situation.
+- The task is to analyze conversations and determine the factor influencing a speaker's
+  behavior.
+- The task focuses on comprehending dialogue to recognize the cause behind a person's
+  words.
+- The task involves interpreting exchanges between people to find the reason for their
+  actions or feelings.
+ds_kwargs:
+  path: dream_read_the_following_conversation_and_answer_the_question
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

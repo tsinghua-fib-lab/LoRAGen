@@ -1,0 +1,35 @@
+assistant_prefill: ''
+descriptions:
+- The task involves judging whether a given sentence is grammatically and logically
+  correct.
+- The task requires evaluating if a sentence follows proper language rules and makes
+  sense.
+- The task is about determining if a sentence is well-formed in terms of structure
+  and meaning.
+- The task checks if a sentence is both syntactically and semantically acceptable.
+- The task involves assessing the correctness of a sentence based on linguistic standards.
+- The task asks whether a sentence is free from grammatical and meaning errors.
+- The task requires deciding if a sentence is constructed properly and conveys clear
+  meaning.
+- The task is about verifying if a sentence meets strict linguistic correctness criteria.
+- The task involves analyzing sentences for grammatical and logical flaws.
+- The task checks if a sentence follows the rules of English grammar and logic.
+- The task is to determine if a sentence is linguistically sound and coherent.
+- The task involves confirming whether a sentence is acceptable in standard English.
+- The task requires evaluating sentences for proper syntax and meaningfulness.
+- The task is about identifying if a sentence is structurally and semantically valid.
+- The task involves judging sentences based on their grammatical and logical correctness.
+- The task checks if a sentence is free from errors in grammar and meaning.
+- The task is to assess whether a sentence is well-formed and understandable.
+- The task involves determining if a sentence adheres to standard language rules.
+- The task requires analyzing if a sentence is both grammatically and logically sound.
+- The task is about verifying the linguistic acceptability of given sentences.
+ds_kwargs:
+  path: glue_cola
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

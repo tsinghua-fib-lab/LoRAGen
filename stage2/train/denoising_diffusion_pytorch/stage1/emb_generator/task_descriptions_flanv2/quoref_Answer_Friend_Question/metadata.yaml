@@ -1,0 +1,40 @@
+assistant_prefill: ''
+descriptions:
+- The task involves identifying specific details from a given text to answer a question.
+- The task requires extracting precise information from an article to respond to a
+  query.
+- The task is about locating key facts within a passage to provide an accurate answer.
+- The task involves reading a text and finding the correct name or term that answers
+  the question.
+- The task is to determine the correct answer by analyzing the content of a provided
+  article.
+- The task requires matching the question with the relevant information in the text.
+- The task is about recalling or identifying specific names or events from the given
+  passage.
+- The task involves understanding the context of the text to answer the question correctly.
+- The task is to find the exact piece of information that fits the question from the
+  article.
+- The task requires pinpointing the right detail in the text to solve the query.
+- The task is about recognizing the correct person, place, or thing mentioned in the
+  passage.
+- The task involves searching the text for the answer to a direct question.
+- The task is to identify the relevant fact or figure from the article to answer the
+  question.
+- The task requires selecting the appropriate information from the text to respond
+  accurately.
+- The task is about connecting the question to the correct part of the passage.
+- The task involves deducing the answer based on the details provided in the article.
+- The task is to extract the necessary information from the text to fulfill the query.
+- The task requires finding the specific answer within the context of the given passage.
+- The task is about locating the exact words or names that answer the question in
+  the text.
+- The task involves using the article to uncover the correct response to the question.
+ds_kwargs:
+  path: quoref_Answer_Friend_Question
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

@@ -1,0 +1,36 @@
+assistant_prefill: ''
+descriptions:
+- The task involves identifying the correct answer to a question based on a given
+  paragraph.
+- The task requires selecting the most accurate response to a question using provided
+  information.
+- The task is about matching the correct fact to a question using contextual clues.
+- The task focuses on finding the right answer by understanding the details in a paragraph.
+- The task involves reading a passage and determining the correct response to a related
+  question.
+- The task is to answer a question correctly by referring to the given text.
+- The task requires using a paragraph to identify the best answer to a specific question.
+- The task is about extracting key information from a text to answer a question accurately.
+- The task involves interpreting a paragraph to provide the correct answer to a question.
+- The task is to read a passage and select the answer that aligns with the information
+  given.
+- The task requires understanding a text to respond correctly to a related question.
+- The task is about using provided details to answer a question accurately.
+- The task involves analyzing a paragraph to find the right answer to a question.
+- The task is to derive the correct response from the information in a given text.
+- The task requires comprehending a passage to answer a question correctly.
+- The task is about identifying the factual answer based on the provided context.
+- The task involves using a paragraph to confirm the right answer to a question.
+- The task is to determine the correct answer by referring to the details in the text.
+- The task requires reading a passage and selecting the answer that fits the question.
+- The task is about answering a question by relying on the information in the given
+  paragraph.
+ds_kwargs:
+  path: sciq_Multiple_Choice_Question_First
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

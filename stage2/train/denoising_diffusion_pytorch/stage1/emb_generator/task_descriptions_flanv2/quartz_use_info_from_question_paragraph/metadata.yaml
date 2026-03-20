@@ -1,0 +1,49 @@
+assistant_prefill: ''
+descriptions:
+- The task involves reading a paragraph and using the information to answer a related
+  question.
+- The task requires understanding a given paragraph and applying its details to determine
+  the correct answer to a question.
+- The task is about interpreting a short passage and using its facts to respond to
+  a specific query.
+- The task involves analyzing a provided paragraph to find the answer to a question
+  based on its content.
+- The task is to read a text and use the given information to logically answer a follow-up
+  question.
+- The task requires extracting key details from a paragraph to solve a problem or
+  answer a question.
+- The task is about connecting the information in a passage to a question and deriving
+  the correct response.
+- The task involves reasoning about a paragraph's meaning to answer a related question
+  accurately.
+- The task is to comprehend a short text and use its principles to answer a question
+  correctly.
+- The task requires using evidence from a paragraph to support the answer to a given
+  question.
+- The task is about reading a passage and applying its rules or facts to determine
+  an answer.
+- The task involves understanding a concept explained in a paragraph and using it
+  to answer a question.
+- The task is to interpret a scientific or factual statement and use it to respond
+  to a query.
+- The task requires identifying the relationship described in a paragraph to answer
+  a question.
+- The task is about using logical reasoning based on a given text to find the right
+  answer.
+- The task involves reading a brief explanation and using it to make an informed conclusion.
+- The task is to deduce the correct answer by referring to the information provided
+  in a paragraph.
+- The task requires understanding cause-and-effect relationships in a passage to answer
+  a question.
+- The task is about applying general principles from a text to a specific scenario.
+- The task involves using factual knowledge from a paragraph to justify an answer
+  to a question.
+ds_kwargs:
+  path: quartz_use_info_from_question_paragraph
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

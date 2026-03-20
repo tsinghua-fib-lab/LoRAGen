@@ -1,0 +1,35 @@
+assistant_prefill: ''
+descriptions:
+- The task involves reading a short article and answering a question based on its
+  content.
+- The task requires understanding the main ideas in a passage to answer a related
+  question.
+- The task is about interpreting details from a given text to find the correct answer.
+- The task focuses on reading comprehension by analyzing a passage and its key points.
+- The task involves extracting relevant information from an article to respond to
+  a question.
+- The task tests the ability to draw conclusions from a written passage.
+- The task is about identifying the most accurate answer based on the provided text.
+- The task requires matching the question with the correct information from the article.
+- The task involves reasoning about the content of a passage to answer a question.
+- The task is about understanding the writer's perspective or details in the text.
+- The task focuses on recognizing the main subject or theme of the article.
+- The task involves determining the correct response by analyzing the passage.
+- The task is about connecting the question to the most relevant part of the text.
+- The task requires identifying specific details or facts from the article.
+- The task involves interpreting the meaning of the passage to answer correctly.
+- The task is about understanding the context of the article to respond accurately.
+- The task focuses on evaluating the information given in the text to find the answer.
+- The task involves recalling key points from the passage to answer the question.
+- The task is about making logical inferences based on the provided article.
+- The task requires comprehending the narrative or argument in the text to answer
+  correctly.
+ds_kwargs:
+  path: race_middle_Taking_a_test
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

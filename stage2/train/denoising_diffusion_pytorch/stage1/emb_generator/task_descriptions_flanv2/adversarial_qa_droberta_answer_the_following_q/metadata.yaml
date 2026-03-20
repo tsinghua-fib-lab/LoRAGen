@@ -1,0 +1,36 @@
+assistant_prefill: ''
+descriptions:
+- The task involves reading a passage and answering a question based on the information
+  provided in the text.
+- The task requires identifying specific details from a given passage to answer a
+  direct question.
+- The task is about locating factual information within a text to respond to a query.
+- The task involves extracting explicit answers from a provided passage.
+- The task is to find the correct answer to a question by referring to the given text.
+- The task requires understanding a passage well enough to answer a question derived
+  from it.
+- The task is about pinpointing key details in a text to answer a specific question.
+- The task involves reading comprehension to find answers embedded in a passage.
+- The task is to retrieve precise information from a text to respond to a question.
+- The task requires analyzing a passage to identify the answer to a given question.
+- The task is about recognizing relevant information in a text to answer a query.
+- The task involves using a passage to find the correct response to a question.
+- The task is to locate and state the answer to a question based on the provided text.
+- The task requires deriving answers directly from the details in a given passage.
+- The task is about answering questions by referring to explicit information in the
+  text.
+- The task involves identifying the part of the passage that answers the question.
+- The task is to read a text and provide the answer to a question found within it.
+- The task requires finding the exact information in a passage that answers the question.
+- The task is about using the given text to supply the correct answer to a question.
+- The task involves answering questions by relying solely on the details present in
+  the passage.
+ds_kwargs:
+  path: adversarial_qa_droberta_answer_the_following_q
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

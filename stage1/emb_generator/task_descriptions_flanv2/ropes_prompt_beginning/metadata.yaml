@@ -1,0 +1,31 @@
+assistant_prefill: ''
+descriptions:
+- The task involves answering questions based on given paragraphs and hints.
+- The task requires understanding scientific principles from provided texts.
+- The task is about applying knowledge from hints to answer factual questions.
+- The task involves deducing the correct answer using contextual clues.
+- The task is to interpret information from a passage to solve a problem.
+- The task requires analyzing scenarios described in paragraphs.
+- The task is about comparing situations based on given details.
+- The task involves identifying correct conclusions from scientific explanations.
+- The task is to determine outcomes based on described conditions.
+- The task requires recalling or inferring facts from provided hints.
+- The task is about understanding cause-and-effect relationships in texts.
+- The task involves making logical connections between ideas in passages.
+- The task is to recognize patterns or principles in scientific contexts.
+- The task requires distinguishing between different cases based on evidence.
+- The task is about evaluating scenarios using supporting information.
+- The task involves answering questions about real-world applications of concepts.
+- The task is to apply scientific laws to practical situations.
+- The task requires interpreting hints to find the right answer.
+- The task is about solving problems using background knowledge and clues.
+- The task involves extracting key details from texts to answer questions.
+ds_kwargs:
+  path: ropes_prompt_beginning
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

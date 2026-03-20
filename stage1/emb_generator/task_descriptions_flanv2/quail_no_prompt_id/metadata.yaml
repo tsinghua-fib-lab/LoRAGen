@@ -1,0 +1,42 @@
+assistant_prefill: ''
+descriptions:
+- The task involves reading a passage and determining the most accurate answer based
+  on the details provided.
+- The task requires understanding a story or scenario and identifying the correct
+  information from it.
+- The task is about interpreting a narrative and selecting the best-supported conclusion.
+- The task involves analyzing a text to find the most logical response to a given
+  question.
+- The task is to comprehend a written excerpt and deduce the appropriate answer.
+- The task focuses on extracting key details from a passage to answer a specific question.
+- The task requires reading a story and making an inference based on the events described.
+- The task is about understanding context and drawing conclusions from a given text.
+- The task involves evaluating a situation described in a passage and determining
+  the most fitting response.
+- The task is to read a scenario and identify the most plausible answer based on the
+  information.
+- The task requires interpreting a written account and selecting the answer that aligns
+  with the details.
+- The task is about processing a narrative and choosing the most reasonable answer.
+- The task involves examining a story and finding the answer that best matches the
+  events.
+- The task is to understand a passage and pick the response that fits the context.
+- The task requires analyzing a text to determine the correct information related
+  to the question.
+- The task is about reading a description and identifying the most accurate conclusion.
+- The task involves interpreting a situation and selecting the answer that makes the
+  most sense.
+- The task is to comprehend a story and choose the response that best reflects its
+  content.
+- The task requires understanding a scenario and picking the most logical answer.
+- The task is about reading a passage and determining the correct detail in response
+  to the question.
+ds_kwargs:
+  path: quail_no_prompt_id
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

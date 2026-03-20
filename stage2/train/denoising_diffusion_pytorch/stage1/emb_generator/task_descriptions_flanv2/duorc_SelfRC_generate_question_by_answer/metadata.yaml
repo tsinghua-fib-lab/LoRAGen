@@ -1,0 +1,51 @@
+assistant_prefill: ''
+descriptions:
+- The task involves generating a question that matches a given answer based on a movie
+  plot.
+- The task requires creating a question whose answer is provided, using details from
+  a film's storyline.
+- The task is about forming a question that leads to a specific answer when reading
+  a movie summary.
+- The task involves writing a question that can only be answered correctly by understanding
+  a movie's plot.
+- The task is to craft a question that directly corresponds to a given answer within
+  a film's narrative.
+- The task requires constructing a question that aligns with a predetermined answer
+  from a movie's description.
+- The task is about designing a question that fits a provided answer using information
+  from a film's synopsis.
+- The task involves making a question that has a specific answer based on a movie's
+  events.
+- The task is to generate a question that can be answered by referring to key details
+  in a movie's plot.
+- The task requires formulating a question that points to a given answer within a
+  film's summary.
+- The task is about creating a question that extracts a particular fact from a movie's
+  storyline.
+- The task involves writing a question that leads to a provided answer when analyzing
+  a film's events.
+- The task is to develop a question that matches a given answer by understanding a
+  movie's key moments.
+- The task requires generating a question that refers to a specific detail in a movie's
+  plot.
+- The task is about producing a question that has a predetermined answer from a film's
+  synopsis.
+- The task involves composing a question that can only be answered by reading a movie's
+  description.
+- The task is to frame a question that corresponds to a given answer using a film's
+  narrative.
+- The task requires devising a question that aligns with a provided answer based on
+  a movie's summary.
+- The task is about constructing a question that extracts a specific fact from a film's
+  plot.
+- The task involves crafting a question that leads to a given answer when reviewing
+  a movie's storyline.
+ds_kwargs:
+  path: duorc_SelfRC_generate_question_by_answer
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

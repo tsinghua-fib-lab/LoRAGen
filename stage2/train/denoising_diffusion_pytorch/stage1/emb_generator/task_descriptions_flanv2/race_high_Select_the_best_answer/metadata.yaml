@@ -1,0 +1,34 @@
+assistant_prefill: ''
+descriptions:
+- Understand the main idea of the article and identify key details.
+- Determine the differences or similarities between groups or concepts mentioned in
+  the article.
+- Identify the purpose or goal of a study, program, or invention described in the
+  article.
+- Recognize the outcomes or results of an experiment or initiative discussed in the
+  text.
+- Extract specific facts or figures from the article.
+- Infer the author's perspective or attitude based on the passage.
+- Identify the intended audience or beneficiaries of a project or service.
+- Understand the challenges or concerns raised about a topic in the article.
+- Recognize the features or characteristics of an object, place, or concept described.
+- Determine the sequence or steps involved in a process explained in the text.
+- Identify the reasons behind certain actions or decisions mentioned in the article.
+- Compare different viewpoints or opinions presented in the passage.
+- Understand the conditions or requirements for something described in the article.
+- Recognize the benefits or advantages of a program, product, or idea.
+- Identify the limitations or drawbacks of a proposal or study.
+- Determine the timeline or schedule of events mentioned in the text.
+- Understand the relationship between two or more elements in the article.
+- Recognize the methods or techniques used in an experiment or project.
+- Identify the emotions or reactions of people described in the passage.
+- Determine the uniqueness or novelty of an idea, invention, or approach discussed.
+ds_kwargs:
+  path: race_high_Select_the_best_answer
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

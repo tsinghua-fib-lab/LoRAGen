@@ -1,0 +1,49 @@
+assistant_prefill: ''
+descriptions:
+- The task is to determine whether a customer's product review expresses satisfaction
+  or dissatisfaction.
+- The task involves reading a product review and judging if the reviewer had a positive
+  or negative experience.
+- The task requires analyzing a customer's written review to decide if they liked
+  or disliked the product.
+- The task is about identifying the sentiment of a product review—whether it is favorable
+  or unfavorable.
+- The task involves evaluating a review to see if the customer was happy or unhappy
+  with the product.
+- The task is to interpret the tone of a product review to determine if the reviewer
+  was pleased or displeased.
+- The task requires assessing a review to classify it as expressing satisfaction or
+  dissatisfaction.
+- The task is to read a customer's feedback and decide if their overall feeling about
+  the product was positive or negative.
+- The task involves understanding the emotions in a review to tell if the customer
+  was satisfied or not.
+- The task is about detecting whether a product review conveys approval or disappointment.
+- The task requires judging a review to see if the customer had a good or bad experience
+  with the product.
+- The task is to examine a review and determine if the customer's opinion was favorable
+  or critical.
+- The task involves interpreting a review to see if the customer recommends or criticizes
+  the product.
+- The task is about identifying whether a review reflects a happy or unhappy customer.
+- The task requires reading a review and deciding if the customer's reaction was positive
+  or negative.
+- The task is to analyze a review and conclude if the customer was content or discontent
+  with the product.
+- The task involves determining if a review expresses enjoyment or disappointment
+  with the product.
+- The task is to assess whether a customer's review indicates they were pleased or
+  displeased.
+- The task requires evaluating the sentiment of a review to classify it as satisfied
+  or dissatisfied.
+- The task is about reading a product review and figuring out if the customer had
+  a good or bad impression.
+ds_kwargs:
+  path: amazon_polarity_user_satisfied
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

@@ -1,0 +1,32 @@
+assistant_prefill: ''
+descriptions:
+- The task involves answering factual questions about historical events and figures.
+- The task requires identifying specific people based on their achievements or roles.
+- The task involves recalling details about movies, including their cast and crew.
+- The task requires knowledge of notable individuals and their contributions.
+- The task involves answering questions about historical periods and their key figures.
+- The task requires identifying actors based on their film roles.
+- The task involves answering questions about military history and personnel.
+- The task requires recalling statistical data, such as population figures.
+- The task involves answering questions about famous inventors and their eras.
+- The task requires knowledge of biographical details of public figures.
+- The task involves identifying locations based on historical or demographic data.
+- The task requires answering questions about filmography and movie credits.
+- The task involves recalling specific events tied to dates and places.
+- The task requires knowledge of sports figures and their careers.
+- The task involves answering questions about notable deaths and related facts.
+- The task requires identifying actors based on their nationality and film roles.
+- The task involves answering questions about scientific and technological history.
+- The task requires knowledge of historical tours or expeditions.
+- The task involves recalling details about famous battles or wars.
+- The task requires answering questions about lesser-known facts tied to well-known
+  figures.
+ds_kwargs:
+  path: kilt_tasks_hotpotqa_complex_question
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

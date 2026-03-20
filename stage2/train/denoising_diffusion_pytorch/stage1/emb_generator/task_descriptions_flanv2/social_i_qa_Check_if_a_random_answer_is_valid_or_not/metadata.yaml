@@ -1,0 +1,51 @@
+assistant_prefill: ''
+descriptions:
+- The task involves evaluating whether a given statement accurately describes a situation
+  or character based on a provided scenario.
+- The task requires determining if a proposed description logically fits the context
+  of a given story or event.
+- The task is about judging whether a suggested answer correctly interprets the details
+  of a short narrative.
+- The task assesses if a given response aligns with the implied meaning or actions
+  in a brief story.
+- The task involves checking if a statement about a person or event is supported by
+  the given information.
+- The task is to decide whether a description of a person's behavior or feelings matches
+  the scenario described.
+- The task requires validating if a proposed answer is a reasonable conclusion from
+  the provided context.
+- The task is about confirming whether a given interpretation of a situation is accurate
+  based on the details.
+- The task involves verifying if a suggested answer reflects the correct understanding
+  of a character's actions or traits.
+- The task is to determine if a statement about a person's role or emotions is justified
+  by the narrative.
+- The task requires evaluating whether a given answer logically follows from the events
+  or relationships described.
+- The task is about assessing if a proposed description is consistent with the facts
+  in the scenario.
+- The task involves deciding whether a given answer captures the essence of a character's
+  behavior or situation.
+- The task is to judge if a statement about a person's feelings or actions is plausible
+  given the context.
+- The task requires determining if a suggested answer is a fair representation of
+  the events or relationships in the story.
+- The task is about checking if a given response correctly summarizes a character's
+  role or impact in a situation.
+- The task involves analyzing whether a proposed answer fits the implied meaning of
+  the scenario.
+- The task is to evaluate if a statement about a person's traits or experiences is
+  supported by the narrative.
+- The task requires deciding whether a given answer is a reasonable inference from
+  the provided details.
+- The task is about confirming if a suggested description accurately reflects the
+  events or emotions in the story.
+ds_kwargs:
+  path: social_i_qa_Check_if_a_random_answer_is_valid_or_not
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

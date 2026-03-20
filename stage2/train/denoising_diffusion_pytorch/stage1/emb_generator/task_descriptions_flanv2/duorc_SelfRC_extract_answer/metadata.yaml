@@ -1,0 +1,35 @@
+assistant_prefill: ''
+descriptions:
+- The task involves finding specific information in a movie plot to answer a question.
+- The goal is to locate details in a movie summary that match the given question.
+- The task requires identifying key facts from a film's plot to respond to a query.
+- The purpose is to extract relevant details from a movie description to answer a
+  question.
+- The task is about searching a film's storyline to find the answer to a specific
+  question.
+- The objective is to pull out precise information from a movie plot based on a question.
+- The task involves reading a film summary and retrieving the correct answer to a
+  question.
+- The goal is to determine if a question about a movie can be answered using its plot.
+- The task requires analyzing a movie's narrative to find answers to given questions.
+- The purpose is to check if a movie plot contains the answer to a specific question.
+- The task is about matching a question to the correct information in a film's summary.
+- The objective is to find exact answers in a movie plot that fit the given question.
+- The task involves verifying whether a movie's storyline provides an answer to a
+  question.
+- The goal is to scan a film's plot and identify the relevant answer to a question.
+- The task requires locating specific details in a movie summary to answer a query.
+- The purpose is to determine if a movie's description includes the answer to a question.
+- The task is about extracting precise facts from a film's plot to respond to a question.
+- The objective is to search a movie's storyline for information that answers a question.
+- The task involves checking a film's plot to see if it contains the answer to a question.
+- The goal is to find the correct response to a question by examining a movie's summary.
+ds_kwargs:
+  path: duorc_SelfRC_extract_answer
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

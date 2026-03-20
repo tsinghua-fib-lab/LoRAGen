@@ -1,0 +1,31 @@
+assistant_prefill: ''
+descriptions:
+- The task involves understanding conversations and extracting key information.
+- The task requires identifying important details from a dialogue.
+- The task is about comprehending spoken exchanges and drawing conclusions.
+- The task focuses on interpreting what is said in a conversation.
+- The task involves analyzing dialogue to find specific facts.
+- The task is to determine the main points from a spoken interaction.
+- The task requires recognizing the meaning behind spoken words.
+- The task is about summarizing what happens in a conversation.
+- The task involves answering questions based on a dialogue.
+- The task is to understand the context of a discussion.
+- The task requires identifying correct statements about a conversation.
+- The task is about finding out what was discussed in a dialogue.
+- The task involves figuring out the truth from a spoken exchange.
+- The task is to grasp the main idea of a conversation.
+- The task requires picking out the most relevant information from a dialogue.
+- The task is about knowing what was said in a discussion.
+- The task involves interpreting the meaning of a spoken interaction.
+- The task is to understand the events described in a conversation.
+- The task requires determining what is true based on a dialogue.
+- The task is about learning facts from a spoken exchange.
+ds_kwargs:
+  path: dream_baseline
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

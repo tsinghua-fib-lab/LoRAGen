@@ -1,0 +1,32 @@
+assistant_prefill: ''
+descriptions:
+- The task involves answering questions about movie plots based on given context.
+- The task requires identifying specific details from movie summaries.
+- The task is about extracting key information from movie narratives to answer questions.
+- The task involves understanding movie storylines to provide accurate answers.
+- The task is to find answers to questions about characters, events, or objects in
+  movies.
+- The task requires analyzing movie contexts to determine correct responses.
+- The task involves recalling or inferring details from movie descriptions.
+- The task is about matching questions to relevant information in movie plots.
+- The task requires identifying what happens to characters or objects in movies.
+- The task involves determining the truth about events or motives in movie stories.
+- The task is to locate specific facts within movie summaries.
+- The task requires understanding relationships or actions in movie narratives.
+- The task involves answering questions based on provided movie background information.
+- The task is about recognizing key moments or details in movie plots.
+- The task requires interpreting movie contexts to answer factual questions.
+- The task involves identifying character motivations or outcomes in movies.
+- The task is to deduce answers from given movie story excerpts.
+- The task requires extracting precise information from movie descriptions.
+- The task involves verifying details about movie scenes or characters.
+- The task is about summarizing or pinpointing information from movie contexts.
+ds_kwargs:
+  path: duorc_ParaphraseRC_question_answering
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

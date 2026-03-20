@@ -1,0 +1,31 @@
+assistant_prefill: ''
+descriptions:
+- Determine if two sentences express the same meaning.
+- Check whether the information in two sentences is identical.
+- Compare two sentences to see if they convey the same idea.
+- Assess if two statements are equivalent in meaning.
+- Verify if two sentences say the same thing in different ways.
+- Decide whether two sentences have identical content.
+- Evaluate if the details in two sentences match.
+- Confirm if two sentences provide the same information.
+- Analyze whether two sentences are paraphrases of each other.
+- See if two sentences describe the same situation.
+- Judge if two sentences are semantically equivalent.
+- Examine if two sentences have the same core message.
+- Determine if two sentences differ only in wording, not meaning.
+- Check if two sentences present the same facts.
+- Compare the meaning of two sentences for similarity.
+- Assess whether two sentences are reworded versions of each other.
+- Verify if two sentences share the same underlying meaning.
+- Decide if two sentences are saying the same thing.
+- Evaluate if two sentences have matching interpretations.
+- Confirm whether two sentences align in their meaning.
+ds_kwargs:
+  path: glue_mrpc
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

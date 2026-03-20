@@ -1,0 +1,34 @@
+assistant_prefill: ''
+descriptions:
+- The task involves understanding the meaning of a specific term in a given passage.
+- The task requires identifying common characteristics between two different places.
+- The task involves determining which factor is not associated with a particular condition
+  in animals.
+- The task focuses on recognizing the benefits of a specific travel accommodation
+  method.
+- The task involves locating where a particular event did not take place based on
+  a passage.
+- The task requires interpreting the definition of a specialized term in context.
+- The task involves comparing two cities to find shared issues.
+- The task focuses on excluding an unrelated cause from a list of possible influences.
+- The task involves identifying an advantage mentioned in a travel-related passage.
+- The task requires determining where a specific performance was not held.
+- The task involves understanding the significance of a word in a given story.
+- The task focuses on finding overlapping problems between two urban areas.
+- The task involves recognizing which factor is not linked to a behavioral disorder.
+- The task requires identifying a positive aspect of a lodging option.
+- The task involves locating a place where a cultural event did not occur.
+- The task focuses on defining a term based on its usage in a narrative.
+- The task involves identifying shared challenges in two different locations.
+- The task requires distinguishing an unrelated cause from a list of potential factors.
+- The task involves identifying a benefit described in a travel context.
+- The task focuses on determining the absence of an event in a specific location.
+ds_kwargs:
+  path: race_high_Select_the_best_answer_no_instructions_
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

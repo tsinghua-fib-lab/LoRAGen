@@ -1,0 +1,31 @@
+assistant_prefill: ''
+descriptions:
+- Determine if a word has the same meaning in two different sentences.
+- Check whether a word is used with identical definitions in two contexts.
+- Compare how a word is used in two sentences to see if its meaning changes.
+- Assess if a word keeps its definition across two separate examples.
+- Decide whether a word's sense stays consistent in two different phrases.
+- Examine if a word carries the same idea in two distinct sentences.
+- Verify if a word's interpretation is the same in two different statements.
+- Analyze whether a word's usage aligns in meaning between two examples.
+- Identify if a word has a single meaning or multiple meanings in two sentences.
+- Evaluate whether a word's definition shifts between two contexts.
+- Judge if a word is applied with the same sense in two separate instances.
+- Determine if a word's meaning is identical or varies in two usages.
+- See if a word is used in the same way or differently in two examples.
+- Compare the semantic role of a word in two sentences.
+- Check if a word's meaning is stable or changes across two phrases.
+- Assess whether a word's interpretation is consistent in two contexts.
+- Figure out if a word has one meaning or two meanings in different sentences.
+- Decide if a word's definition is shared or distinct in two cases.
+- Confirm whether a word retains its sense in two separate statements.
+- Test if a word's meaning is uniform or varies in two examples.
+ds_kwargs:
+  path: super_glue_wic
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

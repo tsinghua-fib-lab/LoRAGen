@@ -1,0 +1,50 @@
+assistant_prefill: ''
+descriptions:
+- The task involves identifying the correct relationship between a subject and an
+  object based on given information.
+- The task requires matching an entity with its associated attribute or property from
+  a provided context.
+- The task is about finding the correct association between two entities using background
+  information.
+- The task involves determining the correct connection between a subject and an object
+  from a set of facts.
+- The task is to identify the appropriate relationship that links a given subject
+  to an object.
+- The task requires selecting the entity that correctly fits a specified relation
+  with the subject.
+- The task is about recognizing the correct pairing between a subject and an object
+  based on context.
+- The task involves extracting the right association between entities from a given
+  passage.
+- The task is to determine which object entity satisfies a particular relation with
+  the subject.
+- The task requires identifying the entity that fulfills a specific role or connection
+  with the subject.
+- The task is about finding the correct object that shares a defined relationship
+  with the subject.
+- The task involves selecting the entity that exhibits a particular property or association
+  with the subject.
+- The task is to locate the object that correctly corresponds to the subject based
+  on the given information.
+- The task requires determining which entity is linked to the subject in a specified
+  way.
+- The task is about identifying the correct object that relates to the subject in
+  the described manner.
+- The task involves choosing the entity that demonstrates the required connection
+  with the subject.
+- The task is to find the object that aligns with the subject in the given context.
+- The task requires recognizing the proper association between the subject and an
+  object.
+- The task is about selecting the entity that fits the described relationship with
+  the subject.
+- The task involves determining the correct object that shares a specific relation
+  with the subject.
+ds_kwargs:
+  path: wiki_hop_original_choose_best_object_affirmative_1
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

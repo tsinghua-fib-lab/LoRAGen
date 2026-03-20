@@ -1,0 +1,32 @@
+assistant_prefill: ''
+descriptions:
+- The task involves answering factual questions about biology.
+- The task requires providing specific numerical answers to questions about global
+  issues.
+- The task is about identifying scientific terms related to physics concepts.
+- The task involves recalling chemical properties and their measurements.
+- The task is about naming anatomical structures involved in physiological processes.
+- The task requires answering questions about cellular biology.
+- The task involves providing statistics related to environmental health.
+- The task is about defining types of collisions in physics.
+- The task requires stating thermodynamic properties in chemistry.
+- The task involves identifying organs responsible for specific bodily functions.
+- The task is about answering questions on human anatomy.
+- The task requires recalling exact figures related to public health.
+- The task involves explaining physical phenomena in scientific terms.
+- The task is about providing precise answers to chemistry-related questions.
+- The task requires naming biological structures and their functions.
+- The task involves answering questions about environmental science.
+- The task is about stating principles of energy conservation.
+- The task requires identifying key concepts in thermodynamics.
+- The task involves answering questions on respiratory system functions.
+- The task is about providing factual responses to science-based inquiries.
+ds_kwargs:
+  path: sciq_Direct_Question_Closed_Book_
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

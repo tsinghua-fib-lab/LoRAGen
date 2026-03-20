@@ -1,0 +1,38 @@
+assistant_prefill: ''
+descriptions:
+- The task involves adding spaces to a continuous string of text to form proper sentences.
+- The task requires correcting unspaced text by inserting spaces between words.
+- The task is about transforming a run-on sequence of characters into readable sentences
+  with proper spacing.
+- The task involves reconstructing a sentence from a block of unbroken text.
+- The task is to separate words in a long string of characters to make it grammatically
+  correct.
+- The task requires fixing text where words are merged by adding spaces where needed.
+- The task involves breaking down a continuous string of letters into individual words.
+- The task is to reformat a jumbled sequence of words by inserting spaces appropriately.
+- The task involves converting a single unspaced block of text into a properly spaced
+  sentence.
+- The task is to take a string of connected words and separate them into distinct
+  words.
+- The task requires restoring missing spaces in a sentence to make it coherent.
+- The task involves editing text to insert spaces between words for clarity.
+- The task is to make unreadable text readable by adding spaces between words.
+- The task involves reconstructing sentences from text where all spaces have been
+  removed.
+- The task is to fix text where words are incorrectly merged by splitting them apart.
+- The task requires adjusting text by adding spaces to form proper sentences.
+- The task involves taking a long string of characters and turning it into a well-formed
+  sentence.
+- The task is to restore proper spacing in a sentence where spaces are missing.
+- The task involves editing a continuous block of text to make it grammatically correct.
+- The task is to transform a single unbroken sequence of letters into a properly spaced
+  sentence.
+ds_kwargs:
+  path: word_segment
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

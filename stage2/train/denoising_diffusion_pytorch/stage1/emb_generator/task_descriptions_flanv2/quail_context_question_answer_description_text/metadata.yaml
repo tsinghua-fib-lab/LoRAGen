@@ -1,0 +1,39 @@
+assistant_prefill: ''
+descriptions:
+- The task involves understanding the main idea or sentiment expressed in a given
+  passage.
+- The task requires identifying the most likely behavior or attitude of a person based
+  on the text.
+- The task is about inferring the emotional state or thoughts of a character from
+  a story.
+- The task involves determining how a person feels about a situation described in
+  the passage.
+- The task is to recognize the underlying message or lesson in a personal anecdote.
+- The task requires figuring out what the author believes or recommends based on their
+  writing.
+- The task involves interpreting the tone or reaction of a person in a described interaction.
+- The task is about identifying the key takeaway or advice given in a piece of writing.
+- The task requires understanding the author's perspective or stance on a topic.
+- The task involves deducing the most probable outcome or conclusion from a narrative.
+- The task is to determine the primary focus or concern of the author in the passage.
+- The task requires recognizing the implied meaning behind a character's actions or
+  words.
+- The task involves analyzing a situation to see what the author or character values
+  most.
+- The task is about identifying the reason behind a person's behavior in the text.
+- The task requires understanding the consequences or results of an event described
+  in the passage.
+- The task involves figuring out what the author learned from an experience they shared.
+- The task is to determine the most fitting description of a person's habits or tendencies.
+- The task requires interpreting how a person reacts to a request or suggestion.
+- The task involves identifying the author's intended purpose or goal in the passage.
+- The task is about recognizing the most logical continuation or follow-up to a story.
+ds_kwargs:
+  path: quail_context_question_answer_description_text
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

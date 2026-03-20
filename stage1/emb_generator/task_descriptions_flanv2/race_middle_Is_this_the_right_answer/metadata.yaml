@@ -1,0 +1,43 @@
+assistant_prefill: ''
+descriptions:
+- The task involves reading a short passage and determining whether a given statement
+  accurately reflects the information in the text.
+- The task requires verifying if a provided answer matches the details described in
+  the article.
+- The task is about checking if a specific claim aligns with the content of the given
+  text.
+- The task involves confirming whether a statement about the passage is correct or
+  not.
+- The task is to assess whether the given response correctly summarizes part of the
+  article.
+- The task requires evaluating if the answer provided is consistent with the passage.
+- The task is about identifying whether the given explanation fits the context of
+  the text.
+- The task involves determining if the suggested interpretation of the passage is
+  accurate.
+- The task is to decide whether the proposed answer logically follows from the article.
+- The task requires checking if the statement about the text is true or false.
+- The task is about confirming whether the answer captures the intended meaning of
+  the passage.
+- The task involves validating if the given response is supported by the details in
+  the article.
+- The task is to see if the answer correctly reflects the ideas presented in the text.
+- The task requires judging whether the statement about the passage is factually correct.
+- The task is about verifying if the answer matches the key points in the article.
+- The task involves determining whether the provided explanation is justified by the
+  text.
+- The task is to check if the answer accurately represents the information in the
+  passage.
+- The task requires assessing whether the given response is a valid conclusion from
+  the article.
+- The task is about confirming if the statement is a proper summary of the passage.
+- The task involves deciding whether the answer correctly interprets the text's content.
+ds_kwargs:
+  path: race_middle_Is_this_the_right_answer
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

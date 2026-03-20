@@ -1,0 +1,50 @@
+assistant_prefill: ''
+descriptions:
+- The task involves identifying important facts about a person from a given biography.
+- The task requires extracting key personal details such as name, birth date, and
+  occupation from a short bio.
+- The task is to summarize a person's background by picking out relevant information
+  from their biography.
+- The task involves recognizing and listing notable attributes of a person based on
+  their professional and personal history.
+- The task is to find and note specific details like birthplace, career, and achievements
+  from a biographical text.
+- The task requires isolating essential facts about a person’s life and work from
+  a provided description.
+- The task is to identify and extract structured data points about an individual from
+  an unstructured bio.
+- The task involves analyzing a biography to determine key pieces of information about
+  the subject.
+- The task is to break down a person’s bio into distinct categories such as name,
+  profession, and background.
+- The task requires pinpointing significant details about a person’s identity and
+  career from a written passage.
+- The task is to gather factual information about a person, such as their education,
+  work, and origins, from a bio.
+- The task involves reading a biography and extracting structured facts like birth
+  date, occupation, and notable works.
+- The task is to identify and list key descriptors of a person’s life based on their
+  biographical information.
+- The task requires pulling out important data points about a person’s identity and
+  accomplishments from a bio.
+- The task is to recognize and record specific details about a person’s career, background,
+  and personal life.
+- The task involves summarizing a person’s profile by selecting the most relevant
+  details from their biography.
+- The task is to extract structured information, such as name, birth details, and
+  profession, from a free-form bio.
+- The task requires identifying and noting down critical facts about a person’s life
+  and achievements.
+- The task is to parse a biography and extract key attributes like nationality, occupation,
+  and notable works.
+- The task involves reading a bio and listing essential details that define the person’s
+  identity and career.
+ds_kwargs:
+  path: wiki_bio_key_content
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

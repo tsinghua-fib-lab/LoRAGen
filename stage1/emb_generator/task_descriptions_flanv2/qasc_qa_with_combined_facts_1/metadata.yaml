@@ -1,0 +1,45 @@
+assistant_prefill: ''
+descriptions:
+- The task involves identifying the correct cause or condition based on a given statement.
+- The task is about matching a described phenomenon with its correct explanation or
+  outcome.
+- The task requires selecting the correct element or factor that fits the given scenario.
+- The task is to determine the right association between a premise and its logical
+  consequence.
+- The task involves recognizing the correct relationship between a process and its
+  result.
+- The task is about finding the accurate component or feature linked to a described
+  situation.
+- The task requires identifying the proper term or concept that completes the given
+  statement.
+- The task is to deduce the correct answer based on a provided cause-and-effect relationship.
+- The task involves selecting the most relevant factor that aligns with the given
+  context.
+- The task is about determining the correct answer that logically follows from the
+  premise.
+- The task requires picking the right subject or object that corresponds to the described
+  condition.
+- The task is to identify the correct natural or scientific principle based on the
+  given information.
+- The task involves choosing the accurate response that fits the described scenario.
+- The task is about finding the correct term that explains or results from the given
+  situation.
+- The task requires selecting the proper element that is directly connected to the
+  provided statement.
+- The task is to recognize the correct phenomenon or object that matches the given
+  description.
+- The task involves determining the right answer based on a logical or factual connection.
+- The task is about identifying the correct outcome or characteristic from a given
+  cause.
+- The task requires matching the correct subject with the described process or condition.
+- The task is to select the accurate response that is directly implied by the given
+  statement.
+ds_kwargs:
+  path: qasc_qa_with_combined_facts_1
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

@@ -1,0 +1,36 @@
+assistant_prefill: ''
+descriptions:
+- The task involves reading a passage and answering questions about the details in
+  it.
+- The task requires understanding the main events or ideas in a given story.
+- The task is about identifying specific information from a text.
+- The task focuses on recalling facts or details from a written passage.
+- The task involves interpreting short narratives to find answers.
+- The task is about comprehending the actions or situations described in a story.
+- The task requires recognizing key points or themes in a passage.
+- The task involves understanding the relationships between characters or events in
+  a text.
+- The task is about extracting important details from a given scenario.
+- The task focuses on grasping the meaning of a short story or description.
+- The task involves answering questions based on real-life situations described in
+  a passage.
+- The task is about identifying what happens to characters in a narrative.
+- The task requires understanding the context or setting of a story.
+- The task involves figuring out the purpose or outcome of an event in a text.
+- The task is about recognizing the emotions or reactions of people in a story.
+- The task focuses on understanding the sequence of events in a passage.
+- The task involves answering questions about traditions or customs described in a
+  text.
+- The task is about identifying the roles or actions of people in a given situation.
+- The task requires understanding the reasons behind certain actions in a story.
+- The task involves answering questions based on personal experiences shared in a
+  passage.
+ds_kwargs:
+  path: race_middle_Select_the_best_answer_no_instructions_
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

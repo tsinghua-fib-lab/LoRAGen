@@ -1,0 +1,35 @@
+assistant_prefill: ''
+descriptions:
+- The task involves identifying specific details from movie plots based on given questions.
+- The task requires extracting character names or events from provided movie contexts.
+- The task is about answering questions related to key moments or characters in films.
+- The task focuses on recalling information from movie summaries to answer specific
+  queries.
+- The task involves matching questions about movies with correct answers from their
+  plots.
+- The task is to find the correct person, event, or detail mentioned in a movie's
+  storyline.
+- The task requires understanding movie narratives to pinpoint answers to given questions.
+- The task is about locating specific facts or names within a movie's description.
+- The task involves identifying who did what or what happened in a movie scene.
+- The task is to determine the correct answer based on details from a movie's plot
+  summary.
+- The task requires recognizing key characters or actions from a film's context.
+- The task is about answering who, what, or how questions related to movie stories.
+- The task involves finding the right person or event mentioned in a movie's synopsis.
+- The task is to recall specific details from a movie's background to answer questions.
+- The task requires identifying relationships or interactions between movie characters.
+- The task is about connecting questions to accurate answers using movie plot details.
+- The task involves extracting precise information from a film's summarized storyline.
+- The task is to answer questions by referring to events or characters in a movie.
+- The task requires picking out the correct name or event from a movie's description.
+- The task is about understanding a movie's plot well enough to answer specific questions.
+ds_kwargs:
+  path: duorc_SelfRC_question_answering
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

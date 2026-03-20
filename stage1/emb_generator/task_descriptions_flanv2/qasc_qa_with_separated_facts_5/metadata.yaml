@@ -1,0 +1,32 @@
+assistant_prefill: ''
+descriptions:
+- The task involves answering quiz questions by using hints provided by a teacher.
+- The task requires understanding how hints relate to the correct answer in a quiz.
+- The task is about connecting teacher-provided clues to find the best answer to a
+  question.
+- The task involves interpreting hints to deduce the correct response to a quiz question.
+- The task is to use given statements to logically determine the answer to a question.
+- The task requires reasoning based on provided information to answer a quiz question.
+- The task is about identifying the most relevant answer using supporting hints.
+- The task involves analyzing teacher-provided facts to arrive at the correct answer.
+- The task is to infer the best answer from indirect clues given in the hints.
+- The task requires synthesizing information from hints to answer a question correctly.
+- The task is about applying knowledge from hints to solve a quiz question.
+- The task involves using contextual clues to find the most accurate answer.
+- The task is to derive the answer from related statements provided as hints.
+- The task requires matching the hints to the most fitting answer.
+- The task is about understanding how the hints support the correct response.
+- The task involves selecting the answer that aligns with the given hints.
+- The task is to determine the answer based on the logical connection to the hints.
+- The task requires extracting key information from hints to answer the question.
+- The task is about using indirect guidance to find the right answer.
+- The task involves piecing together hints to form the correct response.
+ds_kwargs:
+  path: qasc_qa_with_separated_facts_5
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

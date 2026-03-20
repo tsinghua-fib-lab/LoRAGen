@@ -1,0 +1,36 @@
+assistant_prefill: ''
+descriptions:
+- The task is to identify the category that best describes the subject mentioned in
+  the given text.
+- The task involves classifying the described entity into one of several predefined
+  categories.
+- The task requires recognizing the type of entity being discussed in the provided
+  passage.
+- The task is about determining the most fitting classification for the described
+  subject.
+- The task involves matching the given description to the correct category.
+- The task is to categorize the entity based on the details provided in the text.
+- The task requires identifying the general classification of the described object
+  or person.
+- The task is about assigning the correct label to the entity mentioned in the passage.
+- The task involves figuring out which broad group the described subject belongs to.
+- The task is to determine the nature of the entity being described.
+- The task requires selecting the appropriate classification for the given information.
+- The task is about understanding what kind of thing or person is being described.
+- The task involves placing the described subject into its correct general category.
+- The task is to recognize the overarching type of the entity in the text.
+- The task requires discerning the category that aligns with the described subject.
+- The task is about identifying the group that best fits the entity in question.
+- The task involves determining the classification of the described object or individual.
+- The task is to find the most suitable category for the given description.
+- The task requires associating the described entity with its correct general type.
+- The task is about classifying the subject based on the provided details.
+ds_kwargs:
+  path: dbpedia_14_given_a_choice_of_categories_
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

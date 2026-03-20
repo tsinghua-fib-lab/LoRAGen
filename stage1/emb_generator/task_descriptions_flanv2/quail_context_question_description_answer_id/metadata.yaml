@@ -1,0 +1,37 @@
+assistant_prefill: ''
+descriptions:
+- The task involves reading a passage and identifying key details about a person or
+  event.
+- The task requires understanding the main actions or thoughts of a speaker in a given
+  text.
+- The task focuses on extracting specific information about historical or cultural
+  contexts.
+- The task involves recognizing the opinions or reactions of people mentioned in a
+  passage.
+- The task requires determining the motivations or feelings of a character in a story.
+- The task is about identifying the main subject or focus of a given text.
+- The task involves analyzing statements to find out what is likely true based on
+  the passage.
+- The task requires understanding the significance of an event or decision described
+  in the text.
+- The task focuses on interpreting the meaning behind a character's actions or words.
+- The task involves recognizing the central theme or idea in a passage.
+- The task requires identifying the reasons behind a person's behavior or choices.
+- The task is about finding evidence in the text to support a particular statement.
+- The task involves determining the relationship between different elements in a passage.
+- The task requires understanding the implications of an event or statement.
+- The task focuses on identifying how a person or group is described in the text.
+- The task involves recognizing the consequences of an action or decision.
+- The task requires interpreting the emotions or attitudes of individuals in the passage.
+- The task is about understanding the context in which an event takes place.
+- The task involves identifying contrasts or differences mentioned in the text.
+- The task requires determining the perspective or viewpoint presented in the passage.
+ds_kwargs:
+  path: quail_context_question_description_answer_id
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

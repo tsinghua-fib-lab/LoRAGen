@@ -1,0 +1,34 @@
+assistant_prefill: ''
+descriptions:
+- The task involves determining whether a user would recommend an app based on their
+  review.
+- The task is to assess the sentiment of an app review to gauge recommendation likelihood.
+- The task requires interpreting short app reviews to predict user satisfaction.
+- The task is about understanding user opinions from reviews to infer their recommendation
+  stance.
+- The task involves analyzing app feedback to decide if the user would endorse it.
+- The task is to evaluate app reviews and judge the user's willingness to recommend.
+- The task requires deducing user sentiment from brief app reviews.
+- The task is about extracting recommendation intent from app review text.
+- The task involves reading app reviews and determining the user's approval level.
+- The task is to interpret user feedback to estimate their recommendation strength.
+- The task requires assessing app reviews to understand user advocacy.
+- The task is about judging user enthusiasm from their app review.
+- The task involves inferring user satisfaction from their written app feedback.
+- The task is to analyze app reviews to predict user endorsement.
+- The task requires understanding user sentiment in app reviews to gauge their recommendation.
+- The task is about determining how positively a user views an app based on their
+  review.
+- The task involves evaluating app reviews to measure user advocacy.
+- The task is to interpret the tone of app reviews to assess recommendation likelihood.
+- The task requires reading app feedback and estimating user recommendation.
+- The task is about judging user sentiment in app reviews to infer their recommendation.
+ds_kwargs:
+  path: app_reviews_categorize_rating_using_review
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

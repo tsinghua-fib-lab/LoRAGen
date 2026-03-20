@@ -1,0 +1,46 @@
+assistant_prefill: ''
+descriptions:
+- The task involves identifying a specific person mentioned in a given passage based
+  on a question.
+- The task requires finding the name of an individual described in a text excerpt.
+- The task is about locating the correct name of a character or historical figure
+  from a provided article.
+- The task involves extracting the name of a person referenced in a question from
+  a longer text.
+- The task is to determine who a particular question is referring to within a given
+  passage.
+- The task requires recognizing the name of a person based on contextual clues in
+  a text.
+- The task is about matching a question to the correct individual mentioned in an
+  article.
+- The task involves identifying a person’s name based on details provided in a written
+  excerpt.
+- The task is to find the answer to a who-question within a given block of text.
+- The task requires pinpointing the name of a specific individual described in a passage.
+- The task is about reading a text and answering who a certain event or action involves.
+- The task involves determining the identity of a person based on a question and a
+  passage.
+- The task is to locate the name of a person associated with a particular event or
+  relationship in a text.
+- The task requires identifying a named individual from a description in a written
+  excerpt.
+- The task is about finding out who a question is referring to by reading a provided
+  article.
+- The task involves answering a who-question by extracting the correct name from a
+  passage.
+- The task is to recognize a person’s name based on their role or actions in a text.
+- The task requires determining the correct individual mentioned in a question from
+  a given article.
+- The task is about identifying a specific person based on their involvement in a
+  described scenario.
+- The task involves reading a passage and answering a question about who a certain
+  person is.
+ds_kwargs:
+  path: quoref_Guess_Answer
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

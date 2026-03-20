@@ -1,0 +1,46 @@
+assistant_prefill: ''
+descriptions:
+- The task involves extracting specific information from a given movie plot to answer
+  a question.
+- The task requires identifying key details in a movie plot that directly answer a
+  given question.
+- The task is about finding precise answers to questions by analyzing the content
+  of a movie plot.
+- The task involves locating relevant information in a movie plot to respond to a
+  specific query.
+- The task is to determine whether a question can be answered using details from a
+  provided movie plot.
+- The task requires reading a movie plot and pulling out exact answers to posed questions.
+- The task is to search a movie plot for facts that match the question being asked.
+- The task involves verifying if a movie plot contains the answer to a given question.
+- The task is about extracting factual information from a movie plot to resolve a
+  query.
+- The task requires identifying whether a movie plot provides enough detail to answer
+  a question.
+- The task involves pinpointing specific events or characters in a movie plot to answer
+  questions.
+- The task is to retrieve exact details from a movie plot that correspond to a question.
+- The task requires determining if a movie plot explicitly mentions the answer to
+  a question.
+- The task is about locating direct references in a movie plot that answer a given
+  question.
+- The task involves checking a movie plot for the presence of information needed to
+  answer a question.
+- The task is to find the part of a movie plot that contains the answer to a specific
+  question.
+- The task requires analyzing a movie plot to see if it holds the answer to a posed
+  question.
+- The task is about identifying whether a movie plot includes the necessary facts
+  to answer a question.
+- The task involves matching details in a movie plot to the requirements of a given
+  question.
+- The task is to extract clear answers from a movie plot based on the questions asked.
+ds_kwargs:
+  path: duorc_ParaphraseRC_extract_answer
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

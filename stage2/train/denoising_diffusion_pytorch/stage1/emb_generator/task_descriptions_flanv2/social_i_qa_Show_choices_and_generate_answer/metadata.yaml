@@ -1,0 +1,34 @@
+assistant_prefill: ''
+descriptions:
+- The task is to predict what a person will likely do next based on their current
+  situation.
+- The task involves understanding a person's feelings or actions from a given context.
+- The task is to infer a person's desires or needs based on their experiences.
+- The task requires identifying the most logical next step for someone in a described
+  scenario.
+- The task is about figuring out why someone acted a certain way in a given situation.
+- The task involves determining a person's emotional state or motivation from context.
+- The task is to deduce what someone values or prioritizes based on their actions.
+- The task requires interpreting a person's behavior to predict their future actions.
+- The task is about understanding the cause behind a person's decision.
+- The task involves recognizing the most reasonable response to a person's situation.
+- The task is to identify what a person would naturally seek after a described event.
+- The task requires determining the most fitting description of a person based on
+  their actions.
+- The task is about connecting a person's past experiences to their likely next steps.
+- The task involves figuring out what a person aims to achieve in a given scenario.
+- The task is to assess a person's intentions based on their stated preferences.
+- The task requires understanding the outcome a person is working toward.
+- The task is about predicting how a person would react to their circumstances.
+- The task involves identifying the most plausible reason for a person's behavior.
+- The task is to determine what a person would prioritize in a specific context.
+- The task requires inferring a person's goals or needs from their described actions.
+ds_kwargs:
+  path: social_i_qa_Show_choices_and_generate_answer
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

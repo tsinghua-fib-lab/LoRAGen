@@ -1,0 +1,31 @@
+assistant_prefill: ''
+descriptions:
+- The task involves reading a movie plot and answering a specific question about it.
+- The task requires identifying key details from a given movie summary.
+- The task is about extracting precise information from a film's storyline.
+- The task involves locating specific facts within a movie’s plot description.
+- The task is to find answers to questions based on a provided movie synopsis.
+- The task requires understanding a movie’s events and answering related questions.
+- The task is about recalling details from a film’s narrative to answer queries.
+- The task involves analyzing a movie summary to determine correct answers.
+- The task is to read a film’s plot and respond to a question about its content.
+- The task requires identifying characters, locations, or events from a movie’s story.
+- The task is about verifying facts within a given movie description.
+- The task involves answering questions based on a film’s synopsis.
+- The task is to find specific information in a movie’s written summary.
+- The task requires reading a plot and answering a direct question about it.
+- The task is about matching questions to details in a movie’s storyline.
+- The task involves retrieving exact details from a film’s narrative.
+- The task is to locate answers within a provided movie plot.
+- The task requires understanding a film’s events to answer factual questions.
+- The task is about identifying correct responses from a movie’s summary.
+- The task involves reading a movie’s plot and answering questions accurately.
+ds_kwargs:
+  path: duorc_SelfRC_movie_director
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

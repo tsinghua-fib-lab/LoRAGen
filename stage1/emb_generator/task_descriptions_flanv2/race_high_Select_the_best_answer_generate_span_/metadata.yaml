@@ -1,0 +1,31 @@
+assistant_prefill: ''
+descriptions:
+- The task involves reading an article and identifying the main idea or key detail.
+- The task requires understanding the context of a passage to answer a specific question.
+- The task is about extracting relevant information from a given text to respond accurately.
+- The task focuses on comprehending written content to determine the correct answer.
+- The task involves analyzing a passage to find the most suitable response.
+- The task is to read a story or article and deduce the correct information.
+- The task requires interpreting a text to answer a question based on it.
+- The task is about reading and understanding an article to select the best answer.
+- The task involves grasping the meaning of a passage to respond appropriately.
+- The task is to read a given text and identify the correct fact or conclusion.
+- The task requires understanding the details of an article to answer a question.
+- The task is about reading a passage and determining the most accurate response.
+- The task involves processing written information to find the right answer.
+- The task is to comprehend a story or article and answer a related question.
+- The task requires reading a text and identifying the correct statement.
+- The task is about interpreting an article to select the best possible answer.
+- The task involves understanding the content of a passage to answer correctly.
+- The task is to read a given text and find the most fitting response.
+- The task requires analyzing an article to determine the correct answer.
+- The task is about reading a passage and choosing the most logical answer.
+ds_kwargs:
+  path: race_high_Select_the_best_answer_generate_span_
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

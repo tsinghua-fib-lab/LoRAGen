@@ -1,0 +1,43 @@
+assistant_prefill: ''
+descriptions:
+- The task involves finding a specific piece of information in a given text to answer
+  a question.
+- The task requires identifying a key detail from a passage that directly answers
+  a question.
+- The task is about locating the exact phrase or word in a text that matches the question.
+- The task involves extracting a precise answer from a provided context based on a
+  question.
+- The task is to determine the correct information from a passage that fits the question.
+- The task requires matching a question with the relevant part of a given text.
+- The task is about pinpointing the exact answer within a passage that responds to
+  the question.
+- The task involves selecting the right information from a text to answer a specific
+  query.
+- The task is to find the most relevant part of a passage that answers the question.
+- The task requires identifying the correct phrase or term in a text that corresponds
+  to the question.
+- The task is about retrieving a factual answer from a given paragraph based on a
+  question.
+- The task involves searching a passage to find the exact answer to a question.
+- The task is to locate the specific detail in a text that satisfies the question.
+- The task requires determining the correct response from a passage by analyzing the
+  question.
+- The task is about finding the answer in a given text that directly relates to the
+  question.
+- The task involves identifying the key information in a passage that answers the
+  question.
+- The task is to extract the relevant fact from a text to respond to the question.
+- The task requires discovering the exact word or phrase in a passage that answers
+  the question.
+- The task is about recognizing the correct information in a text that fits the question.
+- The task involves determining the precise answer from a given context based on the
+  question.
+ds_kwargs:
+  path: adversarial_qa_dbert_question_context_answer
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

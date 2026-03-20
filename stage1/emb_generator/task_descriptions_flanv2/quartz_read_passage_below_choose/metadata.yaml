@@ -1,0 +1,33 @@
+assistant_prefill: ''
+descriptions:
+- The task involves understanding how physical properties like friction change based
+  on surface roughness.
+- The task requires comparing the effects of stretching or compressing materials on
+  elastic force.
+- The task examines how the number of cylinders in a car engine relates to its power.
+- The task explores how temperature changes affect the vibration speed of molecules.
+- The task involves analyzing how wavelength changes influence the frequency of sound.
+- The task is about determining how different surfaces interact in terms of friction.
+- The task focuses on how material properties respond to being stretched or unstretched.
+- The task compares engine power based on the number of cylinders.
+- The task investigates how cooling a liquid affects molecular motion.
+- The task assesses how sound frequency changes with expanding wavelengths.
+- The task involves reasoning about the relationship between roughness and friction.
+- The task requires understanding how elastic force varies with material tension.
+- The task examines the impact of engine design on performance.
+- The task explores the connection between temperature and molecular behavior.
+- The task analyzes how sound waves behave as their wavelengths change.
+- The task is about predicting friction levels between different surfaces.
+- The task focuses on how force changes when materials are not stretched.
+- The task compares the power output of engines with different cylinder counts.
+- The task investigates how cooling affects the movement of particles.
+- The task involves understanding how sound frequency shifts with wavelength adjustments.
+ds_kwargs:
+  path: quartz_read_passage_below_choose
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

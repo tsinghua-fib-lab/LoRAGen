@@ -1,0 +1,45 @@
+assistant_prefill: ''
+descriptions:
+- The task involves answering specific questions about movie plots by extracting relevant
+  details from the provided summaries.
+- The task requires identifying key information from a movie plot to answer questions
+  accurately.
+- The task is about finding precise answers to questions based on the events or characters
+  described in a movie plot.
+- The task focuses on locating factual details within a movie plot summary to respond
+  to direct questions.
+- The task involves reading a movie plot and answering questions about its content,
+  such as character names or events.
+- The task is to extract specific information from a movie plot to answer given questions.
+- The task requires understanding a movie plot well enough to provide accurate answers
+  to related questions.
+- The task is about recalling or identifying details from a movie plot to answer queries.
+- The task involves analyzing a movie plot to find answers to specific questions about
+  its storyline.
+- The task is to read a movie plot and determine the correct answer to questions about
+  its characters or events.
+- The task requires pinpointing exact details from a movie plot to respond to questions.
+- The task is about answering questions by referring to the information provided in
+  a movie plot summary.
+- The task involves matching questions about a movie to the correct details in its
+  plot.
+- The task is to use a movie plot summary to answer factual questions about the film.
+- The task requires identifying relevant parts of a movie plot to answer specific
+  questions.
+- The task is about finding answers to questions by carefully reading a movie plot.
+- The task involves extracting key facts from a movie plot to answer direct questions.
+- The task is to provide accurate responses to questions based on the details in a
+  movie plot.
+- The task requires locating specific information in a movie plot to answer given
+  questions.
+- The task is about understanding a movie plot well enough to answer questions about
+  its content.
+ds_kwargs:
+  path: duorc_ParaphraseRC_answer_question
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

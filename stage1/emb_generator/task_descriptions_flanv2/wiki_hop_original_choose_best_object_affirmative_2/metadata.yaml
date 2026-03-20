@@ -1,0 +1,51 @@
+assistant_prefill: ''
+descriptions:
+- The task involves identifying the correct entity related to a given subject based
+  on a specific relationship.
+- The task requires matching a subject with an entity that shares a defined connection,
+  such as occupation or location.
+- The task is about finding the correct association between a named entity and another
+  entity based on context.
+- The task involves determining the entity that is logically linked to a given subject
+  through a specified relationship.
+- The task is to identify the entity that has a particular relationship with the given
+  subject in the provided information.
+- The task requires selecting the entity that best fits the described relationship
+  with the given subject.
+- The task involves analyzing text to find the entity that corresponds to the subject
+  based on a defined connection.
+- The task is about recognizing the correct entity that relates to the subject in
+  a specific way, such as origin or role.
+- The task requires understanding the context to identify the entity that shares the
+  given relationship with the subject.
+- The task involves extracting the correct entity from the text that matches the specified
+  relationship with the subject.
+- The task is to determine which entity is associated with the subject through the
+  given relationship in the provided information.
+- The task requires linking the subject to the correct entity based on the described
+  connection.
+- The task involves identifying the entity that fulfills the relationship criteria
+  with the given subject.
+- The task is about finding the entity that logically connects to the subject in the
+  specified way.
+- The task requires choosing the entity that has the described relationship with the
+  subject from the given text.
+- The task involves recognizing the entity that is tied to the subject through the
+  provided relationship.
+- The task is to locate the entity in the text that corresponds to the subject based
+  on the given connection.
+- The task requires determining the correct entity that aligns with the subject in
+  the specified relationship.
+- The task involves selecting the entity that is related to the subject in the way
+  described in the text.
+- The task is about identifying the entity that shares the given relationship with
+  the subject from the provided information.
+ds_kwargs:
+  path: wiki_hop_original_choose_best_object_affirmative_2
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

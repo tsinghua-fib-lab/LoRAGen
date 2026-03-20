@@ -1,0 +1,50 @@
+assistant_prefill: ''
+descriptions:
+- The task involves identifying the correct relationship between a given subject and
+  an object based on provided information.
+- The task requires matching a subject with the correct object using a specified relation
+  from the given context.
+- The task is about finding the correct association between an entity and another
+  based on a defined connection.
+- The task involves determining how two entities are linked based on a given relation
+  in the provided text.
+- The task is to identify the correct object that is connected to a subject through
+  a specific relationship.
+- The task requires selecting the right entity that fits a given relation with the
+  subject in the context.
+- The task is about recognizing the correct pairing between a subject and an object
+  based on a described connection.
+- The task involves extracting the appropriate object that relates to a subject through
+  a specified attribute.
+- The task is to find the entity that shares a particular relationship with the given
+  subject in the text.
+- The task requires identifying the correct object that corresponds to a subject based
+  on a defined link.
+- The task is about determining the right entity that is tied to a subject through
+  a given relation.
+- The task involves selecting the object that is correctly associated with a subject
+  based on the provided information.
+- The task is to recognize the proper connection between a subject and an object from
+  the given context.
+- The task requires matching a subject with the right object using a specified relationship.
+- The task is about finding the correct entity that relates to a subject through a
+  given attribute.
+- The task involves identifying the object that is logically connected to a subject
+  based on the relation provided.
+- The task is to determine the correct pairing between a subject and an object using
+  the given details.
+- The task requires selecting the entity that fits the described relationship with
+  the subject.
+- The task is about recognizing the right object that shares a specified connection
+  with the subject.
+- The task involves extracting the appropriate entity that is linked to a subject
+  through a given relation.
+ds_kwargs:
+  path: wiki_hop_original_choose_best_object_interrogative_2
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

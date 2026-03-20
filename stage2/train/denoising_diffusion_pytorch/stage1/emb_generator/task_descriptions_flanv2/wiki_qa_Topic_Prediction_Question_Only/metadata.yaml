@@ -1,0 +1,31 @@
+assistant_prefill: ''
+descriptions:
+- The task is to identify the main subject of a given question.
+- The task involves extracting the central theme from a question.
+- The goal is to determine what a question is primarily asking about.
+- The task requires recognizing the key topic in a given question.
+- The objective is to find the primary focus of a question.
+- The task is to pinpoint the main idea being inquired about in a question.
+- The goal is to identify the core subject matter of a question.
+- The task involves figuring out what a question is centered on.
+- The objective is to detect the principal topic in a question.
+- The task is to determine the overarching theme of a question.
+- The goal is to extract the most relevant subject from a question.
+- The task requires isolating the main concept in a question.
+- The objective is to recognize the dominant topic in a question.
+- The task is to uncover the primary subject of a question.
+- The goal is to deduce the central point of a question.
+- The task involves identifying the key term or idea in a question.
+- The objective is to find out what a question is mainly referring to.
+- The task is to determine the essential topic of a question.
+- The goal is to capture the main focus of a question.
+- The task requires summarizing the primary subject of a question.
+ds_kwargs:
+  path: wiki_qa_Topic_Prediction_Question_Only
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

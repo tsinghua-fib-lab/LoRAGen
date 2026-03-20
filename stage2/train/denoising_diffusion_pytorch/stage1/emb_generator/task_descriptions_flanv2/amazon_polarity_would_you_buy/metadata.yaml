@@ -1,0 +1,32 @@
+assistant_prefill: ''
+descriptions:
+- Determine whether a product review makes someone more or less likely to buy the
+  product.
+- Assess the impact of a review on a potential buyer's decision to purchase.
+- Judge if a review encourages or discourages buying a product.
+- Evaluate how a product review influences a shopper's choice.
+- Decide if a review would persuade or dissuade someone from buying.
+- Figure out if a review boosts or reduces interest in a product.
+- Analyze whether a review makes a product seem more or less appealing.
+- Gauge the effect of a review on a customer's purchase intention.
+- Determine if a review adds to or subtracts from a product's appeal.
+- See if a review makes a product more or less desirable.
+- Check if a review improves or worsens the chances of a sale.
+- Weigh whether a review increases or decreases buyer interest.
+- Assess if a review makes a product seem better or worse.
+- Decide if a review strengthens or weakens the case for buying.
+- Judge whether a review positively or negatively affects purchase likelihood.
+- Determine if a review sways a buyer toward or away from a product.
+- Evaluate if a review makes a product more or less attractive.
+- Figure out if a review builds or breaks trust in a product.
+- Analyze whether a review raises or lowers confidence in a product.
+- Gauge if a review makes someone more or less inclined to buy.
+ds_kwargs:
+  path: amazon_polarity_would_you_buy
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

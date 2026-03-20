@@ -1,0 +1,50 @@
+assistant_prefill: ''
+descriptions:
+- The task involves understanding a given passage and identifying the reason behind
+  a specific event or behavior.
+- The task requires interpreting a story or scenario to determine the most likely
+  explanation for a situation.
+- The task is about reading a narrative and figuring out why a character acted or
+  felt a certain way.
+- The task involves analyzing a text to find the cause or motivation behind an action
+  or outcome.
+- The task is to comprehend a written account and deduce the correct explanation for
+  a described event.
+- The task requires extracting key details from a passage to explain a character's
+  emotions or decisions.
+- The task is about identifying the underlying reason for a situation based on the
+  given context.
+- The task involves reading a story and determining the most plausible justification
+  for an occurrence.
+- The task is to understand a scenario and select the best explanation for why something
+  happened.
+- The task requires interpreting a passage to find the cause behind a specific reaction
+  or event.
+- The task is about reading a text and figuring out the main reason for a character's
+  behavior.
+- The task involves analyzing a narrative to determine what led to a particular outcome.
+- The task is to comprehend a story and identify the primary motivation behind an
+  action.
+- The task requires understanding a situation and explaining why a specific event
+  took place.
+- The task is about reading a passage and finding the most logical reason for a described
+  incident.
+- The task involves interpreting a scenario to determine the cause of a character's
+  feelings or actions.
+- The task is to analyze a given text and deduce the explanation for a key moment
+  in the story.
+- The task requires understanding a narrative and identifying why a particular situation
+  unfolded.
+- The task is about reading a story and recognizing the reason behind a character's
+  experience.
+- The task involves comprehending a passage and determining the explanation for a
+  specific event or emotion.
+ds_kwargs:
+  path: quail_context_question_answer_description_id
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

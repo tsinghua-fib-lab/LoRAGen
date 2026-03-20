@@ -1,0 +1,50 @@
+assistant_prefill: ''
+descriptions:
+- The task involves reading a short passage and understanding the meaning of specific
+  words or phrases in context.
+- The task requires interpreting a story to identify the correct meaning or lesson
+  from it.
+- The task is about comprehending a given text to determine the best description of
+  a person, object, or idea.
+- The task focuses on extracting key details from a passage to answer a question about
+  its content.
+- The task involves analyzing a narrative to recognize the intentions or messages
+  conveyed by the author.
+- The task is to read a text and identify the correct explanation of a term or concept
+  mentioned in it.
+- The task requires understanding a scenario to determine the correct interpretation
+  of an event or character.
+- The task is about reading a passage and selecting the most accurate statement based
+  on the information provided.
+- The task involves deducing the correct meaning of a word or phrase from the context
+  of a story.
+- The task is to comprehend a given article and identify the best summary or conclusion
+  from it.
+- The task requires recognizing the symbolic or cultural significance of an object
+  or idea in a passage.
+- The task is about understanding relationships or roles described in a text to answer
+  a question.
+- The task involves interpreting actions or behaviors of characters in a story to
+  draw conclusions.
+- The task is to read a passage and determine the correct description of a person
+  or thing mentioned.
+- The task requires identifying the main purpose or theme of a given article.
+- The task is about recognizing the correct explanation of an event or situation in
+  a narrative.
+- The task involves understanding the context of a story to answer a question about
+  its details.
+- The task is to read a text and select the most fitting description of a concept
+  or object within it.
+- The task requires analyzing a passage to find the best representation of an idea
+  or fact.
+- The task is about comprehending a written piece to determine the correct interpretation
+  of its content.
+ds_kwargs:
+  path: race_middle_Select_the_best_answer_generate_span_
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

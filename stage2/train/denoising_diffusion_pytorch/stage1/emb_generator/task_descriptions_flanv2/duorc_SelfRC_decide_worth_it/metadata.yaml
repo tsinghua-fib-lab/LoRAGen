@@ -1,0 +1,31 @@
+assistant_prefill: ''
+descriptions:
+- The task involves answering specific questions about movie plots.
+- The task requires identifying key details from a given film's storyline.
+- The task is about recalling character actions or events in movies.
+- The task focuses on extracting precise information from movie summaries.
+- The task involves understanding relationships between characters in films.
+- The task is about recognizing important moments or turning points in movie plots.
+- The task requires locating specific facts within a film's narrative.
+- The task involves determining the roles or jobs of characters in movies.
+- The task is about identifying who certain characters interact with in films.
+- The task focuses on uncovering motivations or reasons behind events in movies.
+- The task involves finding out what makes certain events in films happen.
+- The task is about discovering how characters influence the plot of a movie.
+- The task requires identifying who is considered important or heroic in a film.
+- The task involves recognizing the consequences of character actions in movies.
+- The task is about determining what causes specific outcomes in film plots.
+- The task focuses on understanding the significance of objects or elements in movies.
+- The task involves figuring out how characters resolve conflicts in films.
+- The task is about identifying who characters persuade or manipulate in movies.
+- The task requires recognizing the results of spells or rituals in film stories.
+- The task involves answering questions based on detailed summaries of movies.
+ds_kwargs:
+  path: duorc_SelfRC_decide_worth_it
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

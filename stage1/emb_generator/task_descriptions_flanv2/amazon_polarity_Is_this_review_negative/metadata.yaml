@@ -1,0 +1,31 @@
+assistant_prefill: ''
+descriptions:
+- Determine if the given product review expresses a negative opinion.
+- Assess whether the sentiment of the review is negative based on the text.
+- Identify if the reviewer is dissatisfied with the product.
+- Check if the review contains criticism or complaints about the product.
+- Evaluate whether the tone of the review is unfavorable.
+- Decide if the reviewer had a bad experience with the product.
+- Judge if the review reflects disappointment or frustration.
+- Determine if the reviewer would not recommend the product.
+- Analyze whether the review highlights flaws or problems with the product.
+- Assess if the reviewer expresses regret or dissatisfaction.
+- Identify if the review focuses on negative aspects of the product.
+- Check if the reviewer mentions returning or disliking the product.
+- Evaluate if the review conveys a lack of satisfaction.
+- Decide if the reviewer’s overall impression of the product is poor.
+- Judge if the review includes negative remarks about the product’s quality.
+- Determine if the reviewer’s tone is critical or disapproving.
+- Analyze if the review suggests the product did not meet expectations.
+- Assess if the reviewer expresses unhappiness with the product.
+- Identify if the review contains words or phrases indicating negativity.
+- Check if the reviewer’s feedback leans toward dissatisfaction rather than praise.
+ds_kwargs:
+  path: amazon_polarity_Is_this_review_negative
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

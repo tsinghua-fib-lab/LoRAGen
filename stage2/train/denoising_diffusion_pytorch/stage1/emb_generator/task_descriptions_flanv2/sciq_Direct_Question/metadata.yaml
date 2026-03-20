@@ -1,0 +1,31 @@
+assistant_prefill: ''
+descriptions:
+- The task involves answering questions based on a given paragraph.
+- The task requires reading a passage and extracting the correct answer to a question.
+- The task is about finding specific information in a text to answer a question.
+- The task involves understanding a paragraph and identifying key details for an answer.
+- The task is to locate the relevant part of a passage that answers a question.
+- The task requires comprehending a text and providing a factual answer.
+- The task is about recalling information from a given paragraph to answer a question.
+- The task involves processing a passage and responding with the correct fact.
+- The task is to read a paragraph and determine the answer to a related question.
+- The task requires identifying the correct information from a text to answer a query.
+- The task is about extracting precise details from a passage to respond to a question.
+- The task involves analyzing a paragraph and providing the right answer.
+- The task is to understand a text and answer a question based on it.
+- The task requires finding the exact answer within a given paragraph.
+- The task is about matching a question with the correct information from a passage.
+- The task involves reading a text and supplying the accurate answer to a question.
+- The task is to interpret a paragraph and give the correct response.
+- The task requires selecting the right answer from the information in a passage.
+- The task is about deriving answers from a provided text.
+- The task involves answering questions using evidence from a given paragraph.
+ds_kwargs:
+  path: sciq_Direct_Question
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

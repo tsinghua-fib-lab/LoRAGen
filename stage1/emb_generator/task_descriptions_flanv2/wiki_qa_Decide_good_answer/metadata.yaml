@@ -1,0 +1,33 @@
+assistant_prefill: ''
+descriptions:
+- The task involves verifying if a given answer correctly matches the question about
+  a specific topic.
+- The task checks whether the provided answer accurately responds to the question
+  asked.
+- The task requires determining if the answer aligns with the question's subject.
+- The task involves assessing the correctness of an answer in relation to a question.
+- The task is about confirming whether the answer fits the question's context.
+- The task evaluates if the answer is relevant to the question.
+- The task checks if the answer properly addresses the question's topic.
+- The task involves validating the accuracy of an answer for a given question.
+- The task requires judging if the answer is appropriate for the question.
+- The task is about verifying the factual correctness of an answer to a question.
+- The task involves matching the answer to the question's requirements.
+- The task checks whether the answer provides the correct information for the question.
+- The task requires confirming if the answer is factually accurate for the question.
+- The task is about determining if the answer logically corresponds to the question.
+- The task involves evaluating if the answer is a valid response to the question.
+- The task checks if the answer is consistent with the question's intent.
+- The task requires assessing whether the answer satisfies the question's query.
+- The task is about verifying if the answer is a precise response to the question.
+- The task involves determining if the answer is a correct explanation for the question.
+- The task checks if the answer is a suitable reply to the question's topic.
+ds_kwargs:
+  path: wiki_qa_Decide_good_answer
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

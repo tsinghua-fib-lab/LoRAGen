@@ -1,0 +1,50 @@
+assistant_prefill: ''
+descriptions:
+- The task involves reading a short passage and identifying the correct fact or detail
+  from it.
+- The task requires understanding the main points of a given text and selecting the
+  accurate statement.
+- The task is about comprehending a written article and determining which piece of
+  information is true based on it.
+- The task focuses on extracting key details from a passage and recognizing the correct
+  one among given statements.
+- The task involves analyzing a text and picking the statement that aligns with the
+  information provided.
+- The task is to read a story or article and find out which of the given descriptions
+  matches the content.
+- The task requires interpreting a written piece and identifying the factual claim
+  supported by it.
+- The task is about reading a passage and discerning the true statement among alternatives.
+- The task involves understanding the context of a text and selecting the detail that
+  is confirmed by it.
+- The task is to grasp the meaning of a given article and determine which assertion
+  is correct.
+- The task focuses on reading a narrative or informational text and recognizing the
+  accurate fact.
+- The task involves processing written information and distinguishing the true claim
+  from others.
+- The task is about reading a short piece and verifying which statement reflects its
+  content.
+- The task requires comprehending a passage and identifying the detail that is explicitly
+  or implicitly stated.
+- The task involves evaluating a text and selecting the statement that is consistent
+  with it.
+- The task is to read a given article and determine which of the provided descriptions
+  is supported by it.
+- The task focuses on understanding a written excerpt and finding the correct detail
+  based on it.
+- The task involves interpreting a story or report and choosing the fact that is confirmed
+  within it.
+- The task is about reading a passage and recognizing the accurate piece of information
+  from it.
+- The task requires analyzing a text and selecting the statement that is true according
+  to the passage.
+ds_kwargs:
+  path: race_middle_Select_the_best_answer
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

@@ -1,0 +1,31 @@
+assistant_prefill: ''
+descriptions:
+- Writing a concise and engaging title for a given news article.
+- Summarizing a news article in one or two sentences.
+- Creating a headline that captures the main idea of an article.
+- Condensing a detailed news story into a brief summary.
+- Identifying the key point of an article and expressing it in a short phrase.
+- Crafting a title that reflects the central theme of a news piece.
+- Extracting the most important information from an article for a summary.
+- Producing a short, informative headline for a given text.
+- Distilling a long news article into a single-sentence summary.
+- Writing a catchy and accurate title for a news story.
+- Summarizing an article while keeping its main message intact.
+- Generating a brief and clear headline for a news report.
+- Reducing a complex news story to a simple, understandable summary.
+- Composing a title that highlights the most significant part of an article.
+- Providing a short overview of a news article’s content.
+- Writing a headline that grabs attention while staying true to the article.
+- Condensing an article’s main points into a single sentence.
+- Creating a title that summarizes the essence of a news piece.
+- Summarizing a news story in a way that is easy to understand.
+- Developing a concise and accurate title for a given article.
+ds_kwargs:
+  path: newsroom
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

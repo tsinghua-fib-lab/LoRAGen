@@ -1,0 +1,50 @@
+assistant_prefill: ''
+descriptions:
+- The task involves creating a question based on a given article, where the question
+  tests understanding of the article's content.
+- The task requires forming a question that aligns with the main idea or details presented
+  in the provided article.
+- The task is about generating a question that reflects key points or themes from
+  the article.
+- The task involves crafting a question that evaluates comprehension of the article's
+  message or facts.
+- The task is to develop a question that checks whether the reader has grasped the
+  article's central argument.
+- The task requires writing a question that highlights an important detail or lesson
+  from the article.
+- The task is about constructing a question that assesses the reader's ability to
+  interpret the article's meaning.
+- The task involves designing a question that focuses on a specific aspect or event
+  described in the article.
+- The task is to create a question that explores the implications or consequences
+  mentioned in the article.
+- The task requires formulating a question that connects to the article's main subject
+  or characters.
+- The task is about writing a question that examines the reader's understanding of
+  the article's narrative or structure.
+- The task involves generating a question that probes into the reasoning or evidence
+  presented in the article.
+- The task is to compose a question that tests awareness of the article's context
+  or background.
+- The task requires developing a question that relates to the article's tone or perspective.
+- The task is about framing a question that captures the article's key takeaway or
+  moral.
+- The task involves crafting a question that checks if the reader can identify the
+  article's purpose.
+- The task is to write a question that explores the relationships or contrasts mentioned
+  in the article.
+- The task requires forming a question that assesses the reader's ability to recall
+  specific details from the article.
+- The task is about creating a question that evaluates the reader's grasp of the article's
+  cause-and-effect relationships.
+- The task involves designing a question that highlights the article's most significant
+  or surprising elements.
+ds_kwargs:
+  path: race_high_Write_a_multi_choice_question_options_given_
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

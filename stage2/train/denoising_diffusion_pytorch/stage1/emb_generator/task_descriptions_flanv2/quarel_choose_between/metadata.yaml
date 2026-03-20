@@ -1,0 +1,49 @@
+assistant_prefill: ''
+descriptions:
+- The task involves comparing two objects or scenarios based on a given physical or
+  logical property.
+- The task requires determining which of two items has a specific characteristic,
+  such as speed, mass, or resistance.
+- The task is about identifying which of two situations or objects fits a described
+  condition better.
+- The task asks to select the item or scenario that matches a given observation or
+  fact.
+- The task involves evaluating which of two options aligns with a stated principle,
+  like gravity or motion.
+- The task is to decide which of two things has a higher or lower degree of a particular
+  attribute.
+- The task requires choosing between two objects based on how they behave in a described
+  situation.
+- The task is about figuring out which of two scenarios follows a natural or logical
+  rule.
+- The task involves picking the object or situation that demonstrates a specific effect
+  or outcome.
+- The task asks to determine which of two items has a greater or lesser impact in
+  a given context.
+- The task is to identify which of two options meets a certain criterion, such as
+  smoothness or speed.
+- The task requires selecting the object or scenario that exhibits a particular property
+  more clearly.
+- The task is about comparing two things to see which one fits a described phenomenon.
+- The task involves judging which of two items has a stronger or weaker influence
+  in a given setup.
+- The task asks to choose the option that correctly represents a cause-and-effect
+  relationship.
+- The task is to determine which of two objects or situations adheres to a scientific
+  or logical rule.
+- The task requires deciding which of two scenarios reflects a change in conditions,
+  like sound or motion.
+- The task is about selecting the item or event that matches a stated outcome or behavior.
+- The task involves identifying which of two options has a measurable difference in
+  a given context.
+- The task asks to pick the object or situation that aligns with a described observation
+  or result.
+ds_kwargs:
+  path: quarel_choose_between
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

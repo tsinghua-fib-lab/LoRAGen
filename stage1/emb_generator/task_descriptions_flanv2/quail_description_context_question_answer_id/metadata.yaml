@@ -1,0 +1,49 @@
+assistant_prefill: ''
+descriptions:
+- The task involves reading a passage and identifying the key issue or detail mentioned
+  in the text.
+- The task requires understanding a given context and determining the main point or
+  focus of the passage.
+- The task is about extracting specific information from a provided text to answer
+  a related question.
+- The task involves analyzing a written passage to find the most relevant detail that
+  answers the question.
+- The task is to read a story or article and identify the central idea or problem
+  discussed.
+- The task requires interpreting a text to determine what a particular person or event
+  is addressing.
+- The task involves reading a scenario and recognizing the primary concern or topic
+  being highlighted.
+- The task is about comprehending a written piece and identifying the reason behind
+  an action or decision.
+- The task requires reading a passage and figuring out the main subject or issue being
+  described.
+- The task involves understanding a context and determining the motivation or purpose
+  behind an event.
+- The task is to read a text and identify the key challenge or conflict presented.
+- The task requires analyzing a passage to find out what a specific person or group
+  is focused on.
+- The task involves reading a story and determining the main takeaway or lesson from
+  it.
+- The task is about understanding a situation and recognizing the primary concern
+  or goal.
+- The task requires interpreting a passage to identify the main problem or topic being
+  discussed.
+- The task involves reading a text and determining the reason behind a particular
+  action or statement.
+- The task is to comprehend a given context and identify the central theme or issue.
+- The task requires analyzing a written piece to find the most important detail related
+  to the question.
+- The task involves reading a scenario and identifying the main point or argument
+  being made.
+- The task is about understanding a passage and determining the key event or idea
+  it describes.
+ds_kwargs:
+  path: quail_description_context_question_answer_id
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

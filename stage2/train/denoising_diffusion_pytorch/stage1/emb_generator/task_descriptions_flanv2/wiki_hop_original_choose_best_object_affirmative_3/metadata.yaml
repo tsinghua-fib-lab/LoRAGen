@@ -1,0 +1,51 @@
+assistant_prefill: ''
+descriptions:
+- The task involves identifying the correct entity that has a specific relationship
+  with a given subject based on provided information.
+- The task requires matching a given subject with another entity based on a defined
+  relationship in the text.
+- The task is about finding which entity is connected to a given subject through a
+  particular type of relationship.
+- The task involves determining the correct associated entity for a given subject
+  based on contextual information.
+- The task is to locate the entity that shares a specified relationship with the given
+  subject in the text.
+- The task requires identifying the entity that fulfills a particular relational role
+  with respect to the given subject.
+- The task is about extracting the correct entity linked to a subject by a specific
+  relationship from the provided information.
+- The task involves recognizing the entity that holds a defined connection to the
+  given subject in the text.
+- The task is to find the entity that is related to the subject in a particular way
+  based on the given details.
+- The task requires selecting the entity that exhibits the specified relationship
+  with the subject from the provided context.
+- The task is about discovering which entity is tied to the subject through a given
+  type of connection.
+- The task involves determining the entity that corresponds to the subject based on
+  a defined relational criterion.
+- The task is to identify the correct entity that stands in a specific relationship
+  with the subject.
+- The task requires finding the entity that is associated with the subject in a particular
+  manner according to the text.
+- The task is about pinpointing the entity that has a specified relationship with
+  the subject in the given information.
+- The task involves linking the subject to the correct entity based on a described
+  relationship.
+- The task is to establish which entity is connected to the subject through a given
+  relational term.
+- The task requires deriving the entity that shares a specific bond with the subject
+  from the provided text.
+- The task is about uncovering the entity that relates to the subject in a defined
+  way.
+- The task involves identifying the entity that is contextually tied to the subject
+  by a particular relationship.
+ds_kwargs:
+  path: wiki_hop_original_choose_best_object_affirmative_3
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

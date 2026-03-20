@@ -1,0 +1,31 @@
+assistant_prefill: ''
+descriptions:
+- Translating sentences from Spanish to English.
+- Translating sentences from English to Spanish.
+- Converting phrases between English and Spanish.
+- Rewriting text in a different language.
+- Providing the equivalent of a sentence in another language.
+- Changing the language of a given statement.
+- Expressing the same idea in a different language.
+- Converting travel-related phrases between English and Spanish.
+- Translating medical or psychological terms between languages.
+- Switching between English and Spanish for instructions or descriptions.
+- Transforming a sentence from one language to another accurately.
+- Giving the correct translation for a specific phrase.
+- Matching the meaning of a sentence in another language.
+- Converting adventure or travel narratives between languages.
+- Translating hotel or booking-related terms between English and Spanish.
+- Providing the Spanish version of an English sentence.
+- Providing the English version of a Spanish sentence.
+- Changing the language of a statement while keeping the meaning.
+- Translating complex sentences involving specific terminology.
+- Converting statements about activities or experiences between languages.
+ds_kwargs:
+  path: para_crawl_enes
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

@@ -1,0 +1,42 @@
+assistant_prefill: ''
+descriptions:
+- The task involves identifying a specific person mentioned in a given context.
+- The task requires finding the name of an individual based on details provided in
+  a passage.
+- The task is about extracting the correct name of a person from a text.
+- The task focuses on locating the name of a character or real person in a provided
+  story or description.
+- The task involves reading a passage and determining who a particular question is
+  referring to.
+- The task is to match a question about a person with the correct name from the context.
+- The task requires recognizing the right individual based on clues in the text.
+- The task is about identifying a person’s name when given a description of their
+  actions or role.
+- The task involves answering who a specific individual is based on contextual information.
+- The task is to find out the name of a person related to an event or situation described
+  in the text.
+- The task requires selecting the correct name of someone mentioned in a narrative.
+- The task is about pinpointing the identity of a person from a given story or explanation.
+- The task involves determining who a question is asking about by analyzing the provided
+  text.
+- The task is to identify a person based on their role or actions in a passage.
+- The task requires extracting the name of a character or historical figure from a
+  detailed context.
+- The task is about answering who a specific person is when given a description of
+  their life or deeds.
+- The task involves reading a story or account and finding the name of a key individual.
+- The task is to locate the correct name of a person referenced in a question within
+  a passage.
+- The task requires identifying a person’s full or partial name based on contextual
+  clues.
+- The task is about discovering the name of someone who plays a significant role in
+  the given text.
+ds_kwargs:
+  path: quoref_Given_Context_Answer_Question
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

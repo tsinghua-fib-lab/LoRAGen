@@ -1,0 +1,31 @@
+assistant_prefill: ''
+descriptions:
+- The task involves using given facts to draw logical conclusions.
+- The task requires reasoning about relationships between facts to answer questions.
+- The task tests understanding of how general facts apply to specific cases.
+- The task involves connecting two pieces of information to form an answer.
+- The task is about deducing answers based on provided factual statements.
+- The task checks if you can infer new information from known facts.
+- The task involves applying broad facts to narrower examples.
+- The task requires combining facts to reach a valid conclusion.
+- The task is about identifying what must be true given certain facts.
+- The task involves using factual premises to support an answer.
+- The task tests the ability to see how categories relate to each other.
+- The task is about understanding how properties transfer between groups.
+- The task involves recognizing implications of stated facts.
+- The task requires matching general rules to specific instances.
+- The task is about determining what follows from given statements.
+- The task involves linking facts to see their combined meaning.
+- The task tests whether you can derive answers from factual premises.
+- The task is about seeing how one fact affects another.
+- The task involves using logical reasoning to fill in missing information.
+- The task requires understanding how facts interact to produce an answer.
+ds_kwargs:
+  path: qasc_qa_with_separated_facts_3
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

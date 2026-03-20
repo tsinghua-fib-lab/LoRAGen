@@ -1,0 +1,34 @@
+assistant_prefill: ''
+descriptions:
+- The task involves understanding the main idea of a given article and identifying
+  what it is about.
+- The task requires recognizing the central theme or focus of a passage.
+- The task is about determining the primary subject discussed in the text.
+- The task involves summarizing the key message of an article.
+- The task is to identify what the writer or characters in the text are doing or feeling.
+- The task requires figuring out the main point or purpose of the passage.
+- The task is about interpreting the overall meaning of the given text.
+- The task involves understanding the writer's perspective or attitude.
+- The task is to grasp the general topic or subject of the article.
+- The task requires identifying the main action or event described in the passage.
+- The task is about recognizing the key takeaway from the text.
+- The task involves determining what the characters in the story are discussing or
+  experiencing.
+- The task is to understand the relationship or roles of people mentioned in the article.
+- The task requires identifying the writer's opinion or stance on a topic.
+- The task is about finding out what the passage reveals about a person or situation.
+- The task involves analyzing the text to see what it tells us about a specific subject.
+- The task is to recognize the main idea or conclusion drawn in the passage.
+- The task requires understanding the context or setting of the article.
+- The task is about identifying the main focus or concern of the writer.
+- The task involves determining what the text communicates about a particular topic
+  or scenario.
+ds_kwargs:
+  path: race_middle_Write_a_multi_choice_question_options_given_
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

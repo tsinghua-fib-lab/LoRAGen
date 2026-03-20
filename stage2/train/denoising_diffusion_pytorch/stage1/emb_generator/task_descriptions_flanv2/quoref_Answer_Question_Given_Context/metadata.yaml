@@ -1,0 +1,39 @@
+assistant_prefill: ''
+descriptions:
+- The task involves identifying a specific person's name based on details provided
+  in a given passage.
+- The task requires extracting a person's full or last name from a contextual story.
+- The task is about locating the correct name of a character mentioned in a narrative.
+- The task involves reading a passage and determining the name of an individual described
+  in it.
+- The task focuses on finding the surname or full name of a person referenced in a
+  text.
+- The task is to recognize the name of a key figure in a provided story.
+- The task requires identifying a person based on their role or actions in a given
+  context.
+- The task involves matching a name to a description or event in a passage.
+- The task is about pinpointing the correct name of someone mentioned in a narrative.
+- The task requires recalling the name of a person based on specific details in a
+  text.
+- The task involves determining the identity of a character from contextual clues.
+- The task is to extract the name of a person associated with a particular event or
+  trait.
+- The task focuses on identifying a named individual from a story or description.
+- The task involves finding the correct name of a person linked to a situation in
+  a passage.
+- The task is about locating the name of a person who fits a given description.
+- The task requires selecting the right name of a character based on their actions
+  or background.
+- The task involves identifying a person’s name from their role in a narrative.
+- The task is to determine the name of a person mentioned in a specific scenario.
+- The task focuses on recognizing the correct name of an individual in a story.
+- The task involves reading a passage and answering a question about a person’s name.
+ds_kwargs:
+  path: quoref_Answer_Question_Given_Context
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

@@ -1,0 +1,32 @@
+assistant_prefill: ''
+descriptions:
+- The task involves identifying the correct fact about biological composition.
+- The task requires understanding how electric motors convert energy.
+- The task is about recognizing the classification of vascular plants.
+- The task involves knowing the function of plasma membrane extensions in single-celled
+  organisms.
+- The task is about identifying factors related to a specific type of force.
+- The task tests knowledge of human anatomy at a cellular level.
+- The task involves recalling principles of electromagnetism in machinery.
+- The task is about distinguishing between different plant reproduction methods.
+- The task requires understanding how microscopic organisms move.
+- The task involves recognizing the physics behind surface interactions.
+- The task is about recalling basic biological structures.
+- The task tests understanding of energy conversion in devices.
+- The task involves identifying categories in plant biology.
+- The task is about knowing how single-celled organisms function.
+- The task requires recognizing the science behind forces in motion.
+- The task involves answering questions about the human body's makeup.
+- The task is about understanding the components of electric motors.
+- The task tests knowledge of plant types based on reproduction.
+- The task involves explaining cellular mechanisms in simple organisms.
+- The task is about identifying the physical forces affecting objects.
+ds_kwargs:
+  path: sciq_Multiple_Choice_Closed_Book_
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

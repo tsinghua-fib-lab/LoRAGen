@@ -1,0 +1,40 @@
+assistant_prefill: ''
+descriptions:
+- The task involves answering factual questions about historical figures and their
+  backgrounds.
+- The task requires identifying specific details about well-known individuals.
+- The task focuses on providing accurate information about people's origins or affiliations.
+- The task involves recalling facts related to famous personalities and their achievements.
+- The task is about answering questions regarding the nationality or ethnicity of
+  historical figures.
+- The task requires knowledge about the hometowns or upbringing of notable people.
+- The task involves identifying inventions or contributions made by famous inventors
+  or artists.
+- The task is about determining the political affiliations of historical figures.
+- The task focuses on answering questions about artistic techniques used by renowned
+  painters.
+- The task involves providing factual responses about the lives of influential individuals.
+- The task requires recalling specific details about the careers of famous people.
+- The task is about answering questions related to the cultural or national identity
+  of historical figures.
+- The task involves identifying the places associated with the early lives of notable
+  individuals.
+- The task focuses on answering questions about the creative works of famous artists.
+- The task requires knowledge about the political or social groups historical figures
+  belonged to.
+- The task is about providing answers regarding the innovations of famous inventors.
+- The task involves recalling facts about the artistic styles of well-known painters.
+- The task focuses on answering questions about the personal histories of influential
+  people.
+- The task requires identifying the ethnic or racial background of historical figures.
+- The task is about providing accurate answers to questions concerning the lives and
+  works of notable individuals.
+ds_kwargs:
+  path: web_questions_whats_the_answer
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

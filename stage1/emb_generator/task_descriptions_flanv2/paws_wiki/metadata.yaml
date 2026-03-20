@@ -1,0 +1,31 @@
+assistant_prefill: ''
+descriptions:
+- Determine if two sentences convey the same meaning.
+- Check whether the given sentences are paraphrases of each other.
+- Assess if the information in both sentences is identical.
+- Verify if the two statements express the same idea.
+- Compare the meaning of two sentences to see if they match.
+- Decide if the sentences are saying the same thing in different words.
+- Evaluate whether the two sentences have equivalent meanings.
+- Confirm if the details in both sentences align perfectly.
+- Check if the sentences describe the same situation or facts.
+- Determine if the wording differences change the meaning.
+- See if the sentences are restatements of each other.
+- Assess whether the core message of both sentences is the same.
+- Compare if the two sentences present identical information.
+- Verify if the sentences are semantically equivalent.
+- Check if the sentences differ only in phrasing, not in meaning.
+- Determine if the sentences are interchangeable in context.
+- Evaluate if the sentences have the same factual content.
+- Confirm if the sentences express the same event or idea.
+- Assess if the sentences are variations of the same statement.
+- Check if the sentences are reworded versions of each other without altering meaning.
+ds_kwargs:
+  path: paws_wiki
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

@@ -1,0 +1,48 @@
+assistant_prefill: ''
+descriptions:
+- The task involves reading a passage and answering a question based on the details
+  provided in the text.
+- The task requires understanding a story or situation and determining the correct
+  answer from the given information.
+- The task is about interpreting a narrative and selecting the most accurate response
+  based on the context.
+- The task focuses on reading a scenario and identifying the correct answer by analyzing
+  the text.
+- The task involves comprehending a written passage and answering a question that
+  tests understanding of the content.
+- The task requires extracting key details from a story to answer a specific question.
+- The task is about reading a passage and making an inference to answer a related
+  question.
+- The task involves analyzing a situation described in the text and selecting the
+  most logical response.
+- The task requires understanding the events or emotions in a passage to answer a
+  question accurately.
+- The task is about reading a piece of writing and determining the answer based on
+  the given context.
+- The task involves interpreting a narrative and answering a question that relates
+  to the story’s events.
+- The task requires identifying the correct answer by closely examining the details
+  in the passage.
+- The task is about understanding a scenario and answering a question based on the
+  information provided.
+- The task involves reading a text and using the details to answer a specific question.
+- The task requires comprehending a story and selecting the answer that aligns with
+  the narrative.
+- The task is about analyzing a passage and answering a question that tests comprehension.
+- The task involves interpreting a situation in the text and providing the correct
+  response.
+- The task requires reading a context and answering a question that relates to its
+  content.
+- The task is about understanding a written piece and determining the answer based
+  on the story.
+- The task involves reading a passage and answering a question by referring to the
+  given information.
+ds_kwargs:
+  path: quail_description_context_question_answer_text
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

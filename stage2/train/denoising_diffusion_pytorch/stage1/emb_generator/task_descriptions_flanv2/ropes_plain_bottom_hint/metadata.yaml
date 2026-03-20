@@ -1,0 +1,48 @@
+assistant_prefill: ''
+descriptions:
+- The task involves identifying which of two groups or scenarios matches a given scientific
+  or factual description.
+- The task requires comparing two situations based on provided hints to determine
+  which one fits a specific condition.
+- The task is about analyzing biological or environmental differences between two
+  groups or locations.
+- The task involves understanding natural phenomena and selecting which of two cases
+  aligns with a described effect.
+- The task requires applying scientific knowledge to determine which scenario exhibits
+  a particular characteristic.
+- The task is about distinguishing between two cases using given biological or geological
+  principles.
+- The task involves interpreting hints to decide which of two situations has a specific
+  feature.
+- The task requires reasoning about physical or biological processes to identify the
+  correct scenario.
+- The task is about using contextual clues to determine which of two groups or places
+  meets a given criterion.
+- The task involves comparing two environments or groups based on scientific facts.
+- The task requires evaluating which of two cases aligns with a described scientific
+  phenomenon.
+- The task is about understanding differences in natural conditions between two scenarios.
+- The task involves applying definitions or scientific concepts to distinguish between
+  two cases.
+- The task requires identifying which of two scenarios follows a particular biological
+  or geological pattern.
+- The task is about using factual information to determine which group or location
+  has a specific trait.
+- The task involves analyzing given details to see which of two situations matches
+  a described effect.
+- The task requires comparing two land types or animal groups based on scientific
+  properties.
+- The task is about recognizing which of two cases fits a given scientific explanation.
+- The task involves interpreting scientific hints to decide which scenario has a particular
+  feature.
+- The task requires determining which of two cases aligns with a described natural
+  or biological process.
+ds_kwargs:
+  path: ropes_plain_bottom_hint
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

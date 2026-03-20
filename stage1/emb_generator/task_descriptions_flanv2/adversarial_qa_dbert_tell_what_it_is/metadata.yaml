@@ -1,0 +1,44 @@
+assistant_prefill: ''
+descriptions:
+- The task involves finding specific answers to questions by extracting information
+  from provided passages.
+- The task requires identifying precise details within a given text to answer direct
+  questions.
+- The task is about locating exact facts or statements in a passage that answer a
+  question.
+- The task involves reading a text and pulling out the correct piece of information
+  that matches the question.
+- The task is to determine the answer to a question by referencing a specific part
+  of a provided passage.
+- The task focuses on retrieving explicit information from a text to respond to a
+  query.
+- The task requires pinpointing the relevant sentence or phrase in a passage that
+  answers a question.
+- The task is about extracting key details from a block of text to provide an accurate
+  answer.
+- The task involves matching a question with the correct information found in a given
+  excerpt.
+- The task is to identify the part of a passage that directly answers a posed question.
+- The task requires finding the exact words or data in a text that correspond to a
+  question.
+- The task is about recognizing the specific information in a passage that resolves
+  a query.
+- The task involves searching a text for the precise answer to a straightforward question.
+- The task is to locate the factual response to a question within a provided excerpt.
+- The task requires deriving the answer to a question by examining a given passage
+  closely.
+- The task is about uncovering the correct information from a text to answer a question.
+- The task involves selecting the right detail from a passage that fits the question.
+- The task is to discover the relevant fact in a text that answers a specific inquiry.
+- The task requires pulling out the exact answer from a passage based on a question.
+- The task is about identifying the part of a text that provides the solution to a
+  question.
+ds_kwargs:
+  path: adversarial_qa_dbert_tell_what_it_is
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

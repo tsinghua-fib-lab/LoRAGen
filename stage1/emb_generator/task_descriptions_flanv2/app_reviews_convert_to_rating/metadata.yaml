@@ -1,0 +1,33 @@
+assistant_prefill: ''
+descriptions:
+- The task is to rate the sentiment of a given review on a scale from 1 to 5.
+- The task involves evaluating how positive or negative a review is based on its content.
+- The task requires assigning a numerical score to reflect the favorability of a review.
+- The task is to judge the overall tone of a review using a predefined rating scale.
+- The task involves analyzing the language of a review to determine its sentiment
+  strength.
+- The task is to assess the level of satisfaction expressed in a review.
+- The task requires interpreting the emotional tone of a review and rating it accordingly.
+- The task is to measure the positivity or negativity of a written review.
+- The task involves scoring a review based on how favorable or unfavorable it sounds.
+- The task is to gauge the general attitude of a review toward the subject.
+- The task requires evaluating the degree of approval or disapproval in a review.
+- The task is to determine how much a review leans toward praise or criticism.
+- The task involves reading a review and deciding how strongly it supports or opposes
+  the subject.
+- The task is to classify the sentiment of a review using a numerical scale.
+- The task requires judging the enthusiasm or disappointment in a review.
+- The task is to quantify the overall impression a review leaves.
+- The task involves assigning a value to represent the review's perceived quality.
+- The task is to rate how much a review reflects a positive or negative experience.
+- The task requires assessing the emotional weight of a review's message.
+- The task is to score a review based on its expressed satisfaction or dissatisfaction.
+ds_kwargs:
+  path: app_reviews_convert_to_rating
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

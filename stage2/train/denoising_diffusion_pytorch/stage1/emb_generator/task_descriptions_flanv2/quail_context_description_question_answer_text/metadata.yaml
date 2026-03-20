@@ -1,0 +1,46 @@
+assistant_prefill: ''
+descriptions:
+- The task involves reading a story or passage and identifying the correct detail
+  or feeling based on the context.
+- The task requires understanding a given text and selecting the best description
+  of a person, place, or situation.
+- The task is about interpreting a narrative to determine the most fitting characteristic
+  or emotion.
+- The task involves analyzing a passage to find the most accurate representation of
+  a person's thoughts or actions.
+- The task is to read a story and pick the most relevant detail that matches the given
+  question.
+- The task requires extracting key information from a text to answer a specific question
+  about it.
+- The task is about understanding the tone or mood of a character or scene in a passage.
+- The task involves identifying the main idea or feeling conveyed in a story.
+- The task is to determine the correct interpretation of an event or person based
+  on the provided context.
+- The task requires matching a question about a story with the most suitable answer
+  from the given options.
+- The task is about recognizing the central theme or emotion in a narrative.
+- The task involves deducing the correct conclusion about a character or situation
+  from the text.
+- The task is to find the most logical answer to a question based on the details in
+  the passage.
+- The task requires understanding the implications of events or statements in a story.
+- The task is about identifying the most accurate description of a person's behavior
+  or feelings.
+- The task involves reading a scenario and selecting the best summary of what happened
+  or how someone felt.
+- The task is to interpret a story and choose the answer that best fits the given
+  context.
+- The task requires analyzing a situation in a passage to answer a question about
+  it.
+- The task is about understanding the relationships or dynamics described in a text.
+- The task involves reading a narrative and picking the most appropriate detail that
+  answers the question.
+ds_kwargs:
+  path: quail_context_description_question_answer_text
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

@@ -1,0 +1,51 @@
+assistant_prefill: ''
+descriptions:
+- The task involves reading a background passage and a situation, then answering a
+  question about which person fits a specific observation.
+- The task requires comparing two individuals based on their studies or actions and
+  determining who matches a given scientific fact.
+- The task is about identifying which researcher or person aligns with a particular
+  phenomenon described in the background.
+- The task involves understanding a scientific concept and applying it to a scenario
+  with two individuals.
+- The task asks which of two people is more likely to have observed or experienced
+  a specific scientific event.
+- The task requires matching a person’s field of study or actions to a scientific
+  fact from the background.
+- The task is about determining which individual’s work or situation corresponds to
+  a described scientific process.
+- The task involves analyzing a given situation and selecting the person whose actions
+  or studies relate to a key detail in the background.
+- The task is to read a scientific explanation and decide which of two individuals
+  fits a particular aspect of it.
+- The task asks which person’s research or experience aligns with a specific scientific
+  observation.
+- The task involves connecting a real-world scenario to a scientific principle and
+  identifying the relevant person.
+- The task requires understanding a scientific concept and seeing which of two individuals
+  is associated with it.
+- The task is about reading a background passage and using it to answer a question
+  about two people’s studies or experiences.
+- The task asks which of two individuals is more likely to have encountered a particular
+  scientific phenomenon.
+- The task involves comparing two people’s actions or fields of study and seeing who
+  matches a given fact.
+- The task requires reasoning about which person’s work or situation is described
+  in the background passage.
+- The task is to determine which individual’s research or behavior is consistent with
+  a scientific detail.
+- The task involves reading a scientific explanation and applying it to a scenario
+  with two people.
+- The task asks which person’s studies or actions are more closely related to a specific
+  scientific event.
+- The task is about identifying which of two individuals fits a particular observation
+  from the background text.
+ds_kwargs:
+  path: ropes_given_background_situation
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

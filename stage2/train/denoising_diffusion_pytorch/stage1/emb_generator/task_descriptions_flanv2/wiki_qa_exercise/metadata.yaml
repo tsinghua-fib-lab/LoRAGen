@@ -1,0 +1,32 @@
+assistant_prefill: ''
+descriptions:
+- The task is to determine if the suggested answer matches the question's intent.
+- The task involves checking whether the suggestion correctly answers the given question.
+- The task is to assess if the proposed response is relevant to the question asked.
+- The task requires evaluating whether the suggestion fits the question's topic.
+- The task is to verify if the suggestion provides a proper answer to the question.
+- The task involves judging whether the suggestion aligns with the question's focus.
+- The task is to decide if the suggestion is an appropriate reply to the question.
+- The task requires determining if the suggestion addresses the question directly.
+- The task is to confirm whether the suggestion is a valid response to the question.
+- The task involves checking if the suggestion logically answers the question.
+- The task is to see if the suggestion matches what the question is asking.
+- The task requires assessing whether the suggestion is a suitable answer for the
+  question.
+- The task is to evaluate if the suggestion corresponds to the question's subject.
+- The task involves determining if the suggestion is factually correct for the question.
+- The task is to analyze whether the suggestion fulfills the question's requirements.
+- The task requires judging if the suggestion is on-topic for the question.
+- The task is to examine whether the suggestion answers the question accurately.
+- The task involves verifying if the suggestion is a precise response to the question.
+- The task is to determine if the suggestion is a meaningful answer to the question.
+- The task requires deciding if the suggestion is a coherent reply to the question.
+ds_kwargs:
+  path: wiki_qa_exercise
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

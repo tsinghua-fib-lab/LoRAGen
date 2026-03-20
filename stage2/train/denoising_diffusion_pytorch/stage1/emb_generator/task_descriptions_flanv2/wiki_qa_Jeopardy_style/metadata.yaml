@@ -1,0 +1,35 @@
+assistant_prefill: ''
+descriptions:
+- The task is to generate a question based on a given factual statement and its topic.
+- The task involves creating a question that matches the provided information about
+  a specific subject.
+- The task requires forming a question that the given text would answer.
+- The task is about identifying what question the provided statement is answering.
+- The task involves deriving a question from a factual passage about a particular
+  topic.
+- The task is to determine the most relevant question for the given piece of information.
+- The task requires crafting a question that aligns with the details in the provided
+  text.
+- The task is to infer the question that the given statement is addressing.
+- The task involves finding the question that the provided answer is responding to.
+- The task is to reverse-engineer a question from a given answer and topic.
+- The task requires generating a question that the text snippet would logically answer.
+- The task is about formulating a question based on the key details in the provided
+  statement.
+- The task involves identifying the query that the given information resolves.
+- The task is to construct a question that the provided facts would satisfy.
+- The task requires deducing the question that corresponds to the given answer.
+- The task is to come up with a question that the text is explicitly answering.
+- The task involves extracting the implicit question from the provided statement.
+- The task is to predict the question that the given passage is a response to.
+- The task requires creating a question that the text directly addresses.
+- The task is to match the given information with the most fitting question.
+ds_kwargs:
+  path: wiki_qa_Jeopardy_style
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

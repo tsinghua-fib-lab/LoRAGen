@@ -1,0 +1,48 @@
+assistant_prefill: ''
+descriptions:
+- The task involves figuring out the question that leads to a given answer based on
+  a provided scenario.
+- The task requires identifying the most fitting question that matches a specific
+  answer in a given context.
+- The task is about deducing the question that would naturally result in the provided
+  answer from a short story.
+- The task involves working backward from an answer to determine what question it
+  responds to in a described situation.
+- The task is to find the question that aligns with the given answer within a narrative.
+- The task requires reasoning about what someone might ask to receive the given answer
+  in the described event.
+- The task is about understanding the relationship between a scenario and an answer
+  to guess the question.
+- The task involves predicting the question that would prompt the given answer based
+  on the story.
+- The task is to infer the most logical question that corresponds to the provided
+  answer in a context.
+- The task requires determining the question that makes the given answer relevant
+  to the situation.
+- The task is about identifying the missing question that connects the scenario and
+  the answer.
+- The task involves analyzing a short passage to find the question that fits the given
+  answer.
+- The task is to think of what someone might ask to get the provided answer in the
+  described event.
+- The task requires figuring out the question that would lead to the given answer
+  in the story.
+- The task is about matching the answer to a possible question based on the context.
+- The task involves imagining the question that would make the answer meaningful in
+  the scenario.
+- The task is to derive the question that best explains the given answer in the narrative.
+- The task requires constructing the question that would logically result in the provided
+  answer.
+- The task is about discovering the question that aligns with both the answer and
+  the situation.
+- The task involves identifying the most appropriate question that the answer responds
+  to in the given context.
+ds_kwargs:
+  path: social_i_qa_Generate_the_question_from_the_answer
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

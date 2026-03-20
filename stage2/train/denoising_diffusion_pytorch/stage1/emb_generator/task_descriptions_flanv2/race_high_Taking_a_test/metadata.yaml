@@ -1,0 +1,37 @@
+assistant_prefill: ''
+descriptions:
+- The task involves reading a passage and selecting the most appropriate title for
+  it.
+- The task requires understanding the main theme of an article and identifying the
+  best summary.
+- The task is about analyzing a text to determine the central idea or message.
+- The task focuses on interpreting a passage and choosing the most fitting description
+  of its content.
+- The task involves evaluating an article to find the best representation of its subject.
+- The task is to read a story and identify the key personality trait of a character.
+- The task requires recognizing the primary characteristic of a person described in
+  the text.
+- The task involves understanding the behavior or qualities of a figure in the passage.
+- The task is about determining the dominant trait of an individual based on their
+  actions.
+- The task focuses on identifying the main attribute of a person from their experiences.
+- The task involves reading research findings and noting which country was not included
+  in the study.
+- The task requires identifying an exception in the data used for a scientific analysis.
+- The task is about recognizing which location was not part of the research mentioned.
+- The task focuses on distinguishing the outlier in a list of surveyed regions.
+- The task involves verifying which nation was excluded from the census data.
+- The task is to understand the reason behind a person's decision based on their story.
+- The task requires determining the motivation for an action described in the passage.
+- The task involves identifying the cause of a behavior or choice in the narrative.
+- The task is about finding the explanation for a particular event or decision.
+- The task focuses on uncovering the underlying reason for a person's actions.
+ds_kwargs:
+  path: race_high_Taking_a_test
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

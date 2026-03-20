@@ -1,0 +1,39 @@
+assistant_prefill: ''
+descriptions:
+- The task involves reading a movie plot and answering questions about its details.
+- The task requires identifying specific information from a provided movie summary.
+- The task is about extracting key facts from a film’s storyline.
+- The task involves understanding a movie plot and finding answers to related questions.
+- The task is to determine whether a question about a movie plot is answerable or
+  not.
+- The task requires locating character names or events within a given movie summary.
+- The task is about verifying if a movie plot contains the information needed to answer
+  a question.
+- The task involves analyzing a film’s narrative to answer specific queries.
+- The task is to check if a question about a movie’s plot can be answered based on
+  the given text.
+- The task requires recalling details from a movie summary to respond to a question.
+- The task is about identifying relationships between characters in a movie plot.
+- The task involves confirming whether a movie’s description provides the necessary
+  information for a question.
+- The task is to recognize key plot points in a film summary to answer a query.
+- The task requires determining if a question about a movie’s events is supported
+  by the given text.
+- The task is about finding explicit details in a movie’s storyline to answer a question.
+- The task involves checking if a character’s actions or traits are described in the
+  plot.
+- The task is to see if a movie’s summary explains a particular event or fact.
+- The task requires identifying whether a question about a film’s plot is resolvable
+  with the given information.
+- The task is about matching questions to relevant parts of a movie’s narrative.
+- The task involves verifying if a movie’s description contains the answer to a specific
+  question.
+ds_kwargs:
+  path: duorc_ParaphraseRC_movie_director
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

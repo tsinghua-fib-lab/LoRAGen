@@ -1,0 +1,36 @@
+assistant_prefill: ''
+descriptions:
+- The task involves reading a passage and identifying the correct detail or fact from
+  the text.
+- The task requires understanding a story or scenario and answering a question about
+  it.
+- The task is about extracting specific information from a given narrative.
+- The task involves interpreting a situation described in the text and answering a
+  related question.
+- The task is to read a passage and determine the most accurate response based on
+  the content.
+- The task requires analyzing a written scenario and selecting the correct detail.
+- The task is about comprehending a story and identifying key elements within it.
+- The task involves recalling or inferring information from a provided text.
+- The task is to understand the context of a passage and answer a question about it.
+- The task requires reading a narrative and determining the correct fact or event.
+- The task is about recognizing the right piece of information from a given story.
+- The task involves interpreting a situation and answering a question based on it.
+- The task is to read a passage and find the answer to a specific query.
+- The task requires understanding the details of a scenario and responding accurately.
+- The task is about identifying the correct information from a written account.
+- The task involves processing a story and answering a question derived from it.
+- The task is to comprehend a narrative and select the appropriate detail.
+- The task requires reading a text and determining the most fitting response.
+- The task is about extracting the right answer from a given passage.
+- The task involves analyzing a written situation and providing the correct answer
+  based on it.
+ds_kwargs:
+  path: quail_no_prompt_text
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

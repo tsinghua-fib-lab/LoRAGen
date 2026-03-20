@@ -1,0 +1,38 @@
+assistant_prefill: ''
+descriptions:
+- The task involves checking whether a suggested answer correctly addresses the given
+  question.
+- The task is to verify if an automated system's response is accurate for a specific
+  question.
+- The task requires determining if the provided answer is relevant to the question
+  asked.
+- The task is to assess whether the suggested answer is factually correct for the
+  given query.
+- The task involves evaluating if an automated answer is appropriate for the question's
+  context.
+- The task is to confirm whether the system's response aligns with the question's
+  intent.
+- The task requires judging if the given answer sufficiently answers the question.
+- The task is to decide whether the proposed answer is a valid response to the question.
+- The task involves validating if the system's output is a correct match for the question.
+- The task is to check if the suggested answer provides useful information for the
+  query.
+- The task requires verifying if the answer is on-topic for the given question.
+- The task is to determine if the answer is a meaningful reply to the question.
+- The task involves assessing whether the answer is logically connected to the question.
+- The task is to evaluate if the answer is a proper fit for the question's subject.
+- The task requires confirming whether the answer is a credible response to the query.
+- The task is to decide if the answer is a complete and accurate reply to the question.
+- The task involves checking if the answer is consistent with the question's requirements.
+- The task is to determine if the answer is a direct and correct response to the question.
+- The task requires judging whether the answer is a reliable solution to the query.
+- The task is to validate if the answer meets the expectations set by the question.
+ds_kwargs:
+  path: wiki_qa_automatic_system
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

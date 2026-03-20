@@ -1,0 +1,45 @@
+assistant_prefill: ''
+descriptions:
+- The task involves understanding how different surfaces affect the movement or behavior
+  of objects.
+- The task requires comparing how objects behave under different conditions, such
+  as friction or resistance.
+- The task is about identifying which surface or condition causes an object to move
+  faster or slower.
+- The task focuses on determining where an object experiences more or less resistance.
+- The task involves analyzing how changes in environment or material impact an object's
+  performance.
+- The task is about recognizing which setting results in a specific outcome, like
+  speed or temperature.
+- The task requires figuring out which scenario leads to a particular effect, such
+  as noise level or smoothness.
+- The task involves deducing which surface or condition provides more or less friction.
+- The task is about understanding how distance or location affects sensory experiences
+  like sound.
+- The task focuses on identifying which environment causes an object to behave in
+  a certain way.
+- The task involves determining which material or surface influences an object's movement
+  or state.
+- The task is about comparing two scenarios to see which one results in a given observation.
+- The task requires reasoning about how different terrains affect the motion of objects.
+- The task involves evaluating which condition leads to a higher or lower level of
+  resistance.
+- The task is about figuring out where an object encounters more or less difficulty
+  in moving.
+- The task focuses on understanding how physical properties like friction change across
+  surfaces.
+- The task involves identifying which setting causes an object to slow down or speed
+  up.
+- The task is about recognizing how environmental factors alter an object's behavior.
+- The task requires determining which situation aligns with a described outcome.
+- The task involves analyzing cause-and-effect relationships between surfaces and
+  object performance.
+ds_kwargs:
+  path: quarel_do_not_use
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

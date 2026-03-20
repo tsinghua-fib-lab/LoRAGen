@@ -1,0 +1,36 @@
+assistant_prefill: ''
+descriptions:
+- The task involves understanding how different surfaces or conditions affect movement
+  or speed.
+- The task requires reasoning about how friction or resistance influences outcomes.
+- The task is about determining which scenario aligns with observed changes in speed
+  or performance.
+- The task focuses on identifying the cause behind differences in how objects or people
+  move.
+- The task involves analyzing how environmental factors impact motion or sound.
+- The task is about comparing two situations to see which one explains a given effect.
+- The task requires figuring out which condition leads to a specific result based
+  on logic.
+- The task involves deducing the reason behind changes in behavior or performance.
+- The task is about recognizing how physical properties affect interactions.
+- The task requires understanding the relationship between conditions and their effects.
+- The task involves interpreting how one variable influences another in a scenario.
+- The task is about identifying which factor explains a difference in outcome.
+- The task requires determining the logical explanation for observed changes.
+- The task involves reasoning about cause and effect in practical situations.
+- The task is about figuring out which setting or condition produces a given result.
+- The task requires analyzing how one situation compares to another in terms of impact.
+- The task involves understanding how changes in environment or behavior lead to specific
+  outcomes.
+- The task is about making logical connections between conditions and their consequences.
+- The task requires identifying the scenario that matches the described effect.
+- The task involves evaluating how different choices or conditions influence results.
+ds_kwargs:
+  path: quarel_testing_students
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

@@ -1,0 +1,51 @@
+assistant_prefill: ''
+descriptions:
+- The task involves understanding how a change in one part of a process affects another
+  part of the same process.
+- The task requires analyzing cause-and-effect relationships within a described sequence
+  of events.
+- The task is about determining whether a given change increases, decreases, or has
+  no impact on a specific step in a process.
+- The task involves evaluating how a perturbation in one step influences another step
+  in a described system.
+- The task is to assess the relationship between two linked events in a process when
+  an external change is introduced.
+- The task requires reasoning about how altering one part of a process affects a later
+  part of that process.
+- The task is about predicting the impact of a change on a specific outcome within
+  a sequence of actions.
+- The task involves understanding dependencies between steps in a process when a modification
+  occurs.
+- The task is to determine whether a given change strengthens, weakens, or leaves
+  unchanged a particular effect in a process.
+- The task requires analyzing how a hypothetical scenario influences a specific part
+  of a described mechanism.
+- The task is about identifying how a disturbance in one step propagates to another
+  step in a system.
+- The task involves judging whether a change leads to more, less, or no effect on
+  a subsequent event in a process.
+- The task is to evaluate the sensitivity of one part of a process to changes in another
+  part.
+- The task requires understanding how modifications in early steps affect later steps
+  in a sequence.
+- The task is about examining how an introduced change alters the behavior of a described
+  system.
+- The task involves determining the directional impact (increase, decrease, or no
+  change) of a perturbation on a process.
+- The task is to infer how a given condition influences a specific outcome in a chain
+  of events.
+- The task requires assessing how a variation in one part of a process affects the
+  likelihood or intensity of another part.
+- The task is about reasoning how a shift in one component of a system impacts another
+  component.
+- The task involves deducing the consequences of a change on a particular effect within
+  a described process.
+ds_kwargs:
+  path: wiqa_effect_with_string_answer
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

@@ -1,0 +1,32 @@
+assistant_prefill: ''
+descriptions:
+- The task involves understanding how a person feels based on a given situation.
+- The task requires figuring out why someone acted a certain way in a described scenario.
+- The task is about interpreting emotions from a short story.
+- The task asks to determine the best explanation for someone's actions in a context.
+- The task involves matching feelings to a described event.
+- The task is about deducing a person's emotional state from a brief narrative.
+- The task requires identifying the most likely reason behind a described behavior.
+- The task is about understanding the motivation behind a person's actions.
+- The task involves analyzing a situation to determine how someone would feel.
+- The task asks to infer the correct emotional response from a given context.
+- The task is about predicting how a person would react based on what happened.
+- The task requires selecting the most fitting description of a person's state after
+  an event.
+- The task involves reasoning about why someone did something in a story.
+- The task is about connecting actions to their likely emotional outcomes.
+- The task asks to judge the best explanation for a person's behavior.
+- The task involves evaluating how a person would feel after an experience.
+- The task is about interpreting the cause behind a described action.
+- The task requires understanding the emotional impact of an event on a person.
+- The task involves figuring out the most logical feeling from a given scenario.
+- The task is about determining the best way to describe someone based on their actions.
+ds_kwargs:
+  path: social_i_qa_Show_choices_and_generate_index
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

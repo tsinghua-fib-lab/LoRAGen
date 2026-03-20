@@ -1,0 +1,43 @@
+assistant_prefill: ''
+descriptions:
+- The task involves understanding how changes in a described process affect the outcome.
+- The task requires analyzing cause-and-effect relationships within a given process.
+- The task is about predicting the impact of a hypothetical change on a described
+  sequence of events.
+- The task involves reasoning about how altering one part of a process influences
+  another part.
+- The task focuses on evaluating how modifying a condition affects the overall process.
+- The task is to determine whether a change increases, decreases, or has no effect
+  on a described outcome.
+- The task requires assessing the consequences of a specific scenario within a process.
+- The task involves interpreting how a given change interacts with a chain of events.
+- The task is about deducing the direction of change (more, less, or no effect) based
+  on a described process.
+- The task focuses on understanding how hypothetical conditions alter the results
+  of a process.
+- The task involves evaluating the sensitivity of a process to a particular change.
+- The task is to infer how a variation in one step affects the rest of the process.
+- The task requires judging the influence of a new condition on an existing sequence
+  of events.
+- The task is about identifying how a change affects the balance or outcome of a process.
+- The task involves reasoning through how a hypothetical situation impacts a described
+  system.
+- The task focuses on determining the relationship between a change and its effect
+  on a process.
+- The task is to analyze how altering a factor affects the progression of a described
+  scenario.
+- The task involves predicting whether a change amplifies, reduces, or leaves unchanged
+  a given outcome.
+- The task is about understanding how disruptions or additions to a process influence
+  its results.
+- The task requires assessing the logical consequences of a change within a structured
+  process.
+ds_kwargs:
+  path: wiqa_effect_with_label_answer
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

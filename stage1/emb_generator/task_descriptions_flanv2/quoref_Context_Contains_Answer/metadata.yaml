@@ -1,0 +1,31 @@
+assistant_prefill: ''
+descriptions:
+- The task involves identifying specific information from a given passage.
+- The task requires extracting exact details from a text to answer a question.
+- The task is about locating precise facts within a provided article.
+- The task involves finding the correct answer to a question based on a given text.
+- The task is to determine the accurate response by reading and understanding a passage.
+- The task requires pinpointing the right piece of information from a block of text.
+- The task is about recognizing key details in a passage to answer a question.
+- The task involves searching for a specific fact within a written excerpt.
+- The task is to identify the correct answer by analyzing the given content.
+- The task requires retrieving exact information from a provided article.
+- The task is about answering a question using details from a given text.
+- The task involves finding the relevant part of a passage to answer a query.
+- The task is to locate the answer within a text based on the question asked.
+- The task requires understanding a passage to extract the needed information.
+- The task is about matching a question with the correct detail from a text.
+- The task involves reading a passage and identifying the answer to a specific question.
+- The task is to determine the right response by referring to the given article.
+- The task requires finding factual information within a provided excerpt.
+- The task is about answering a question by referring to the details in a text.
+- The task involves extracting the correct answer from a written passage.
+ds_kwargs:
+  path: quoref_Context_Contains_Answer
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

@@ -1,0 +1,49 @@
+assistant_prefill: ''
+descriptions:
+- The task is about identifying the most relevant trait or factor related to a given
+  topic.
+- The task involves selecting the best example of a concept based on its importance
+  or function.
+- The task requires recognizing the key element that fits a specific biological or
+  ecological role.
+- The task focuses on determining which item is most closely associated with a given
+  survival or functional need.
+- The task is to find the most scientifically accurate answer related to a natural
+  process or trait.
+- The task involves picking the option that best represents a critical aspect of a
+  system or organism.
+- The task is about matching a concept with its most significant real-world application
+  or effect.
+- The task requires identifying the primary component responsible for a specific biological
+  function.
+- The task is to select the factor that has the most direct impact on a given scenario
+  or outcome.
+- The task involves choosing the most logical and well-supported answer based on scientific
+  knowledge.
+- The task is about finding the best example of something that fulfills a particular
+  need or role.
+- The task requires determining which item is essential for a specific biological
+  or environmental process.
+- The task is to identify the most relevant answer based on how it contributes to
+  survival or function.
+- The task involves selecting the option that aligns with known facts about a given
+  subject.
+- The task is about recognizing the most critical factor in a natural or biological
+  context.
+- The task requires picking the answer that best explains a phenomenon or characteristic.
+- The task is to find the most accurate representation of a concept in nature or science.
+- The task involves identifying the element that plays the most significant role in
+  a given situation.
+- The task is about selecting the answer that best fits a scientific or ecological
+  principle.
+- The task requires choosing the option most closely tied to a fundamental biological
+  or environmental truth.
+ds_kwargs:
+  path: qasc_qa_with_separated_facts_4
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

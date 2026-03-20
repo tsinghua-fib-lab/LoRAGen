@@ -1,0 +1,42 @@
+assistant_prefill: ''
+descriptions:
+- The task involves converting structured restaurant data into a natural language
+  sentence.
+- The task requires summarizing restaurant attributes into a coherent descriptive
+  sentence.
+- The task is about transforming key-value pairs about a restaurant into a readable
+  statement.
+- The task involves creating a sentence that accurately represents given restaurant
+  details.
+- The task is to describe a restaurant using specific attributes like name, food type,
+  and location.
+- The task requires generating a natural language description from structured restaurant
+  information.
+- The task is about composing a sentence that includes all provided restaurant features.
+- The task involves writing a detailed sentence based on restaurant metadata.
+- The task is to express restaurant data in a fluent and informative sentence.
+- The task requires converting restaurant facts into a well-structured descriptive
+  statement.
+- The task involves crafting a sentence that captures all given restaurant characteristics.
+- The task is about turning restaurant attributes into a grammatically correct sentence.
+- The task requires constructing a sentence that fully describes a restaurant based
+  on its details.
+- The task involves paraphrasing restaurant data into a natural-sounding sentence.
+- The task is to generate a sentence that incorporates all specified restaurant properties.
+- The task requires creating a meaningful sentence from a set of restaurant-related
+  facts.
+- The task involves writing a sentence that reflects the given restaurant information
+  accurately.
+- The task is about summarizing restaurant details into a single descriptive sentence.
+- The task requires producing a sentence that conveys all listed restaurant attributes.
+- The task involves forming a sentence that presents restaurant data in a clear and
+  concise way.
+ds_kwargs:
+  path: gem_e2e_nlg
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

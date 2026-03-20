@@ -1,0 +1,31 @@
+assistant_prefill: ''
+descriptions:
+- Answer a question by finding a direct quote from the provided text.
+- Use a sentence from the article to respond to the question.
+- Locate the specific part of the text that answers the question.
+- Find the exact words in the article that provide the answer.
+- Respond to the query by copying a relevant section from the text.
+- Identify the information in the passage that answers the question.
+- Pull a quote from the article to answer the question directly.
+- Use the provided text to supply a quote that answers the question.
+- Extract the answer from the article by selecting a specific quote.
+- Reference the text to find a sentence that serves as the answer.
+- The answer to the question is a direct excerpt from the text.
+- The response must be a verbatim quote from the provided article.
+- Formulate an answer by selecting a relevant passage from the text.
+- The task is to find a quote that contains the answer.
+- Answer the question using the words written in the article.
+- Provide a response that is a direct copy from the source material.
+- The correct answer is a specific sentence found in the text.
+- Look through the article to find the quote that answers the question.
+- Respond to the query by reproducing a part of the text.
+- The answer is contained within a specific quote from the article.
+ds_kwargs:
+  path: quac
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

@@ -1,0 +1,43 @@
+assistant_prefill: ''
+descriptions:
+- Determine if the reviewer would suggest the product to others based on their written
+  opinion.
+- Assess whether the user's review expresses a positive recommendation for the product.
+- Decide if the review conveys satisfaction with the product, indicating a likely
+  recommendation.
+- Evaluate the sentiment of the review to see if the user would endorse the product.
+- Judge whether the reviewer's experience with the product was favorable enough to
+  recommend it.
+- Interpret the review to determine if the user had a good enough experience to suggest
+  the product.
+- Analyze the review to see if the user's overall impression supports recommending
+  the product.
+- Check if the reviewer's comments imply they would advise others to buy the product.
+- Determine if the review reflects a positive enough opinion to result in a recommendation.
+- Assess whether the user's feedback indicates they would encourage others to try
+  the product.
+- Decide if the review contains enough praise to suggest the product is worth buying.
+- Evaluate whether the reviewer's tone and content imply they would promote the product.
+- Judge if the review highlights enough positive aspects to justify recommending the
+  product.
+- Interpret the review to see if the user's satisfaction would lead them to recommend
+  it.
+- Analyze the review to determine if the user's experience was good enough to endorse
+  the product.
+- Check if the reviewer's words suggest they would speak favorably about the product
+  to others.
+- Determine if the review expresses enough approval to indicate a recommendation.
+- Assess whether the user's opinion is strong enough to imply they would suggest the
+  product.
+- Decide if the review's overall message is that the product is worth recommending.
+- Evaluate whether the reviewer's feedback would lead someone to believe they would
+  endorse the product.
+ds_kwargs:
+  path: amazon_polarity_User_recommend_this_product
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

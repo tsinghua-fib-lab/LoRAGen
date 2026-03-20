@@ -1,0 +1,51 @@
+assistant_prefill: ''
+descriptions:
+- The task involves analyzing how a given event affects a described process by determining
+  whether it directly, indirectly, or does not impact any step of the process.
+- The task requires evaluating the influence of a specific scenario on a sequence
+  of steps in a natural or biological process.
+- The task is about identifying whether a hypothetical situation alters a process
+  by interacting with its steps in a direct, indirect, or no way.
+- The task involves understanding a process and judging how a change or event modifies
+  its progression.
+- The task is to assess whether a given condition affects a described chain of events
+  by disrupting, altering, or leaving it unchanged.
+- The task requires determining the nature of the impact (direct, indirect, or none)
+  that an event has on a step-by-step process.
+- The task involves examining a process and deciding how an external factor influences
+  its steps.
+- The task is about linking a hypothetical situation to its effect on a sequence of
+  actions or events.
+- The task requires analyzing whether a perturbation affects a process by targeting
+  its steps directly, indirectly, or not at all.
+- The task involves comparing a given scenario to a process to see if it changes any
+  part of it.
+- The task is to figure out how an event interacts with a described process, either
+  by altering its steps or not.
+- The task requires evaluating if a condition causes a change in a process by influencing
+  its components.
+- The task involves studying a process and determining how a specific event relates
+  to its functioning.
+- The task is about identifying whether a situation has a direct, indirect, or no
+  effect on a series of steps in a process.
+- The task requires understanding a process and seeing how an external factor fits
+  into or disrupts it.
+- The task involves assessing the role of a given event in modifying or leaving unchanged
+  a described sequence.
+- The task is to determine the relationship between a hypothetical event and the steps
+  of a process.
+- The task requires judging whether a scenario influences a process by interacting
+  with its mechanisms.
+- The task involves analyzing a process to see if a condition affects its steps in
+  a noticeable way.
+- The task is about recognizing how an event connects to a process, either by changing
+  its flow or not.
+ds_kwargs:
+  path: wiqa_which_of_the_following_is_the_supposed_perturbation
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

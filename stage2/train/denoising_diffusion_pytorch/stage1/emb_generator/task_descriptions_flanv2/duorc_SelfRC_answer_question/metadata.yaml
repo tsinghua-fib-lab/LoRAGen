@@ -1,0 +1,49 @@
+assistant_prefill: ''
+descriptions:
+- The task involves answering questions about movie plots by extracting specific details
+  from the given text.
+- The task requires identifying key information from a movie plot summary to answer
+  questions accurately.
+- The task is about locating precise answers within a movie plot description based
+  on the question asked.
+- The task involves reading a movie plot and finding the correct response to a question
+  about it.
+- The task is to determine if a question about a movie plot can be answered using
+  the provided summary.
+- The task requires understanding a movie plot well enough to answer factual questions
+  about it.
+- The task is about extracting character names or events from a movie plot based on
+  a question.
+- The task involves analyzing a movie plot to find answers to specific inquiries.
+- The task is to identify actions, characters, or events in a movie plot when given
+  a question.
+- The task requires matching questions about a movie plot to relevant details in its
+  summary.
+- The task is about recalling or locating specific information from a movie plot to
+  answer questions.
+- The task involves verifying whether a question about a movie plot has an answer
+  in the given text.
+- The task is to provide accurate responses about a movie plot based on the details
+  provided.
+- The task requires pinpointing exact moments or facts from a movie plot when asked
+  a question.
+- The task is about determining relationships or outcomes in a movie plot from the
+  summary.
+- The task involves answering questions by referring to the events or characters in
+  a movie plot.
+- The task is to find out who did what or what happened in a movie plot based on the
+  question.
+- The task requires identifying causes or effects in a movie plot when given a specific
+  question.
+- The task is about connecting questions to the correct details in a movie plot summary.
+- The task involves providing factual answers about a movie plot by referencing its
+  summary.
+ds_kwargs:
+  path: duorc_SelfRC_answer_question
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

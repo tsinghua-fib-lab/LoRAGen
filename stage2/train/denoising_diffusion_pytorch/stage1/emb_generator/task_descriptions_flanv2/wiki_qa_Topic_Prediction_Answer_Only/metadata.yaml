@@ -1,0 +1,31 @@
+assistant_prefill: ''
+descriptions:
+- Identify the main subject of the given passage.
+- Find the central idea or focus of the text.
+- Determine what the passage is primarily about.
+- Extract the key topic discussed in the provided sentence or paragraph.
+- Recognize the principal theme of the passage.
+- Pinpoint the main concept being described in the text.
+- Identify the primary entity or idea the passage refers to.
+- Figure out the core subject matter of the given content.
+- Discover the main point or focus of the passage.
+- Determine the dominant topic highlighted in the text.
+- Locate the central subject the passage is addressing.
+- Understand the primary topic being explained or described.
+- Identify the key term or idea the passage revolves around.
+- Recognize the main thing the text is talking about.
+- Find out the most important subject in the passage.
+- Determine the overarching theme of the provided content.
+- Extract the main idea or subject from the given text.
+- Identify the primary focus or topic of the passage.
+- Figure out what the text is mainly discussing.
+- Pinpoint the central topic or subject of the passage.
+ds_kwargs:
+  path: wiki_qa_Topic_Prediction_Answer_Only
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

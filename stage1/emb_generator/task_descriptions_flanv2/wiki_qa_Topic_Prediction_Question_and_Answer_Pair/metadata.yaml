@@ -1,0 +1,31 @@
+assistant_prefill: ''
+descriptions:
+- Identify the main subject of the question and its corresponding answer.
+- Find the central theme discussed in the question-answer pair.
+- Determine what the question and answer are primarily about.
+- Extract the key topic shared between the question and answer.
+- Recognize the common subject in both the question and the response.
+- Pinpoint the main idea that connects the question and answer.
+- Figure out the overarching topic of the given question and its answer.
+- Discover the primary focus of the question-answer pair.
+- Summarize the general subject of the question and its answer.
+- Detect the shared concept between the question and the provided answer.
+- Understand the core topic addressed in the question and answer.
+- Isolate the principal subject matter in the question-answer pair.
+- Identify the unifying theme of the question and its response.
+- Grasp the main point discussed in both the question and answer.
+- Determine the dominant topic in the given question and its reply.
+- Locate the central idea that the question and answer revolve around.
+- Analyze the question and answer to find their common topic.
+- Capture the essence of what the question and answer are discussing.
+- Establish the key subject linking the question and its answer.
+- Interpret the question and answer to find their shared focus.
+ds_kwargs:
+  path: wiki_qa_Topic_Prediction_Question_and_Answer_Pair
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

@@ -1,0 +1,51 @@
+assistant_prefill: ''
+descriptions:
+- The task involves providing factual answers to specific questions about geography,
+  landmarks, and institutions.
+- The task requires identifying correct information related to places, universities,
+  and notable structures.
+- The task is about answering questions with precise facts regarding locations and
+  symbols.
+- The task focuses on giving accurate details about famous sites, educational institutions,
+  and their attributes.
+- The task involves responding to queries with verified facts about continents, cities,
+  and mascots.
+- The task is to supply correct answers to questions about destinations, universities,
+  and buildings.
+- The task requires stating factual information about geographical regions and cultural
+  symbols.
+- The task is about providing truthful responses to inquiries about places and their
+  features.
+- The task involves answering questions with accurate knowledge about landmarks and
+  academic institutions.
+- The task is to give exact details in response to questions about locations and their
+  identifiers.
+- The task requires delivering precise answers about continents, tourist spots, and
+  university mascots.
+- The task is about offering correct facts in reply to questions about cities and
+  their landmarks.
+- The task involves responding with accurate information regarding famous buildings
+  and educational centers.
+- The task is to provide verified answers to questions about places and their notable
+  aspects.
+- The task requires stating true facts about geographical locations and institutional
+  symbols.
+- The task is about answering with exact details when asked about specific places
+  or entities.
+- The task involves giving factual replies to questions about continents, attractions,
+  and university traits.
+- The task is to supply correct information in response to queries about cities and
+  their landmarks.
+- The task requires providing accurate answers about well-known structures and academic
+  symbols.
+- The task is about delivering truthful responses to questions regarding locations
+  and their defining features.
+ds_kwargs:
+  path: web_questions_get_the_answer
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

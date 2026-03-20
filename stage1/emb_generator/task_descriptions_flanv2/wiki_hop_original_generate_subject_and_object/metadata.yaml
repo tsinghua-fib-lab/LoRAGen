@@ -1,0 +1,52 @@
+assistant_prefill: ''
+descriptions:
+- The task involves identifying pairs of entities where one is the subject and the
+  other is the object, based on a specific relationship like 'date of birth' or 'place
+  of birth'.
+- The task requires matching subjects and objects from given information based on
+  predefined relationships such as 'located in the administrative territorial entity'.
+- The task is about finding two related entities in a passage where one is the subject
+  and the other is the object, like 'country' or 'administrative region'.
+- The task involves extracting pairs of entities connected by a specific relation,
+  such as 'birthplace' or 'residence'.
+- The task is to determine which subject and object in the given text share a particular
+  relationship, like 'part of' or 'belongs to'.
+- The task requires identifying subject-object pairs where the relationship is explicitly
+  stated in the provided information.
+- The task involves locating two entities in the text that are linked by a defined
+  connection, such as 'origin' or 'location'.
+- The task is about recognizing which subject and object in the passage have a specified
+  association, like 'member of' or 'founder of'.
+- The task requires selecting entities from the text that fit a given relational category,
+  such as 'capital of' or 'born in'.
+- The task involves finding subject-object pairs where one entity is related to another
+  in a specific way, like 'works in' or 'lives in'.
+- The task is to identify which subject and object in the information share a relationship
+  like 'parent of' or 'child of'.
+- The task requires detecting pairs of entities connected by a particular bond, such
+  as 'created by' or 'invented by'.
+- The task involves determining which subject and object in the text are linked by
+  a given relation, like 'manufactured in' or 'produced by'.
+- The task is about finding entities in the passage that have a specific connection,
+  such as 'author of' or 'composer of'.
+- The task requires identifying subject-object pairs where one is a property or attribute
+  of the other, like 'color of' or 'size of'.
+- The task involves locating two entities in the information that are related in a
+  predefined way, such as 'leader of' or 'ruler of'.
+- The task is to recognize which subject and object in the text share a relationship
+  like 'discovered by' or 'founded by'.
+- The task requires extracting pairs of entities where one is the subject and the
+  other is the object based on a given relation, like 'student of' or 'teacher of'.
+- The task involves identifying subject-object pairs connected by a specific association,
+  such as 'spouse of' or 'sibling of'.
+- The task is about finding entities in the passage that are linked by a particular
+  relationship, like 'employee of' or 'works for'.
+ds_kwargs:
+  path: wiki_hop_original_generate_subject_and_object
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

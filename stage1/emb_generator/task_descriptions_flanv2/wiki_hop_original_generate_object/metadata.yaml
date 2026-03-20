@@ -1,0 +1,41 @@
+assistant_prefill: ''
+descriptions:
+- The task involves identifying the correct relationship between a given entity and
+  another entity based on provided information.
+- The task requires determining specific attributes or properties of an entity from
+  a given context.
+- The task is about matching an entity with its correct classification or category.
+- The task involves extracting factual relationships between entities from descriptive
+  text.
+- The task is to find the correct association between an entity and a predefined relation.
+- The task requires identifying the correct classification or type of a given entity.
+- The task is about recognizing the correct geographical or administrative affiliation
+  of an entity.
+- The task involves determining the origin or source of an entity based on provided
+  details.
+- The task is to identify the correct historical or contextual connection of an entity.
+- The task requires linking an entity to its correct descriptive label.
+- The task is about finding the correct instance or category an entity belongs to.
+- The task involves identifying the correct temporal or publication-related fact about
+  an entity.
+- The task is to determine the correct location or administrative region of an entity.
+- The task requires associating an entity with its correct creator or author.
+- The task is about recognizing the correct genre or classification of a creative
+  work.
+- The task involves identifying the correct political or governmental affiliation
+  of an entity.
+- The task is to determine the correct historical period or era related to an entity.
+- The task requires matching an entity with its correct linguistic or cultural context.
+- The task is about finding the correct structural or functional classification of
+  an entity.
+- The task involves identifying the correct economic or financial association of an
+  entity.
+ds_kwargs:
+  path: wiki_hop_original_generate_object
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

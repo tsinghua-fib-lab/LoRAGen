@@ -1,0 +1,45 @@
+assistant_prefill: ''
+descriptions:
+- The task involves comparing two scenarios or objects to determine which one has
+  a specific advantage or outcome.
+- The task requires understanding cause-and-effect relationships in given situations.
+- The task is about analyzing scientific or biological scenarios to predict outcomes.
+- The task involves evaluating real-world situations to determine which subject has
+  a particular trait or result.
+- The task focuses on identifying which of two options exhibits a given characteristic
+  based on context.
+- The task requires reasoning about the consequences of actions or conditions in a
+  described scenario.
+- The task is about deducing which individual or object meets a certain condition
+  based on provided information.
+- The task involves interpreting experimental or observational results to draw conclusions.
+- The task is to determine which of two subjects is more likely to experience a specific
+  effect.
+- The task requires comparing two cases to see which one aligns with a given outcome.
+- The task is about predicting outcomes based on differences in methods or conditions.
+- The task involves assessing which scenario leads to a particular biological or physical
+  result.
+- The task is to identify which person or object has a higher or lower degree of a
+  certain property.
+- The task requires understanding how different treatments or exposures affect subjects
+  differently.
+- The task is about determining which of two options performs better or worse in a
+  given context.
+- The task involves analyzing how environmental or behavioral factors influence outcomes.
+- The task is to figure out which subject meets a specific criterion based on described
+  conditions.
+- The task requires evaluating the impact of different approaches or natural phenomena
+  on results.
+- The task is about distinguishing which of two cases aligns with a particular scientific
+  or logical conclusion.
+- The task involves making inferences based on differences in characteristics or actions
+  between two subjects.
+ds_kwargs:
+  path: ropes_plain_no_background
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

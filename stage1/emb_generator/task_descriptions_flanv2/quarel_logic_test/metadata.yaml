@@ -1,0 +1,32 @@
+assistant_prefill: ''
+descriptions:
+- The task involves understanding how different surfaces affect the movement of objects.
+- The task requires reasoning about how distance or position changes perception.
+- The task is about comparing how objects behave under different conditions.
+- The task involves figuring out why one scenario leads to a different outcome than
+  another.
+- The task is about identifying which situation results in a specific effect.
+- The task requires determining the cause of a noticeable difference in performance.
+- The task involves analyzing how proximity influences perception or function.
+- The task is about recognizing how friction impacts motion.
+- The task requires deducing why one surface allows easier movement than another.
+- The task involves understanding how speed relates to distance traveled.
+- The task is about comparing the effects of two different settings.
+- The task requires figuring out which scenario leads to a clearer or stronger result.
+- The task involves identifying the reason behind a change in behavior.
+- The task is about determining which situation provides less resistance.
+- The task requires reasoning about how distance affects visibility or sound.
+- The task involves understanding why one environment allows faster movement.
+- The task is about comparing the outcomes of two different actions.
+- The task requires identifying which condition produces a more noticeable effect.
+- The task involves analyzing how material properties influence results.
+- The task is about determining which scenario leads to a smoother or easier experience.
+ds_kwargs:
+  path: quarel_logic_test
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

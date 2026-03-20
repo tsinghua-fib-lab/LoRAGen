@@ -1,0 +1,32 @@
+assistant_prefill: ''
+descriptions:
+- The task involves creating a sentence that summarizes given data points.
+- The task requires forming a coherent sentence using provided facts.
+- The task is about combining structured data into a natural-sounding sentence.
+- The task involves describing information in a clear and concise sentence.
+- The task is to generate a sentence that includes all the given details.
+- The task requires transforming factual data into a readable statement.
+- The task is about crafting a sentence that accurately represents the provided information.
+- The task involves converting structured data into a grammatically correct sentence.
+- The task is to create a sentence that links all the given facts logically.
+- The task requires writing a sentence that fully captures the given data.
+- The task is about summarizing key details in a single sentence.
+- The task involves constructing a sentence that integrates all specified elements.
+- The task is to produce a sentence that explains the given facts clearly.
+- The task requires forming a sentence that connects the provided pieces of information.
+- The task is about generating a sentence that presents the data in a meaningful way.
+- The task involves writing a sentence that reflects the relationships in the given
+  data.
+- The task is to compose a sentence that accurately describes the provided facts.
+- The task requires merging multiple data points into a single, well-structured sentence.
+- The task is about creating a sentence that conveys the given information concisely.
+- The task involves developing a sentence that encapsulates all the provided details.
+ds_kwargs:
+  path: gem_web_nlg_en
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

@@ -1,0 +1,34 @@
+assistant_prefill: ''
+descriptions:
+- The task involves extracting specific details from a given biography.
+- The task requires identifying key pieces of information about a person from their
+  bio.
+- The task is about reading a biography and listing requested facts.
+- The task involves summarizing a person's life details from a provided bio.
+- The task is to locate and state particular attributes of a person based on their
+  biography.
+- The task requires pulling out exact details like birth date, occupation, or other
+  facts from a bio.
+- The task is to extract structured information from an unstructured biography.
+- The task involves answering questions about a person by analyzing their bio.
+- The task is to find and report specific biographical data as requested.
+- The task requires reading a bio and providing precise answers to given prompts.
+- The task is about identifying and listing personal details from a biography.
+- The task involves retrieving exact facts about a person's life from their bio.
+- The task is to read a bio and extract details like name, birth date, or occupation.
+- The task requires gathering specific information from a person's life story.
+- The task is to scan a biography and pick out requested personal details.
+- The task involves answering questions by finding relevant facts in a bio.
+- The task is to read a bio and provide clear answers about the person's life.
+- The task requires extracting structured facts from a free-form biography.
+- The task is about locating and stating exact details from a person's bio.
+- The task involves analyzing a biography to answer specific queries about the person.
+ds_kwargs:
+  path: wiki_bio_comprehension
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

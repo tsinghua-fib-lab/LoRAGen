@@ -1,0 +1,31 @@
+assistant_prefill: ''
+descriptions:
+- Correcting capitalization errors in given sentences.
+- Fixing improper capitalization in phrases or lists.
+- Adjusting text to follow standard capitalization rules.
+- Rewriting sentences with proper uppercase and lowercase letters.
+- Capitalizing the first letters of words where necessary.
+- Editing text to ensure correct use of capital letters.
+- Improving capitalization in sentences or phrases.
+- Applying proper capitalization to names, titles, or terms.
+- Converting lowercase or incorrectly capitalized text to standard form.
+- Fixing capitalization in abbreviations or acronyms.
+- Adjusting capitalization in product names or brands.
+- Correcting capitalization in discontinued or specialized terms.
+- Ensuring proper capitalization in user-provided text.
+- Standardizing capitalization in mixed-case sentences.
+- Rewriting phrases with consistent capitalization rules.
+- Fixing capitalization in lists of items or categories.
+- Adjusting capitalization in multilingual or mixed-language text.
+- Correcting capitalization in technical or financial terms.
+- Editing sentences to follow title case or sentence case where needed.
+- Standardizing capitalization in informal or incorrectly formatted text.
+ds_kwargs:
+  path: true_case
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

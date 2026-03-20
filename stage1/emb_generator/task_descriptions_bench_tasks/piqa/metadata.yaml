@@ -1,0 +1,452 @@
+assistant_prefill: ''
+descriptions:
+- Your responsibility is to compare different answer options and deduce which one
+  more accurately addresses the question while being mindful of common practices.
+- By analyzing both choices, decide which represents a more suitable or everyday approach
+  for addressing specific questions regarding functioning or usage.
+- Carefully consider the details provided in each option, recognizing how they apply
+  to the question, so you can choose the most fitting and conventional approach.
+- The objective is to explore how different options correspond with typical needs
+  or tasks and select those that offer greater practicality in a given context.
+- The focus here is on selecting the most efficient approach among several, using
+  contextual understanding and everyday reasoning skills.
+- Use your practical knowledge to evaluate different solutions offered for everyday
+  challenges, focusing on the one that makes the most sense.
+- The goal is to analyze question prompts that require practical advice and choose
+  the best options based on convenience and logic.
+- You will need to differentiate between two strategies for completing tasks by interpreting
+  their feasibility and alignment with ordinary methods employed in such cases.
+- Evaluate solutions provided for various tasks with attention to how each one fits
+  typical needs and common scenarios faced in daily life.
+- In each instance, determine which action is most likely to lead to a satisfactory
+  outcome based on your understanding of everyday situations.
+- Examine techniques for managing practical challenges at home, giving preference
+  to those that are most commonly suggested or effective.
+- The focus here is to choose among various approaches presented in everyday questions.
+  Apply logical reasoning to identify which solution is typically preferred.
+- Assess two strategies for accomplishing a particular task, emphasizing traditional
+  uses or prudent decisions based on similar examples you've encountered before.
+- Engage with everyday dilemmas and solutions. Identify which response aligns best
+  with typical behavior or practical outcomes.
+- In this task, you'll evaluate two different responses to a question, considering
+  feasibility and usual practices, to select the option that best fits the scenario.
+- This task tests your ability to discern which answer provides a better solution
+  or completes a requirement effectively, relying on your understanding of common
+  practices.
+- In this task, you'll be required to analyze provided choices against a prompt, reflecting
+  on their relevance and practicality in real-life scenarios.
+- This task requires you to sort through options concerning a practical question,
+  focusing on which answer exhibits a better understanding of standard procedures.
+- Your objective is to evaluate two or more methods for accomplishing routine tasks.
+  Choose the method that is likely to yield a better result or perform more efficiently.
+- Analyze the relationships between the components mentioned in the question and decide
+  which option effectively addresses the problem described.
+- By investigating the nuances of the choices presented, determine which option fulfills
+  the requirement more effectively based on common methods or practices.
+- Approach various scenarios critically, deciding which suggested action represents
+  a better solution based on practicality and efficiency.
+- Engaging with realistic situations, you are tasked with finding optimal methods
+  or solutions based on usual practices that align closely with conventional wisdom.
+- This activity focuses on your ability to discern effective solutions or answers
+  relevant to familiar tasks or concepts. You need to think critically about the given
+  information.
+- Investigate various suggested actions for solving domestic problems while prioritizing
+  strategies that enhance practicality and convenience.
+- Use your common sense and life experience to answer questions related to everyday
+  challenges. The emphasis is on practicality and the overall effectiveness of your
+  chosen solution.
+- Analyze the proposed answers to common issues, weighing their effectiveness and
+  suitability based on your familiarity with general guidelines.
+- Your goal is to navigate through different scenarios presented in questions, deriving
+  answers that reflect familiarity with common practices.
+- You are to consider two ways of executing a particular job and decide which one
+  better satisfies typical standards of convenience and effectiveness.
+- Your responsibility is to use reasoning that considers practicality when selecting
+  an appropriate solution from given choices.
+- This exercise tests your ability to link practical advice with guidance that reflects
+  common sense and common practice in various situations.
+- You are tasked with identifying which option offers a better approach or solution
+  for a specific query, based on reasoning about their effectiveness and common usage.
+- Assess two potential methods for completing a task, taking into account their respective
+  advantages and typical usage in real-life scenarios.
+- Your job is to identify the most suitable approach from a set of options, considering
+  aspects like practicality and efficiency in completion.
+- Go through two suggested ways of doing something and determine which one stands
+  out as more sensible or aligned with typical practices.
+- Navigate through common scenarios by discerning which option is more effective in
+  achieving a goal. Judging the practicality of each choice is key here.
+- Focus on applying practical reasoning skills as you navigate through assorted responses.
+  Choose one that connects straightforwardly with typical approaches people take.
+- Investigate how different approaches relate to solving a problem and choose one
+  that reflects familiarity with common ways people handle similar tasks.
+- Evaluate options for solving practical problems, focusing on widely accepted techniques
+  and recommendations that align with typical usage.
+- Work through each example by analyzing how each choice fits into typical patterns
+  of behavior or common methods for achieving a result.
+- The goal is to evaluate various options in response to a prompt, weighing their
+  practicality and alignment with common knowledge.
+- This requires discernment between two strategies, choosing one that effectively
+  meets user needs while reflecting practicality and common sense.
+- The task involves evaluating two provided options to determine which one appropriately
+  addresses the question or requirement based on context and common practices.
+- The challenge here is to utilize your reasoning skills to evaluate two proposed
+  actions and select the one that aligns best with everyday problem-solving techniques.
+- Examine two suggested approaches for a task and determine which one is the most
+  sensible based on everyday logic and common experience.
+- You are tasked with identifying optimal solutions for various situations by examining
+  how each option interacts with its context.
+- Determine the ideal approaches to simple problems presented as questions. Consider
+  each option's relevance and appropriateness, focusing on real-life application.
+- Your task involves evaluating different methods to solve everyday problems, considering
+  practicality and effectiveness of each option.
+- Your task is to select the best method or option based on practical knowledge. You
+  need to consider how different actions achieve the desired outcome effectively.
+- The task centers around finding the best practical solution among various suggestions
+  that relate to common issues faced in daily life.
+- Analyze statements carefully, drawing on knowledge of typical behaviors or solutions
+  to pick the one that best resolves the issue at hand.
+- In this task, you need to think critically about different scenarios and identify
+  which option best resolves a given problem.
+- You will be considering different ways to handle specific situations or materials,
+  comparing their effectiveness and practicality based on general knowledge.
+- You need to assess the effectiveness of options based on their relevance and suitability
+  to the context presented in the question.
+- This requires you to navigate choices related to household tasks, identifying which
+  method tends to be more simplified and applicable.
+- Essentially, this involves applying knowledge of effective strategies in daily scenarios
+  to make an informed choice from provided options.
+- Your goal is to discern which of two recommendations is superior for addressing
+  a specified need, taking care to factor in real-world usage and effectiveness.
+- Analyze each scenario presented to decide which action makes the most sense. Focus
+  on the effectiveness and relevance of the suggested actions.
+- Assess typical situations requiring common knowledge, focusing on identifying solutions
+  that maximize efficiency while ensuring they are relatable and understandable in
+  context.
+- You'll engage with two offerings and have to discern which would most appropriately
+  answer or complete what is asked in relation to everyday experiences.
+- Your task is rooted in practical reasoning; you'll assess two suggestions related
+  to managing specific situations and identify the one that stands out as more suitable.
+- The goal is to discern which action is most effective for addressing a particular
+  issue, factoring in the feasibility of each suggested method.
+- You will reflect on widely accepted ways to handle everyday tasks and select an
+  approach that resonates with common practice and logic.
+- Reflect on real-world problem-solving related to daily tasks. Choose the response
+  that would be most feasible in the circumstances given.
+- Interpret brief scenarios where specific actions are highlighted, then decide which
+  action resonates more with typical practices or expectations.
+- Evaluate solutions for specific household dilemmas, focusing on their convenience
+  and likelihood of achieving the intended goal.
+- Engage with a set of proposed actions aimed at resolving domestic challenges, looking
+  for the one that best fits customary practices.
+- The task involves selecting the most suitable option based on how well it aligns
+  with the question posed. You'll need to assess information carefully and choose
+  the most appropriate response.
+- Your job is to sift through differing suggestions regarding common tasks and identify
+  which one provides the clearest, most concise guidance aligned with the intended
+  query.
+- This task involves comparing two choices related to everyday tasks, where reasoning
+  about their suitability and convenience is essential for making the right choice.
+- Explore options for completing standard activities typically encountered in daily
+  life. Weigh their effectiveness and ease of implementation before making a selection.
+- In this task, expect to analyze diverse methods for various scenarios, determining
+  the most straightforward or efficient option available.
+- Use your judgment to pick the most suitable option that addresses the scenario accurately.
+  Think about how each option might work in real life.
+- This task calls for critical thinking, as you will weigh the merits of two options
+  presented in relation to their application in everyday scenarios.
+- Assess a given situation where different actions are proposed. Determine which of
+  those actions would best solve or address the issue at hand.
+- You are required to determine the best method or solution for a given situation
+  by analyzing the effectiveness of two provided options.
+- This task requires you to assess different approaches to common questions and decide
+  which one is likely to yield the best results based on everyday knowledge.
+- Engage with a request about executing specific tasks. Understanding common practices
+  will guide you to select the more appropriate solution.
+- You are asked to analyze a scenario and determine the most effective way to achieve
+  a desired outcome, relying on logical reasoning.
+- The objective involves selecting approaches that are not only feasible but also
+  recognized as effective by others who face similar situations.
+- The task is about parsing through multiple suggestions for accomplishing a task
+  and determining which one is most standard or convenient.
+- Your task is about discerning how instructions or methods can solve particular issues
+  effectively and identifying which responders are more reliable based on general
+  consensus.
+- This task requires you to think about practical knowledge about daily activities.
+  Your focus should be on selecting the answer that fits most logically with what
+  people generally do or understand.
+- Evaluate suggested actions for their realism and convenience, keeping in mind what
+  people are likely to choose in similar situations.
+- You'll engage in practical problem-solving by reviewing available options related
+  to everyday questions and identifying the choice that features a greater chance
+  of success.
+- Analyze how two given responses fit the needs of a specific task, choosing the option
+  that is more likely to provide a successful outcome based on general knowledge.
+- You are tasked with synthesizing information from cues presented and making choices
+  that seem the most reasonable and effective.
+- Your objective is to critically evaluate practical scenarios by comparing two responses,
+  determining which answer offers a more efficient or appropriate resolution.
+- This task tests your ability to understand everyday situations and choose the answer
+  that aligns best with common practices.
+- You will be interpreting a problem statement and deciding which provided response
+  adequately addresses or completes it.
+- Delve into a question about a process, analyzing possible solutions. The goal is
+  to pick out the one that is most likely to be used by most people under similar
+  circumstances.
+- Review an inquiry about a task and decide which proposed method would yield the
+  best result while being practical and realistic.
+- For this task, you will need to assess which of two given actions is more appropriate
+  or effective for completing a specific task.
+- You need to analyze two potential solutions in terms of convenience and effectiveness
+  for completing a task, ensuring your choice aligns with practicality.
+- In this exercise, you'll reflect upon alternatives related to practical situations
+  and choose the one that resonates best with generally accepted norms or techniques.
+- Your job is to deduce which among the two potential solutions would yield more beneficial
+  results concerning particular tasks mentioned.
+- Assess various solutions for common household challenges, taking into account their
+  usability and effectiveness in achieving the desired results.
+- Review the proposed answers, focusing on how well they match the requirements of
+  the task, while considering everyday user experiences.
+- Assess how to efficiently complete common activities by analyzing the effectiveness
+  of different techniques. Your reasoning should reflect understanding of practicality
+  and convenience.
+- Your role is to identify the best way to handle various practical problems by considering
+  how well each option addresses the situation at hand.
+- In this task, you evaluate different strategies or answers for their relevance and
+  appropriateness in real-life situations, ultimately picking the most practical one.
+- In this exercise, assess two answers concerning how best to achieve a task and choose
+  the one that aligns with conventional wisdom or popular approaches.
+- Focus on understanding a specific task or process, then select the approach that
+  is both effective and aligns with common practices.
+- Analyze potential solutions to practical challenges, choosing the one that is easiest
+  or most efficient based on common practices.
+- Your goal is to discern which option is most relevant when addressing particular
+  questions, focusing on practicality and common experiences.
+- This task asks you to weigh two options and select the one that aligns more closely
+  with typical practices related to the scenario at hand.
+- The task requires you to apply practical reasoning when faced with basic inquiries
+  about everyday activities. Consider how different approaches yield varying outcomes.
+- Identify which proposed solution acknowledges typical habits or practical wisdom
+  relevant to the situation presented.
+- You are to analyze two suggestions and select the one that best serves to answer
+  or complete the given prompt, considering the practicalities involved.
+- Your objective is to determine which answer makes sense contextually, based on your
+  understanding of how tasks are usually approached or completed by others.
+- Engage in a thought process that prioritizes practicality, allowing you to select
+  responses based on their relevance and effectiveness.
+- Your task involves evaluating situations and proposing the most sensible solution
+  based on practicality and common sense.
+- The focus is on selecting the more appropriate option from two choices in relation
+  to handling a situation effectively, based on common knowledge.
+- Engage with real-life scenarios where you must decide how to best tackle simple
+  tasks. Look for answers that align with conventional methods or common sense.
+- You need to evaluate various choices presented in scenarios and determine which
+  solution is the most efficient or widely accepted, using reasoning about their functionality.
+- The challenge here is to evaluate two potential solutions and identify which one
+  logically suits the context of the task you're looking at.
+- Your task involves evaluating straightforward inquiries related to daily routines.
+  Look closely at each choice's implications for effectiveness and practicality.
+- Use critical thinking skills to choose between options that address practical life
+  situations. Consider everyday experiences while deciding.
+- Evaluate which of the two potential solutions is better suited for fulfilling a
+  task effectively while considering standard practices associated with similar actions.
+- When presented with options, you'll need to weigh their merits based on how adequately
+  they fulfill the intent behind the question posed, taking into account normal conventions.
+- Use your understanding of daily tasks or problem-solving to choose between two proposed
+  actions in response to a specific challenge outlined in the prompt.
+- Identify the preferable approach from given recommendations by considering everyday
+  knowledge about tools and methods in practical scenarios.
+- Reflect on simple questions about common practices, identifying answers that best
+  serve through familiar methods known for their reliability in achieving desired
+  results.
+- This involves thoughtful consideration of multiple options for everyday tasks and
+  identifying which method would likely yield the best results.
+- Assess potential answers based on their alignment with standard practices for cleaning,
+  crafting, or problem-solving in everyday contexts.
+- In this exercise, you will leverage critical thinking skills to match responses
+  with scenarios, aiming for logical coherence.
+- The focus here is on identifying the more practical solution between two alternatives,
+  using logic and familiarity with common practices in similar situations.
+- Use your understanding of ordinary challenges people face to determine which course
+  of action or tool is most suitable for the situation.
+- Your goal is to assess multiple solutions to specific problems or scenarios. Pick
+  the one that is likely the most efficient or straightforward approach.
+- You need to determine the best approach for a given situation by analyzing how each
+  suggested method functions in relation to the problem.
+- Carefully assess which answer fits best with the situation described. Consider factors
+  like convenience, common practices, or effectiveness.
+- Engage with practical scenarios by selecting an option that reflects a well-grounded
+  choice or decision, considering familiarity and effectiveness in each case.
+- Engage in evaluating options related to various topics; this requires an understanding
+  of how concepts interact. The best choice should be the one that aligns naturally
+  with ordinary experiences.
+- Your task is to evaluate different methods or solutions related to a given situation
+  and determine which one is the most suitable based on common knowledge or practicality.
+- "Engage with each scenario presented through questions by evaluating given responses\
+  \ for their effectiveness and by aligning them with what\u2019s often practiced."
+- This task requires a consideration of object properties and usage in familiar situations,
+  leading you to pick the most reasonable approach among provided alternatives.
+- Reflect on basic tasks that require problem-solving skills, selecting answers that
+  best address the question at hand while considering ease of execution.
+- Think critically about how to accomplish basic objectives presented in question
+  form. Evaluate techniques and opt for the one that makes the most sense in daily
+  life.
+- Critically analyze alternative suggestions related to a task at hand, weighing their
+  practicality against conventional wisdom and user preference.
+- This task involves selecting the most appropriate method or option based on practical
+  knowledge and common practices related to everyday questions.
+- You need to identify the appropriate way to achieve a goal by comparing and contrasting
+  various options based on their ease of use and relevance.
+- You must determine the most appropriate method to achieve a task, considering practicality
+  and effectiveness in various scenarios.
+- Analyze and select between two responses to determine which one is logically sound
+  and serves to resolve the given issue effectively.
+- Assess various solutions or responses, keeping an eye on how they align with practical
+  knowledge and experiences. The aim is to select what seems most useful.
+- Your role involves discerning which solution best fits the given context, allowing
+  you to demonstrate your understanding of practical applications.
+- You are required to think critically about possible actions or decisions related
+  to mundane tasks and choose the path that seems most straightforward or conventional.
+- You will reflect on various methods or processes described in response options while
+  determining which responds directly to the posed question most effectively.
+- Use your knowledge of standard procedures related to practical tasks to determine
+  which option effectively resolves the query presented.
+- Analyze varied suggestions for addressing everyday tasks and select the one that
+  demonstrates a higher likelihood of success or convenience based on familiarity.
+- In this inquiry-based task, your challenge lies in evaluating answers in terms of
+  their relevance and effectiveness related to common practices or solutions in everyday
+  situations.
+- Assess how well each proposed solution fits within the context provided, ensuring
+  your reasoning leans toward common and useful applications.
+- Interpret a scenario presented in a question and assess options for their relevancy,
+  providing insights into which answer is better suited to achieve success.
+- Evaluate different options for accomplishing a specific task. Use your judgment
+  to select the one that will likely be more efficient or widely accepted.
+- This task requires you to think critically about possible solutions to daily problems
+  and select the method that is more straightforward or widely used.
+- Evaluate two suggestions based on their alignment with typical problem-solving techniques
+  relevant to everyday situations represented in your tasks.
+- The task requires you to navigate through possible answers to a query, prioritizing
+  ease of use and familiarity in your decision-making process.
+- Weigh different suggestions related to simple tasks or decisions. Your response
+  should consider what would typically be done in that scenario.
+- Your skill in comparing practical solutions will help you determine which of the
+  options provided will work best within the context given in each question.
+- Consider how different methods can address everyday problems effectively and select
+  the one that stands out as particularly useful.
+- Here, you must discern which answer appropriately addresses a range of common questions.
+  Attention should be paid to how actions are generally accomplished or understood
+  in daily life.
+- Your task is to determine the best action or solution based on the context provided
+  in each statement. Consider the practicality and commonality of each option before
+  making your choice.
+- The goal is to identify the most efficient way to perform simple tasks. Think about
+  how the options relate to the intended action and choose accordingly.
+- Your goal is to evaluate different statements or solutions and determine which one
+  best answers a specific question or fulfills a requirement related to everyday tasks.
+- In this task, you will sort through different methods for completing familiar chores,
+  reflecting on their feasibility and suitability based on practical wisdom.
+- Interpret questions regarding everyday tasks, deciding on the option that leads
+  to the most efficient resolution based on analysis of practical strategies.
+- This task requires you to discern which of the two provided responses is more suitable
+  for the scenario presented, using logical reasoning about their implications.
+- Your task is to evaluate two different approaches or answers to a practical scenario
+  and select the one that makes the most sense based on common sense and practicality.
+- You will evaluate different strategies for completing specific tasks at home, prioritizing
+  choices that lead to more successful outcomes.
+- This task involves discerning between two approaches to a problem, emphasizing understanding
+  of typical situations and convenience of methods.
+- In this task, you must compare two methods or solutions related to a specific situation
+  and choose the most effective or conventional one.
+- The activity involves considering the implications of both answers in relation to
+  their effectiveness and selecting the preferred choice for completing a task.
+- Analyze statements in light of everyday scenarios and how they relate to the questions
+  at hand. The goal is to pinpoint which option is most beneficial or commonly performed.
+- This task involves making informed choices about answering practical questions using
+  established methods that are recognized for their efficacy.
+- Your challenge is to reflect on multiple ways to tackle specific issues and select
+  an answer that aligns with typical recommendations.
+- You'll need to make a judgment on which of the two options would best fulfill the
+  goal outlined in the prompt, taking into account their practicality and appropriateness.
+- Assess situational prompts and decide which course of action aligns best with common
+  sense and ordinary experiences people have.
+- You will explore answers to practical issues, weighing their effectiveness based
+  on common experience and ease of use.
+- Your job is to identify the most effective solution or method for a given question
+  by leveraging your understanding of typical practices in various contexts.
+- You must use reasoning skills to weigh multiple possible actions and determine which
+  option is more appropriate in given everyday contexts.
+- In this task, the focus is on real-life applications; your job is to identify the
+  most suitable option from given suggestions regarding common activities or problems.
+- Engage with everyday scenarios and determine the most suitable approach for various
+  tasks. This involves evaluating options and their relevance to specific situations.
+- This task requires you to connect objects or ideas in a way that makes sense within
+  a practical context that is easy to understand.
+- The task involves reflection on ordinary scenarios where problem-solving skills
+  will help you choose a method or option that is widely recognized as effective.
+- The challenge involves assessing given potential answers for their appropriateness
+  concerning specific inquiries, drawing on both logic and common sense.
+- You are tasked with identifying the best response to a query by considering the
+  context and implications of each choice, ensuring it logically fits with what is
+  being asked.
+- Focus on identifying which suggestions apply best to real-world situations and have
+  the highest chance of being useful or successful.
+- This task challenges you to think logically about common problems and select options
+  that represent widely accepted solutions.
+- Engage with typical situations where solutions are needed, evaluating each choice
+  carefully to identify the one that fits best based on general consensus and usability.
+- This task encourages critical thinking as you evaluate possible responses. You should
+  aim to select an option that suitably resolves the inquiry while considering familiar
+  methods of execution.
+- Evaluate the given choices related to various practical situations and choose the
+  one that seems most logical or widely accepted.
+- Think through everyday challenges and choose responses that people generally find
+  practical or commonplace in those situations.
+- This exercise requires you to think critically about two proposed methods for a
+  particular action and select the one that best fits common practices.
+- This exercise involves selecting between options based on an understanding of common
+  practices regarding how tasks are generally accomplished effectively.
+- Essentially, the aim is to assess how well different options fit into real-world
+  scenarios and select the most logical one by evaluating interactions and needs.
+- The task involves selecting the best way to address a specific question or problem
+  based on your understanding of common practices and tools.
+- Your role here is to think critically about various solutions to common tasks and
+  pick the response that is the most logical based on common sense.
+- Your goal is to assess alternatives to find the best practice or solution for a
+  specified problem or question, based on how they interact with the given subjects.
+- The focus of this task is on problem-solving where you must select the most appropriate
+  action or item from a set of choices.
+- This activity asks for scrutiny of options related to typical life situations, emphasizing
+  a selection process driven by convenience and utility.
+- Each task requires you to interpret a situation and select an option that fulfills
+  its requirements effectively. Base your decision on practicality and common use
+  cases.
+# ds_kwargs:
+#   path: ybisk/piqa
+#   split: train
+ds_kwargs:
+    path: piqa               
+    split: train
+    cache_dir: /path/to/_download/cache/datasets
+
+
+response_field: label
+system_message: ''
+user_prompt_template: 'Choose the option that either answers the question, completes
+  the sentence, or solves the problem. Pay attention to the properties of the objects
+  in the question and how they interact with each other. If both options are correct,
+  choose the one that is more convenient or more common.
+
+
+  """
+
+  {goal}
+
+  """
+
+
+  0: {sol1}
+
+  1: {sol2}
+
+
+  You must respond with either `0` or `1` without any explanation.'

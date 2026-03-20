@@ -1,0 +1,32 @@
+assistant_prefill: ''
+descriptions:
+- The task is to identify the initial step in a sequence of events or processes.
+- The task involves determining what happens first in a given chain of actions.
+- The task requires figuring out the starting point of a described natural or biological
+  process.
+- The task is about recognizing the earliest stage in a series of connected steps.
+- The task involves deducing the first event in a logical progression of occurrences.
+- The task is to pinpoint the beginning of a process based on the steps provided.
+- The task requires identifying the origin or trigger of a sequence of events.
+- The task is about determining what initiates a described phenomenon or cycle.
+- The task involves finding the first action in a multi-step procedure.
+- The task is to infer the starting condition from a list of subsequent steps.
+- The task requires understanding what sets a described process in motion.
+- The task is about recognizing the foundational step in a series of changes.
+- The task involves identifying the event that precedes all others in a given scenario.
+- The task is to determine the cause that leads to the described effects.
+- The task requires figuring out the earliest occurrence in a timeline of events.
+- The task is about locating the primary step in a chain of reactions.
+- The task involves discerning the initial phase of a natural or scientific process.
+- The task is to establish what must happen first for the subsequent steps to follow.
+- The task requires identifying the root action in a sequence of developments.
+- The task is about uncovering the first event in a described causal relationship.
+ds_kwargs:
+  path: wiqa_what_might_be_the_first_step_of_the_process
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

@@ -1,0 +1,35 @@
+assistant_prefill: ''
+descriptions:
+- The task involves answering specific questions about movie plots based on given
+  summaries.
+- The task requires identifying key details from a movie's storyline to answer direct
+  questions.
+- The task is about extracting precise information from a provided movie plot summary.
+- The task focuses on locating and recalling specific facts from a film's narrative.
+- The task involves understanding a movie's plot well enough to answer targeted questions.
+- The task is to determine important elements in a film's story based on a given summary.
+- The task requires recognizing and naming characters, events, or discoveries in a
+  movie.
+- The task is about pinpointing exact moments or details from a movie's description.
+- The task involves identifying who, what, or where in a film's plot based on the
+  summary.
+- The task is to find and state specific information from a movie's storyline.
+- The task requires answering questions about a film by analyzing its plot summary.
+- The task is about connecting questions to the correct details in a movie's narrative.
+- The task involves matching questions to relevant parts of a film's description.
+- The task is to recall and provide exact answers from a movie's plot summary.
+- The task requires understanding a film's events well enough to answer factual questions.
+- The task is about identifying critical plot points from a movie's synopsis.
+- The task involves extracting key facts from a film's written summary.
+- The task is to answer questions by referring to specific parts of a movie's plot.
+- The task requires locating and stating information directly from a film's storyline.
+- The task is about providing accurate answers based on a movie's detailed summary.
+ds_kwargs:
+  path: duorc_ParaphraseRC_decide_worth_it
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

@@ -1,0 +1,49 @@
+assistant_prefill: ''
+descriptions:
+- The task involves analyzing scientific or factual passages and determining the correct
+  outcome based on the given information.
+- The task requires comparing two scenarios or systems to identify which one exhibits
+  a specific characteristic.
+- The task focuses on understanding cause-and-effect relationships in scientific or
+  natural phenomena.
+- The task involves interpreting changes in measurable properties (e.g., potential
+  energy, humidity) to assess stability or conditions.
+- The task requires evaluating how environmental or biological factors influence outcomes
+  in real-world situations.
+- The task involves deducing which of two described entities (e.g., cities, systems)
+  aligns with a stated principle or trend.
+- The task focuses on identifying which scenario or subject follows a described pattern
+  or behavior.
+- The task requires reasoning about biological or chemical processes to determine
+  their effects.
+- The task involves assessing how disruptions or changes in a system affect its behavior
+  or state.
+- The task requires determining which of two cases demonstrates a stronger or weaker
+  instance of a given phenomenon.
+- The task involves analyzing how natural or scientific laws apply to different scenarios.
+- The task focuses on comparing the efficiency or effectiveness of two systems or
+  methods.
+- The task requires identifying which of two subjects (e.g., organisms, environments)
+  behaves as expected under given conditions.
+- The task involves predicting outcomes based on observed trends in scientific data.
+- The task requires determining which entity (e.g., city, organism) adheres more closely
+  to a described principle.
+- The task involves evaluating how differences in conditions (e.g., temperature, ion
+  movement) lead to different results.
+- The task focuses on understanding how biological or chemical signals influence behavior
+  or states.
+- The task requires assessing which of two described cases aligns with a known scientific
+  or environmental trend.
+- The task involves interpreting how changes in one variable (e.g., energy, humidity)
+  affect overall stability or function.
+- The task requires determining which of two scenarios follows a logical progression
+  based on given evidence.
+ds_kwargs:
+  path: ropes_plain_background_situation
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

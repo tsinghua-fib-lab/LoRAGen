@@ -1,0 +1,40 @@
+assistant_prefill: ''
+descriptions:
+- The task involves reading a story and predicting what likely happens next based
+  on the given context.
+- The task requires understanding a narrative and selecting the most plausible outcome
+  from the provided possibilities.
+- The task is about analyzing a passage and determining the most logical continuation
+  of events.
+- The task focuses on interpreting a situation and inferring the probable result based
+  on the details given.
+- The task involves evaluating a scenario and identifying the most reasonable conclusion.
+- The task is to read a text and deduce the most likely follow-up action or event.
+- The task requires comprehending a story and selecting the outcome that aligns with
+  the described events.
+- The task is about making an educated guess on what happens after the end of a given
+  passage.
+- The task involves understanding a situation and predicting the next logical step
+  or consequence.
+- The task is to assess a narrative and choose the most fitting ending based on the
+  context.
+- The task requires reading a passage and figuring out the probable result of the
+  described events.
+- The task is about interpreting a story and deciding what most likely occurs afterward.
+- The task involves analyzing a scenario and selecting the most coherent continuation.
+- The task is to understand a text and infer the most plausible next event.
+- The task requires evaluating a situation and determining the most likely outcome.
+- The task is about reading a narrative and predicting the most reasonable conclusion.
+- The task involves comprehending a passage and identifying the probable follow-up.
+- The task is to assess a story and choose the most logical next step.
+- The task requires interpreting a scenario and deducing the most likely result.
+- The task is about understanding a text and selecting the most believable ending.
+ds_kwargs:
+  path: quail_context_question_description_answer_text
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

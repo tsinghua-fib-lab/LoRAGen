@@ -1,0 +1,49 @@
+assistant_prefill: ''
+descriptions:
+- The task involves understanding short stories and identifying the most logical outcome
+  based on the given details.
+- The task requires comparing two scenarios or objects in a story to determine which
+  one fits a specific description.
+- The task is about analyzing real-world situations in stories to find the most reasonable
+  conclusion.
+- The task focuses on interpreting cause-and-effect relationships in short narratives.
+- The task involves making inferences about physical or situational differences described
+  in a story.
+- The task is about evaluating the properties or behaviors of objects or people in
+  a given context.
+- The task requires deducing which of two options aligns better with the facts presented
+  in the story.
+- The task involves reasoning about relative differences, such as speed, distance,
+  or texture, based on a story.
+- The task is about identifying which of two subjects in a story meets a specific
+  condition.
+- The task focuses on understanding how actions or characteristics in a story lead
+  to certain outcomes.
+- The task involves determining which of two choices is more plausible given the details
+  in the narrative.
+- The task is about recognizing which element in a story better matches a described
+  trait or result.
+- The task requires interpreting sensory or observable details to reach a logical
+  conclusion.
+- The task involves assessing the implications of actions or properties mentioned
+  in a short story.
+- The task is about comparing two entities in a story to see which one fits a given
+  criterion.
+- The task focuses on drawing conclusions based on the relative performance or state
+  of two things in a story.
+- The task involves understanding how context or conditions in a story affect the
+  outcome.
+- The task is about figuring out which of two options is more consistent with the
+  story's details.
+- The task requires analyzing the relationship between events or objects in a narrative.
+- The task involves using common sense to decide which of two possibilities makes
+  more sense in the story.
+ds_kwargs:
+  path: quarel_heres_a_story
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

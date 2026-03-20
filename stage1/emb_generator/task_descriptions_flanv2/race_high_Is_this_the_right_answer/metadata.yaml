@@ -1,0 +1,40 @@
+assistant_prefill: ''
+descriptions:
+- The task involves reading an article and determining whether a given statement about
+  it is true or false.
+- The task requires verifying if a specific detail from the article matches the provided
+  statement.
+- The task is about checking if the given answer aligns with the information in the
+  article.
+- The task involves confirming whether a fact mentioned in the article supports the
+  given statement.
+- The task is to assess whether the article provides evidence for the given claim.
+- The task requires evaluating if the article's content justifies the provided answer.
+- The task is about identifying whether the article confirms or contradicts the given
+  statement.
+- The task involves determining if the article's details are consistent with the proposed
+  answer.
+- The task is to check if the article explicitly states or implies the given response.
+- The task requires analyzing the article to see if the answer is correct based on
+  the text.
+- The task is about verifying factual accuracy by comparing the statement to the article.
+- The task involves deciding whether the article backs up the given claim.
+- The task is to see if the article's information leads to the provided conclusion.
+- The task requires confirming if the article's details validate the answer.
+- The task is about checking if the article contains the necessary information to
+  support the statement.
+- The task involves determining if the article's facts correspond to the given response.
+- The task is to see if the article's explanation matches the proposed answer.
+- The task requires assessing whether the article's context justifies the statement.
+- The task is about confirming if the article's description aligns with the given
+  answer.
+- The task involves verifying if the article's narrative supports the provided response.
+ds_kwargs:
+  path: race_high_Is_this_the_right_answer
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

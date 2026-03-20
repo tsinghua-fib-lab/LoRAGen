@@ -1,0 +1,31 @@
+assistant_prefill: ''
+descriptions:
+- Determine if two words or phrases in a sentence refer to the same thing.
+- Check whether pronouns like "it" or "he" match the nouns they replace in a sentence.
+- Identify if a pronoun and a named entity point to the same person or object.
+- Verify if two parts of a sentence are talking about the same subject.
+- Decide whether a pronoun is correctly linked to its antecedent in a sentence.
+- Assess if a word and another word or phrase in the sentence have the same meaning.
+- Confirm if a pronoun refers back to a specific noun mentioned earlier.
+- Check if two terms in a sentence are coreferential.
+- Determine if a pronoun and a noun represent the same entity.
+- See if a pronoun correctly substitutes for a previously mentioned noun.
+- Identify whether two words in a sentence are referring to the same person or thing.
+- Verify if a pronoun and a proper noun are interchangeable in context.
+- Decide if a pronoun and another word in the sentence are co-referential.
+- Check if a pronoun and a noun phrase are linked in meaning.
+- Determine if two terms in a sentence are synonymous in context.
+- Assess whether a pronoun and a noun refer to the same individual or object.
+- Confirm if a pronoun is correctly associated with its intended referent.
+- See if two parts of a sentence are talking about the same subject.
+- Identify if a pronoun and a named entity are the same in a given sentence.
+- Verify if two words or phrases in a sentence are referring to the same entity.
+ds_kwargs:
+  path: super_glue_wsc.fixed
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

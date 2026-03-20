@@ -1,0 +1,41 @@
+assistant_prefill: ''
+descriptions:
+- The task involves evaluating whether a given answer correctly matches a question
+  based on provided background information.
+- The task checks if a proposed answer aligns with the facts stated in the question's
+  context.
+- The task requires determining if a suggested answer is logically consistent with
+  the given supporting statement.
+- The task assesses whether the provided answer fits the question when considering
+  the additional information.
+- The task involves verifying if the given answer is accurate based on the supporting
+  evidence.
+- The task is about judging whether the proposed answer is correct given the context
+  of the question.
+- The task tests if the answer makes sense in relation to the facts provided in the
+  question.
+- The task examines whether the suggested answer logically follows from the background
+  information.
+- The task involves deciding if the answer is appropriate for the question based on
+  the given details.
+- The task checks if the answer is valid when compared to the supporting statement.
+- The task requires confirming whether the answer matches the question's context.
+- The task is about validating if the answer is correct given the related facts.
+- The task involves analyzing whether the answer is justified by the background information.
+- The task assesses if the answer is reasonable based on the provided explanation.
+- The task determines whether the answer is supported by the given context.
+- The task involves comparing the answer to the question's supporting details to check
+  for correctness.
+- The task evaluates if the answer is plausible given the additional information.
+- The task checks whether the answer logically fits the question's context.
+- The task is about verifying if the answer is consistent with the facts provided.
+- The task involves judging if the answer is accurate in light of the supporting statement.
+ds_kwargs:
+  path: qasc_is_correct_2
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

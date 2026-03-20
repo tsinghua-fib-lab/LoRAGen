@@ -1,0 +1,51 @@
+assistant_prefill: ''
+descriptions:
+- The task involves identifying an entity that has a specific relationship with another
+  entity based on given information.
+- The task requires finding which entity is connected to another through a particular
+  relationship in a provided text.
+- The task is about determining which entity holds a certain relation to another entity
+  in a given context.
+- The task involves extracting the correct entity that shares a specified relationship
+  with another from a passage.
+- The task is to locate the entity that fulfills a given relational condition with
+  another entity in the text.
+- The task requires matching an entity to another based on a defined relationship
+  in the provided information.
+- The task is about recognizing which entity is linked to another by a specific relation
+  in the given paragraphs.
+- The task involves selecting the entity that has a particular connection to another
+  entity in the text.
+- The task is to identify the entity that stands in a certain relationship to another
+  entity based on the details provided.
+- The task requires finding the correct entity that relates to another in a specified
+  way within the given information.
+- The task is about determining which entity is associated with another through a
+  given relationship.
+- The task involves discovering the entity that has a specific tie to another entity
+  in the provided text.
+- The task is to figure out which entity is connected to another by a particular relation
+  in the passage.
+- The task requires identifying the entity that satisfies a relational condition with
+  another entity.
+- The task is about pinpointing the entity that holds a defined relationship with
+  another in the given context.
+- The task involves determining which entity is related to another in a specified
+  manner based on the text.
+- The task is to find the entity that shares a certain connection with another entity
+  in the information provided.
+- The task requires extracting the entity that has a specific association with another
+  entity.
+- The task is about recognizing the entity that fulfills a relational criterion with
+  another in the passage.
+- The task involves locating the entity that is linked to another by a given relationship
+  in the text.
+ds_kwargs:
+  path: wiki_hop_original_generate_subject
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

@@ -1,0 +1,34 @@
+assistant_prefill: ''
+descriptions:
+- The task involves adding proper punctuation to sentences to improve clarity and
+  readability.
+- The task requires correcting sentences by inserting missing punctuation marks.
+- The task is about revising text to include appropriate punctuation where needed.
+- The task involves editing sentences to ensure proper use of commas, periods, and
+  other punctuation.
+- The task requires fixing unpunctuated or poorly punctuated sentences.
+- The task is to enhance sentences by adding necessary punctuation for better structure.
+- The task involves improving written text by inserting correct punctuation marks.
+- The task is about making sentences grammatically correct by adding punctuation.
+- The task requires adjusting sentences to include missing punctuation for clarity.
+- The task involves refining text by placing punctuation marks in the right places.
+- The task is to modify sentences by adding commas, periods, or other punctuation
+  as needed.
+- The task requires revising sentences to ensure proper punctuation usage.
+- The task involves completing sentences by inserting the correct punctuation.
+- The task is about polishing text by adding missing punctuation marks.
+- The task requires improving sentence flow by adding appropriate punctuation.
+- The task involves editing unpunctuated sentences to make them grammatically sound.
+- The task is to adjust sentences by inserting necessary punctuation for readability.
+- The task requires correcting sentences by adding punctuation where it is missing.
+- The task involves fixing text by placing punctuation marks correctly.
+- The task is about making sentences clearer by adding proper punctuation.
+ds_kwargs:
+  path: fix_punct
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

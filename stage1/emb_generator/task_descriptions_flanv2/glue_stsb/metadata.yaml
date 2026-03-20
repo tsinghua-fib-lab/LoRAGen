@@ -1,0 +1,31 @@
+assistant_prefill: ''
+descriptions:
+- The task is to rate how similar two sentences are in meaning.
+- The task involves comparing two sentences and judging how much their meanings overlap.
+- You must evaluate the similarity in meaning between two given sentences.
+- The task requires assessing how closely two sentences convey the same idea.
+- You need to determine the level of agreement in meaning between two sentences.
+- The task is about measuring how much two sentences share the same meaning.
+- You must judge how alike two sentences are in what they describe.
+- The task involves scoring the similarity of two sentences based on their content.
+- You need to compare two sentences and decide how much they mean the same thing.
+- The task is to evaluate how closely two sentences match in their overall message.
+- You must rate the degree to which two sentences express the same idea.
+- The task requires determining how much two sentences overlap in their meaning.
+- You need to assess how similar two sentences are in terms of what they say.
+- The task is about judging the likeness of two sentences based on their meaning.
+- You must compare two sentences and decide how much they are alike in meaning.
+- The task involves evaluating how well two sentences align in their core message.
+- You need to measure the similarity of two sentences by their content.
+- The task is to determine how much two sentences share the same interpretation.
+- You must gauge the resemblance between two sentences in terms of meaning.
+- The task requires rating how closely two sentences reflect the same idea.
+ds_kwargs:
+  path: glue_stsb
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

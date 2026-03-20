@@ -1,0 +1,31 @@
+assistant_prefill: ''
+descriptions:
+- Determine whether the given text expresses a positive or negative opinion.
+- Identify the emotional tone of the provided review.
+- Assess if the sentiment in the text is favorable or unfavorable.
+- Classify the attitude of the speaker in the review.
+- Judge whether the review is praising or criticizing.
+- Evaluate if the text conveys happiness or dissatisfaction.
+- Decide if the writer's overall feeling is good or bad.
+- Recognize if the tone of the review is approving or disapproving.
+- Figure out if the speaker is expressing satisfaction or frustration.
+- Determine the general mood of the written feedback.
+- Identify if the review is supportive or complaining.
+- Assess whether the writer recommends or discourages the subject.
+- Detect if the language used is enthusiastic or critical.
+- Gauge if the review is optimistic or disappointed.
+- Analyze whether the text reflects a pleasant or unpleasant experience.
+- Determine if the speaker's impression is positive or negative.
+- Recognize if the review highlights strengths or weaknesses.
+- Classify the writer's overall reaction as favorable or unfavorable.
+- Evaluate if the tone of the text is appreciative or resentful.
+- Identify if the review is written with approval or disapproval.
+ds_kwargs:
+  path: yelp_polarity_reviews
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

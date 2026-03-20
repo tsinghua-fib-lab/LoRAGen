@@ -1,0 +1,50 @@
+assistant_prefill: ''
+descriptions:
+- The task is to guess the title of a story, movie, or biography based on a given
+  summary or context.
+- The task involves identifying the name of a work (e.g., film, book, album) from
+  a provided description.
+- The task requires recognizing the title of a creative work after reading a brief
+  passage about it.
+- The task is about matching a summary or background information to the correct title
+  of a piece of media or art.
+- The task involves deducing the name of a famous work (e.g., movie, music album)
+  from a detailed excerpt.
+- The task is to determine the title of a narrative or artistic work based on a given
+  synopsis.
+- The task requires figuring out the name of a well-known story, film, or album from
+  a short description.
+- The task is about identifying the correct title of a creative piece after reading
+  a summary of its plot or history.
+- The task involves selecting the appropriate title for a described event, story,
+  or artistic production.
+- The task is to infer the name of a book, movie, or musical work from a provided
+  passage.
+- The task requires guessing the title of a well-documented work based on key details
+  from its background.
+- The task is about associating a given summary with the correct title of a famous
+  work.
+- The task involves recognizing the title of a film, book, or album from a brief overview
+  of its content.
+- The task is to identify the name of a creative work after reading a contextual description.
+- The task requires determining the title of a story or artistic piece from a provided
+  excerpt.
+- The task is about connecting a detailed passage to the correct title of a known
+  work.
+- The task involves deducing the name of a movie, book, or album from a summary of
+  its plot or creation.
+- The task is to guess the title of a narrative or artistic work based on a descriptive
+  paragraph.
+- The task requires identifying the name of a famous piece of media or art from a
+  given context.
+- The task is about matching a provided summary to the correct title of a well-known
+  work.
+ds_kwargs:
+  path: quoref_Guess_Title_For_Context
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

@@ -1,0 +1,41 @@
+assistant_prefill: ''
+descriptions:
+- The task is to determine whether a product review expresses a positive or negative
+  opinion.
+- The task involves analyzing the sentiment of a written review to classify it as
+  favorable or unfavorable.
+- The task requires identifying the overall tone of a product review—either positive
+  or negative.
+- The task is about judging whether a reviewer liked or disliked a product based on
+  their written feedback.
+- The task involves reading a review and deciding if the writer had a good or bad
+  experience with the product.
+- The task is to assess whether a review conveys satisfaction or dissatisfaction with
+  a product.
+- The task requires evaluating the emotional tone of a review to determine if it is
+  approving or disapproving.
+- The task is to interpret the writer's attitude in a review as either positive or
+  negative.
+- The task involves understanding whether a reviewer recommends or criticizes a product.
+- The task is to detect if a review expresses praise or complaints about a product.
+- The task requires determining if the language in a review is supportive or critical
+  of the product.
+- The task is about recognizing whether a reviewer's opinion is favorable or unfavorable.
+- The task involves categorizing a review based on whether it reflects happiness or
+  disappointment.
+- The task is to identify if a review highlights strengths or weaknesses of a product.
+- The task requires distinguishing between a review that is enthusiastic or disapproving.
+- The task is to figure out if a reviewer is satisfied or unhappy with their purchase.
+- The task involves analyzing a review to see if it contains compliments or complaints.
+- The task is to determine if a review leans toward approval or rejection of a product.
+- The task requires judging whether a review's overall message is optimistic or pessimistic.
+- The task is about deciding if a review expresses a good or bad impression of a product.
+ds_kwargs:
+  path: amazon_polarity_convey_negative_or_positive_sentiment
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

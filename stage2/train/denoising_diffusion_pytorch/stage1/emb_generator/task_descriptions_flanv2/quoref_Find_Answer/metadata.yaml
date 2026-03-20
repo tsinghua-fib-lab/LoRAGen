@@ -1,0 +1,46 @@
+assistant_prefill: ''
+descriptions:
+- The task involves locating specific information within a given text to answer a
+  question.
+- The task requires identifying a key detail from a passage based on a provided question.
+- The task is about finding the correct answer to a question by reading and analyzing
+  a text.
+- The task involves extracting a precise piece of information from an article to match
+  a given question.
+- The task is to search through a passage and pick out the relevant fact that answers
+  the question.
+- The task requires reading a text and determining which part of it contains the answer
+  to a specific question.
+- The task is about locating a particular name, term, or fact in a passage that directly
+  answers the question.
+- The task involves scanning a given article to find the exact answer to a posed question.
+- The task is to identify the correct response to a question by examining a provided
+  text.
+- The task requires pinpointing the relevant information in a passage that corresponds
+  to the question.
+- The task is about finding the exact word or phrase in a text that answers the given
+  question.
+- The task involves matching a question with the correct information from a provided
+  article.
+- The task is to read a passage and select the specific detail that answers the question.
+- The task requires recognizing the part of the text that directly responds to the
+  question.
+- The task is about retrieving a factual answer from a given passage based on a question.
+- The task involves identifying the correct name, term, or event in a text that answers
+  the question.
+- The task is to locate the precise answer within a passage that fits the given question.
+- The task requires determining which part of the text provides the solution to the
+  question.
+- The task is about finding the exact piece of information in an article that answers
+  the question.
+- The task involves reading a text and extracting the correct response to a specific
+  question.
+ds_kwargs:
+  path: quoref_Find_Answer
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

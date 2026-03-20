@@ -1,0 +1,50 @@
+assistant_prefill: ''
+descriptions:
+- The task involves reading a paragraph and finding the answer to a specific question
+  about a person's name.
+- The task requires identifying a particular detail, such as a last name, from a given
+  text.
+- The task is about locating a named individual in a passage based on the question's
+  clues.
+- The task involves extracting a person's name from a paragraph when given a question
+  about their identity.
+- The task is to read a passage and determine the correct name in response to a query
+  about a person.
+- The task requires finding a specific name mentioned in a text based on contextual
+  details.
+- The task involves answering a question by identifying a person's name from a provided
+  paragraph.
+- The task is to read a block of text and pick out the name that answers the given
+  question.
+- The task requires locating a person's name in a passage that matches the question's
+  criteria.
+- The task involves searching a paragraph for a name that fits the description in
+  the question.
+- The task is about finding the correct name in a text that relates to the question's
+  focus.
+- The task requires identifying a person's name based on details provided in the question
+  and paragraph.
+- The task involves reading a passage and selecting the name that answers the question.
+- The task is to extract a person's name from a text when given a specific query about
+  them.
+- The task requires determining a name from a paragraph that aligns with the question's
+  context.
+- The task involves finding a named individual in a passage based on the question's
+  prompt.
+- The task is about locating a person's name in a text that corresponds to the given
+  question.
+- The task requires reading a paragraph and identifying the name that satisfies the
+  question.
+- The task involves answering a question by pulling out a specific name from the provided
+  text.
+- The task is to find a person's name in a passage that matches the details asked
+  in the question.
+ds_kwargs:
+  path: quoref_Read_And_Extract_
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

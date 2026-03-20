@@ -1,0 +1,13 @@
+{
+  "train": [
+    "lorahub_flan_t5_large-amazon_polarity_Is_this_review_negative",
+    "lorahub_flan_t5_large-amazon_polarity_User_recommend_this_product",
+    "lorahub_flan_t5_large-amazon_polarity_Is_this_product_review_positive",
+    "lorahub_flan_t5_large-qasc_is_correct_1",
+    "lorahub_flan_t5_large-qasc_is_correct_2",
+    "lorahub_flan_t5_large-wiki_qa_Is_This_True_",
+    "lorahub_flan_t5_large-wiki_qa_automatic_system"
+  ],
+  "val": [
+  ]
+}

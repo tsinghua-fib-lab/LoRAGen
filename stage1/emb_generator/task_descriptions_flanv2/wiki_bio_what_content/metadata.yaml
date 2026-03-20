@@ -1,0 +1,46 @@
+assistant_prefill: ''
+descriptions:
+- The task involves identifying specific types of information that can be extracted
+  from a given biographical text.
+- The task requires recognizing key details about a person based on their biography.
+- The task is about listing categories of personal or professional details mentioned
+  in a short bio.
+- The task focuses on determining what facts are provided about an individual in their
+  biographical description.
+- The task involves analyzing a bio to find out what kinds of attributes or events
+  are described.
+- The task is to identify the types of personal, career, or background details included
+  in a person's bio.
+- The task requires extracting different aspects of a person's life from a brief biographical
+  passage.
+- The task is about summarizing the kinds of information available in a given biography.
+- The task involves categorizing the details provided about a person in their bio.
+- The task is to determine what personal or professional facts are disclosed in a
+  biographical snippet.
+- The task requires listing the types of data points that can be inferred from a person's
+  bio.
+- The task is about identifying the scope of information covered in a short biography.
+- The task involves recognizing the different dimensions of a person's life described
+  in their bio.
+- The task is to outline the various personal or historical details mentioned in a
+  biography.
+- The task requires detecting the key life events or characteristics presented in
+  a bio.
+- The task is about finding what biographical elements are highlighted in a given
+  text.
+- The task involves determining the range of facts provided about an individual in
+  their bio.
+- The task is to identify the categories of information that define a person in their
+  biography.
+- The task requires noting the types of descriptors used to summarize a person's life.
+- The task is about discovering what aspects of a person's identity or career are
+  detailed in their bio.
+ds_kwargs:
+  path: wiki_bio_what_content
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

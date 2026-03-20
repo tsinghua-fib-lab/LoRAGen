@@ -1,0 +1,34 @@
+assistant_prefill: ''
+descriptions:
+- The task involves analyzing how a change in a process affects its outcome.
+- The task requires evaluating whether a given change impacts a described sequence
+  of steps.
+- The task is about determining if a hypothetical scenario alters a process in any
+  way.
+- The task involves assessing the effect of a perturbation on a step-by-step procedure.
+- The task is to decide whether a proposed change influences a described workflow.
+- The task requires checking if a modification in a process leads to a different result.
+- The task is about identifying whether a given condition affects how a process works.
+- The task involves judging if a hypothetical situation changes the outcome of a process.
+- The task is to determine if a specified change has any effect on a sequence of actions.
+- The task requires analyzing whether altering one part of a process impacts the whole.
+- The task is about evaluating the consequences of a change in a described system.
+- The task involves testing if a proposed scenario influences a given procedure.
+- The task is to see if a change in one step affects the rest of the process.
+- The task requires figuring out if a perturbation alters the expected result of a
+  process.
+- The task is about deciding whether a given condition disrupts a described sequence.
+- The task involves determining if a change in input affects the output of a process.
+- The task is to assess whether a hypothetical event impacts how a system functions.
+- The task requires evaluating if a variation in a step changes the overall process.
+- The task is about verifying if a proposed change has any effect on a workflow.
+- The task involves checking if a disturbance in a process leads to a different outcome.
+ds_kwargs:
+  path: wiqa_does_the_supposed_perturbation_have_an_effect
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

@@ -1,0 +1,50 @@
+assistant_prefill: ''
+descriptions:
+- The task involves understanding a given situation and applying relevant hints to
+  answer a question about it.
+- The task requires analyzing scenarios related to science, health, or environmental
+  topics to determine the correct outcome.
+- The task is about reading a real-world situation and using provided background information
+  to deduce an answer.
+- The task focuses on interpreting scientific or factual hints to answer questions
+  about a described scenario.
+- The task involves connecting cause-and-effect relationships in situations involving
+  biology, chemistry, or environmental science.
+- The task requires comparing different conditions or actions in a scenario to determine
+  the correct response.
+- The task is about identifying which individual or group in a situation matches a
+  given description based on the context.
+- The task involves applying scientific principles to everyday situations to predict
+  outcomes.
+- The task requires understanding how changes in one factor (e.g., energy, pollution)
+  affect another in a described scenario.
+- The task is about recognizing the consequences of specific actions or conditions
+  in a given situation.
+- The task involves distinguishing between different states or conditions (e.g., healthy
+  vs. sick, polluted vs. clean) based on the context.
+- The task requires identifying which subject in a scenario aligns with a scientific
+  or factual description.
+- The task is about using provided explanations to determine the logical answer to
+  a question about a situation.
+- The task involves evaluating how scientific concepts apply to real-life examples.
+- The task requires determining which individual or group in a scenario exhibits a
+  particular behavior or outcome.
+- The task is about understanding how environmental or health-related factors influence
+  outcomes in a described situation.
+- The task involves recognizing patterns or trends in scientific or environmental
+  contexts to answer a question.
+- The task requires interpreting how different practices (e.g., farming methods, medical
+  treatments) lead to different results.
+- The task is about identifying the subject in a scenario that fits a given scientific
+  or factual criterion.
+- The task involves using logical reasoning based on provided hints to answer a question
+  about a real-world situation.
+ds_kwargs:
+  path: ropes_background_situation_middle
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

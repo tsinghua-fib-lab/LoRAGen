@@ -1,0 +1,39 @@
+assistant_prefill: ''
+descriptions:
+- The task involves comparing two scenarios or time periods based on given background
+  information.
+- The task requires analyzing cause-and-effect relationships in scientific or real-world
+  contexts.
+- The task asks to determine which of two situations has a higher or lower occurrence
+  of a specific phenomenon.
+- The task involves identifying the impact of environmental or biological changes
+  over time.
+- The task requires predicting outcomes based on prior knowledge or provided facts.
+- The task asks to evaluate how different conditions affect a particular subject.
+- The task involves linking scientific principles to real-life observations.
+- The task requires distinguishing between two groups or states based on their properties.
+- The task asks to infer which scenario aligns better with a given trend or pattern.
+- The task involves understanding how human activities influence natural processes.
+- The task requires assessing the likelihood of an event based on background conditions.
+- The task asks to determine which of two cases exhibits a stronger or weaker effect.
+- The task involves recognizing how changes in one factor affect another.
+- The task requires interpreting scientific data to answer a comparative question.
+- The task asks to identify which of two situations is more favorable or less favorable
+  for a given outcome.
+- The task involves applying knowledge of biological or environmental trends to a
+  new context.
+- The task requires determining how different phases or states influence behavior
+  or results.
+- The task asks to compare the effects of genetic versus environmental factors.
+- The task involves analyzing how historical or temporal changes impact a system.
+- The task requires evaluating which of two groups or conditions aligns with a described
+  characteristic.
+ds_kwargs:
+  path: ropes_background_new_situation_answer
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

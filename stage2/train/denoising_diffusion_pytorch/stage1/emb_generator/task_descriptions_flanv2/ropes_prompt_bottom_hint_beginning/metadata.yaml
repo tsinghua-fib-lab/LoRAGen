@@ -1,0 +1,49 @@
+assistant_prefill: ''
+descriptions:
+- The task involves reading a background explanation and a paragraph, then answering
+  a question based on the given information.
+- The task requires comparing two scenarios described in a paragraph and determining
+  which one fits a specific condition.
+- The task is about identifying the correct subject or scenario based on scientific
+  or factual context provided.
+- The task involves analyzing a real-world situation described in a paragraph and
+  applying background knowledge to answer a question.
+- The task is to read a scientific or factual background, then use a related paragraph
+  to answer a specific question.
+- The task requires understanding cause-and-effect relationships described in a paragraph
+  to answer a question.
+- The task is about recognizing differences between two subjects based on given details
+  in a paragraph.
+- The task involves interpreting scientific or environmental information to determine
+  the correct answer.
+- The task is to read a short story or scenario and use it to answer a question about
+  a specific detail.
+- The task requires connecting background knowledge with a described situation to
+  find the correct answer.
+- The task is about identifying which of two subjects meets a particular condition
+  based on the given text.
+- The task involves reading a paragraph about a real-world observation and answering
+  a related question.
+- The task is to use a background explanation and a paragraph to determine which scenario
+  is correct.
+- The task requires understanding how scientific principles apply to a described situation.
+- The task is about comparing two examples in a paragraph and deciding which one fits
+  a given criterion.
+- The task involves reading a factual passage and answering a question based on the
+  details provided.
+- The task is to analyze a described event or phenomenon and answer a question about
+  its characteristics.
+- The task requires identifying the subject that exhibits a specific trait mentioned
+  in the paragraph.
+- The task is about using contextual clues in a paragraph to answer a question correctly.
+- The task involves reading a scientific or observational account and determining
+  the correct answer based on the information.
+ds_kwargs:
+  path: ropes_prompt_bottom_hint_beginning
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

@@ -1,0 +1,34 @@
+assistant_prefill: ''
+descriptions:
+- The task involves answering questions based on provided context passages.
+- The task requires identifying specific information from a given text to answer a
+  question.
+- The task is about extracting factual details from a passage to respond to a query.
+- The task involves reading a text and finding the correct answer to a related question.
+- The task is to locate relevant information in a context passage to answer a question.
+- The task requires understanding a passage and using it to provide an accurate answer.
+- The task is about connecting a question to the correct detail in the given context.
+- The task involves analyzing a text to determine the answer to a specific question.
+- The task is to read a passage and identify the piece of information that answers
+  the question.
+- The task requires matching a question to the appropriate detail in the provided
+  text.
+- The task is about finding the exact answer to a question within a given paragraph.
+- The task involves interpreting a passage to supply the correct response to a query.
+- The task is to derive answers from a text based on the questions asked.
+- The task requires selecting the right information from a passage to answer a question.
+- The task is about using context to provide precise answers to specific questions.
+- The task involves retrieving key details from a text to respond to a question.
+- The task is to understand a passage and use it to answer a related question.
+- The task requires pinpointing the relevant part of a text to answer a query.
+- The task is about reading a context and using it to find the answer to a question.
+- The task involves answering questions by referring to the details in a given passage.
+ds_kwargs:
+  path: adversarial_qa_dbidaf_question_context_answer
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

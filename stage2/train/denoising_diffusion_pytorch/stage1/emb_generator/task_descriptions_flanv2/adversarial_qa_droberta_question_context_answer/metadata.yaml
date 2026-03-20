@@ -1,0 +1,35 @@
+assistant_prefill: ''
+descriptions:
+- The task involves answering questions based on provided contextual information.
+- The task requires extracting specific details from a given passage to respond to
+  a query.
+- The task is about identifying correct answers by analyzing textual context.
+- The task focuses on finding precise information within a provided text to answer
+  a question.
+- The task involves understanding a passage and using it to determine the correct
+  response.
+- The task requires matching questions with relevant facts from the given context.
+- The task is about locating key details in a text to answer a direct question.
+- The task involves reasoning about a passage to derive the correct answer.
+- The task is to use contextual clues to provide accurate answers to specific questions.
+- The task requires interpreting a text to find answers to factual questions.
+- The task involves reading a passage and using it to verify or answer a query.
+- The task is about connecting questions to their correct answers within a given context.
+- The task requires identifying the most relevant information from a text to answer
+  a question.
+- The task involves deducing answers from a provided passage.
+- The task is to analyze a text and use it to respond to a specific inquiry.
+- The task requires understanding a context to answer questions accurately.
+- The task involves retrieving factual information from a passage to answer a question.
+- The task is about using given details to confirm or provide an answer.
+- The task requires reading a text and selecting the correct response based on it.
+- The task involves comprehending a passage to find answers to direct questions.
+ds_kwargs:
+  path: adversarial_qa_droberta_question_context_answer
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

@@ -1,0 +1,34 @@
+assistant_prefill: ''
+descriptions:
+- The task involves identifying the correct subject or concept based on given factual
+  statements.
+- The task requires matching a description or definition to the correct entity using
+  provided facts.
+- The task is about selecting the right answer that aligns with the given factual
+  information.
+- The task tests the ability to connect facts to the correct subject or phenomenon.
+- The task involves deducing the correct answer from a set of facts and a question.
+- The task is to determine which entity fits the description based on the given facts.
+- The task requires understanding factual statements to identify the correct answer.
+- The task is about applying given facts to find the most accurate response.
+- The task involves using logical reasoning to link facts to the correct answer.
+- The task is to recognize the subject described by the facts and question.
+- The task requires interpreting factual information to select the right answer.
+- The task is about finding the entity that matches the given explanation.
+- The task involves analyzing facts to determine the correct subject.
+- The task is to identify the concept or object that fits the provided details.
+- The task requires using given facts to pinpoint the correct response.
+- The task is about associating factual statements with the right answer.
+- The task involves reasoning through facts to arrive at the correct conclusion.
+- The task is to select the answer that best corresponds to the given information.
+- The task requires understanding the relationship between facts and the correct answer.
+- The task is about making connections between provided facts and the right choice.
+ds_kwargs:
+  path: qasc_qa_with_separated_facts_2
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

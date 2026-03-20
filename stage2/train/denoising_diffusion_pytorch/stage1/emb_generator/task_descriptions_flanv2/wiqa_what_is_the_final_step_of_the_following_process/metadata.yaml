@@ -1,0 +1,31 @@
+assistant_prefill: ''
+descriptions:
+- The task involves identifying the final outcome or conclusion of a described process.
+- The task requires determining the last step or result in a sequence of events.
+- The task is about summarizing the end result of a step-by-step procedure.
+- The task asks for the ultimate effect or consequence of a given process.
+- The task involves recognizing the final stage in a chain of actions.
+- The task is to deduce the concluding part of a described series of steps.
+- The task requires identifying how a process ends based on the steps provided.
+- The task is about finding the last event in a sequence of occurrences.
+- The task involves pinpointing the endpoint of a described process.
+- The task asks for the final outcome after a series of actions take place.
+- The task is to determine the ultimate result of a multi-step procedure.
+- The task requires figuring out the concluding action in a process.
+- The task involves extracting the last step from a detailed sequence.
+- The task is about identifying the end state of a described system or process.
+- The task asks for the final consequence of a chain of events.
+- The task involves recognizing the completion point of a process.
+- The task is to infer the last stage in a progression of steps.
+- The task requires determining the finishing action in a sequence.
+- The task is about concluding what happens at the end of a described process.
+- The task involves summarizing the final effect of a series of actions.
+ds_kwargs:
+  path: wiqa_what_is_the_final_step_of_the_following_process
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

@@ -1,0 +1,39 @@
+assistant_prefill: ''
+descriptions:
+- The task involves finding a specific piece of information within a given passage
+  that answers a question.
+- The task requires locating a direct answer to a question from a provided text.
+- The task is about identifying the correct detail in a passage that matches the question.
+- The task involves extracting the exact answer to a question from a block of text.
+- The task is to determine which part of the given text contains the answer to the
+  question.
+- The task requires matching a question with the relevant information in a passage.
+- The task is about pinpointing the key fact in a text that answers the question.
+- The task involves searching through a passage to find the answer to a specific query.
+- The task is to retrieve the precise information from a text that responds to the
+  question.
+- The task requires identifying the part of the text that directly answers the question.
+- The task involves recognizing the correct detail in a passage that satisfies the
+  question.
+- The task is about selecting the relevant portion of a text that provides the answer.
+- The task requires finding the exact phrase or word in a passage that answers the
+  question.
+- The task involves determining which part of the text corresponds to the question.
+- The task is to locate the specific information in a passage that answers the question.
+- The task requires identifying the factual response to a question within a given
+  text.
+- The task involves discovering the correct answer within a passage based on the question.
+- The task is about finding the relevant sentence or phrase in a text that answers
+  the question.
+- The task requires extracting the necessary information from a passage to answer
+  the question.
+- The task involves reading a text and determining the exact answer to a given question.
+ds_kwargs:
+  path: adversarial_qa_droberta_tell_what_it_is
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

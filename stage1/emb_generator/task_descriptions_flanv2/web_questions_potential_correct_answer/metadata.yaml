@@ -1,0 +1,31 @@
+assistant_prefill: ''
+descriptions:
+- The task involves providing a correct answer to a given factual question.
+- The task requires identifying accurate responses to specific knowledge-based questions.
+- The task is about supplying a true answer to a straightforward question.
+- The task consists of responding to questions with correct factual information.
+- The task involves answering questions accurately based on general knowledge.
+- The task is to give a valid response to a given inquiry.
+- The task requires providing a correct answer to a factual query.
+- The task is about finding the right answer to a specific question.
+- The task involves responding to questions with accurate information.
+- The task consists of giving a correct reply to a direct question.
+- The task is to supply a true fact in response to a question.
+- The task requires stating a correct answer to a knowledge question.
+- The task is about providing a factual response to a given query.
+- The task involves answering questions with precise and correct details.
+- The task consists of offering an accurate answer to a question.
+- The task is to respond to questions with verified facts.
+- The task requires giving a truthful answer to a factual question.
+- The task is about supplying a correct response to an inquiry.
+- The task involves providing an accurate reply to a specific question.
+- The task consists of answering questions with correct and relevant information.
+ds_kwargs:
+  path: web_questions_potential_correct_answer
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

@@ -1,0 +1,34 @@
+assistant_prefill: ''
+descriptions:
+- The task is to determine whether a given statement is a reasonable answer to a specific
+  question.
+- The task involves evaluating if a provided response correctly addresses the question
+  asked.
+- The task requires judging whether a given explanation fits the question's topic.
+- The task is about assessing if a statement is relevant and accurate for the question
+  posed.
+- The task involves checking if a given answer aligns with the question's intent.
+- The task is to verify if a response is appropriate for the question's subject.
+- The task requires deciding if a provided answer sufficiently answers the question.
+- The task is about determining if a statement is a suitable reply to the question.
+- The task involves evaluating whether a given text is a valid answer to the question.
+- The task is to assess if a response is factually correct for the question.
+- The task requires judging if a statement directly answers the question.
+- The task is about confirming if a given explanation matches the question's focus.
+- The task involves deciding if a response is logically connected to the question.
+- The task is to determine if a provided answer is on-topic for the question.
+- The task requires evaluating if a statement is a precise answer to the question.
+- The task is about checking if a response is a meaningful answer to the question.
+- The task involves analyzing if a given text is a coherent reply to the question.
+- The task is to judge if a statement is a complete answer to the question.
+- The task requires assessing if a response is a well-formed answer to the question.
+- The task is about verifying if a given explanation is a proper answer to the question.
+ds_kwargs:
+  path: wiki_qa_Is_This_True_
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

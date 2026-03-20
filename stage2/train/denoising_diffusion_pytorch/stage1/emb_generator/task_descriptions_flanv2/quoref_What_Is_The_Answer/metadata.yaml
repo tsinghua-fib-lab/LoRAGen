@@ -1,0 +1,43 @@
+assistant_prefill: ''
+descriptions:
+- The task involves extracting specific details from a given passage to answer a question.
+- The task requires identifying a person's name based on contextual clues in the text.
+- The task is about locating precise information in a passage to answer a factual
+  question.
+- The task involves reading a text and finding the correct name or term that answers
+  the question.
+- The task is to determine the correct answer by analyzing relationships or events
+  described in the passage.
+- The task requires understanding the passage well enough to pick out the exact piece
+  of information asked for.
+- The task is about recognizing key details in a text that directly answer the given
+  question.
+- The task involves matching a question with the relevant fact from the provided article.
+- The task is to find the name or term that fits the description given in the question.
+- The task requires identifying a person, place, or thing based on the context of
+  the passage.
+- The task is about retrieving specific information from a passage to solve a query.
+- The task involves pinpointing the correct answer by closely reading the given text.
+- The task is to deduce the right answer by interpreting the details in the passage.
+- The task requires selecting the correct name or phrase that answers the question
+  based on the text.
+- The task is about finding the exact detail that corresponds to the question in the
+  passage.
+- The task involves identifying a fact or name mentioned in the text that answers
+  the query.
+- The task is to locate the precise piece of information that resolves the question.
+- The task requires extracting the correct answer by understanding the relationships
+  in the passage.
+- The task is about reading carefully to find the specific answer embedded in the
+  text.
+- The task involves answering a question by referring to the exact details provided
+  in the passage.
+ds_kwargs:
+  path: quoref_What_Is_The_Answer
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

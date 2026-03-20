@@ -1,0 +1,47 @@
+assistant_prefill: ''
+descriptions:
+- The task involves understanding how a given fact affects a specific scenario and
+  determining the outcome based on that fact.
+- The task requires reasoning about cause-and-effect relationships described in a
+  given fact to answer a related question.
+- The task is about applying a scientific or factual statement to a real-world situation
+  to deduce the correct result.
+- The task involves using a provided fact to predict what happens in a described situation.
+- The task is to analyze how a change in conditions, based on a given fact, influences
+  an outcome.
+- The task requires comparing two scenarios using a factual statement to determine
+  the difference.
+- The task is about interpreting how a biological, physical, or environmental principle
+  applies to a specific case.
+- The task involves drawing logical conclusions from a stated fact to answer a follow-up
+  question.
+- The task is to use a general fact to explain what happens in a particular instance.
+- The task requires understanding how a process or phenomenon works based on a fact
+  and applying it to a new situation.
+- The task is about recognizing how a change in one factor affects another, as described
+  by a given fact.
+- The task involves using factual knowledge to determine whether a quantity or condition
+  increases or decreases in a scenario.
+- The task is to infer the likely outcome of an event based on a provided scientific
+  or factual principle.
+- The task requires connecting a general rule to a specific example to find the correct
+  answer.
+- The task is about understanding how natural or physical laws influence real-life
+  situations.
+- The task involves deducing the impact of a described change using a given fact.
+- The task is to apply a factual statement to a hypothetical situation to see what
+  happens.
+- The task requires reasoning through how a described mechanism affects an outcome.
+- The task is about using a known fact to predict the direction of change in a given
+  scenario.
+- The task involves determining how a described behavior or property influences a
+  result based on a stated fact.
+ds_kwargs:
+  path: quartz_given_the_fact_answer_the_q
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

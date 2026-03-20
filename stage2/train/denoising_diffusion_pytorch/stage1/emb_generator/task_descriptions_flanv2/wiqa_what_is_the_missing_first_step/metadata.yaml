@@ -1,0 +1,31 @@
+assistant_prefill: ''
+descriptions:
+- Identify the initial step that starts a given sequence of events.
+- Determine what happens before the listed steps in a process.
+- Find the first action that leads to the described sequence.
+- Figure out the origin or cause of the given process.
+- Recognize the missing starting point in a chain of events.
+- Discover the event that triggers the rest of the steps.
+- Pinpoint the earliest stage in the provided procedure.
+- Uncover the root action that begins the described process.
+- Locate the step that must occur before all others in the sequence.
+- Identify the foundational event that sets the process in motion.
+- Determine the prerequisite action for the listed steps.
+- Find the initial cause that results in the subsequent events.
+- Figure out what must happen first for the process to unfold.
+- Recognize the starting condition for the given sequence.
+- Discover the earliest occurrence in the described timeline.
+- Pinpoint the action that precedes all other steps.
+- Uncover the first event in a natural or man-made process.
+- Locate the beginning of a cycle or series of actions.
+- Identify the primary step that initiates the entire process.
+- Determine the event that must happen before the listed steps can occur.
+ds_kwargs:
+  path: wiqa_what_is_the_missing_first_step
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

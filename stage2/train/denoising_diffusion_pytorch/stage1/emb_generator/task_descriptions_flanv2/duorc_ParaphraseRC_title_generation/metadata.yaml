@@ -1,0 +1,31 @@
+assistant_prefill: ''
+descriptions:
+- The task involves identifying the correct movie title based on a given plot summary.
+- The task requires matching a detailed movie description to its appropriate title.
+- The task is about recognizing a film by its storyline and key events.
+- The task involves deducing the name of a movie from its narrative summary.
+- The task is to find the movie title that corresponds to the provided plot.
+- The task requires associating a film's synopsis with its official title.
+- The task is about recalling a movie's name after reading its summary.
+- The task involves selecting the correct film title from a given story description.
+- The task is to determine which movie matches the described events and characters.
+- The task requires identifying a film based on its key plot points.
+- The task is about linking a movie's summary to its known title.
+- The task involves figuring out the name of a film from its detailed synopsis.
+- The task is to recognize a movie by its main storyline and themes.
+- The task requires naming the film that fits the given narrative.
+- The task is about connecting a plot summary to its corresponding movie title.
+- The task involves recalling a film's title after reading its story outline.
+- The task is to identify the correct movie based on its described events.
+- The task requires matching a film's plot to its official name.
+- The task is about finding the title of a movie from its summarized content.
+- The task involves determining the film that aligns with the provided narrative.
+ds_kwargs:
+  path: duorc_ParaphraseRC_title_generation
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

@@ -1,0 +1,31 @@
+assistant_prefill: ''
+descriptions:
+- The task involves identifying the final outcome of a described process.
+- The task requires predicting the last step in a sequence of events.
+- The task is about determining the logical conclusion of a given process.
+- The task involves reasoning about the end result of a series of actions.
+- The task is to infer the final effect of a described chain of events.
+- The task requires understanding how a process completes based on given steps.
+- The task is about deducing the ultimate consequence of a sequence.
+- The task involves figuring out what happens at the end of a described scenario.
+- The task is to identify the concluding stage of a natural or mechanical process.
+- The task requires recognizing the final outcome from a series of steps.
+- The task is about summarizing the end result of a process.
+- The task involves predicting the last event in a causal chain.
+- The task is to determine the final state after a sequence of changes.
+- The task requires analyzing steps to find the logical endpoint.
+- The task is about completing a process by identifying its last step.
+- The task involves understanding how a described system reaches its conclusion.
+- The task is to find the resolution of a given sequence of actions.
+- The task requires identifying the final impact of a series of events.
+- The task is about concluding what happens after all preceding steps.
+- The task involves determining the ultimate result of a described procedure.
+ds_kwargs:
+  path: wiqa_what_might_be_the_last_step_of_the_process
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

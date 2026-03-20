@@ -1,0 +1,42 @@
+assistant_prefill: ''
+descriptions:
+- The task involves answering questions about how different physical properties or
+  conditions affect outcomes, such as temperature, pressure, or movement.
+- The task requires understanding cause-and-effect relationships in scientific or
+  everyday scenarios.
+- The task is about determining how changes in one variable influence another based
+  on given assumptions.
+- The task involves reasoning about how materials or systems behave under specific
+  conditions.
+- The task asks questions about observable changes in physical or biological processes.
+- The task requires applying basic scientific principles to real-world situations.
+- The task involves predicting outcomes based on known behaviors of objects or systems.
+- The task is about comparing how different conditions lead to different results.
+- The task asks how altering a factor (like thickness or temperature) impacts a related
+  outcome.
+- The task involves deducing the correct answer from provided assumptions about how
+  things work.
+- The task requires interpreting how natural or mechanical processes respond to changes.
+- The task is about identifying which of two options aligns with a given scientific
+  rule.
+- The task involves answering questions that test knowledge of basic physics or biology
+  concepts.
+- The task asks how a specific action or condition affects a measurable result.
+- The task requires understanding how energy, motion, or heat behaves in different
+  scenarios.
+- The task involves making logical conclusions based on stated principles.
+- The task is about determining the correct outcome when a system or object is modified.
+- The task asks how external factors influence the behavior of materials or living
+  things.
+- The task involves applying simple scientific reasoning to answer practical questions.
+- The task requires figuring out how a change in one part of a system affects another
+  part.
+ds_kwargs:
+  path: quartz_answer_question_below
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

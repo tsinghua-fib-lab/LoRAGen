@@ -1,0 +1,46 @@
+assistant_prefill: ''
+descriptions:
+- The task involves understanding how changes in one variable affect another based
+  on given scientific principles.
+- The task requires reasoning about cause-and-effect relationships in physical or
+  natural phenomena.
+- The task is about predicting outcomes based on provided factual explanations.
+- The task involves applying scientific or logical rules to answer questions about
+  real-world scenarios.
+- The task tests comprehension of how specific conditions influence results in science
+  or everyday situations.
+- The task is about deducing the correct outcome from a given explanation.
+- The task requires interpreting text to determine how altering a factor changes a
+  system.
+- The task involves using provided information to infer the correct consequence of
+  an action.
+- The task is about connecting scientific facts to practical examples.
+- The task involves analyzing how modifying one element impacts another in a described
+  scenario.
+- The task requires understanding how quantities or properties interact based on given
+  rules.
+- The task is about identifying the relationship between variables in a described
+  system.
+- The task involves using logic to determine how changes affect outcomes in a given
+  context.
+- The task is about applying knowledge of scientific principles to answer questions.
+- The task requires drawing conclusions from provided explanations about how things
+  work.
+- The task involves reasoning through how altering a condition influences a result.
+- The task is about understanding the effect of adjustments in a system based on factual
+  text.
+- The task involves predicting the direction of change (increase/decrease, stronger/weaker,
+  etc.) based on given information.
+- The task requires using textual evidence to determine the correct outcome of a described
+  situation.
+- The task is about interpreting cause-and-effect relationships in scientific or everyday
+  contexts.
+ds_kwargs:
+  path: quartz_answer_question_based_on
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

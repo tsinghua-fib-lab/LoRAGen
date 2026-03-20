@@ -1,0 +1,38 @@
+assistant_prefill: ''
+descriptions:
+- The task involves answering factual questions about movies, including details like
+  the number of actors.
+- The task requires providing specific population statistics based on census data.
+- The task involves identifying historical structures and their associated figures
+  or events.
+- The task requires naming artistic movements linked to specific artists or photographers.
+- The task involves locating places or institutions based on historical or operational
+  details.
+- The task is about recalling precise details related to sports teams and their locations.
+- The task involves answering questions about the history of decommissioned vessels
+  and their later uses.
+- The task requires identifying castles or landmarks and their historical significance.
+- The task is about providing correct answers to trivia questions across various topics.
+- The task involves answering questions about specific events, people, or places from
+  history.
+- The task requires knowledge of filmography, such as actor counts in movies.
+- The task involves retrieving factual information about cities, including population
+  data.
+- The task is about recognizing artistic contributions and their associated movements.
+- The task requires identifying the final destinations or uses of retired ships.
+- The task involves answering questions about Scottish history and notable figures.
+- The task is about providing accurate answers to niche or specialized trivia.
+- The task requires recalling details about lesser-known historical events or locations.
+- The task involves answering questions about the backgrounds of sports teams.
+- The task is about identifying the correct answer based on specific historical or
+  cultural facts.
+- The task requires knowledge of various subjects, from art to transportation history.
+ds_kwargs:
+  path: kilt_tasks_hotpotqa_final_exam
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

@@ -1,0 +1,47 @@
+assistant_prefill: ''
+descriptions:
+- The task involves writing a short biography based on given facts about a person.
+- The task requires summarizing a person's life using provided details like birth,
+  death, occupation, and achievements.
+- The task is to create a brief life story of an individual using structured bullet-point
+  facts.
+- The task involves converting factual bullet points into a coherent biographical
+  paragraph.
+- The task is to describe a person's life concisely using key details such as dates,
+  places, and roles.
+- The task requires crafting a narrative about a person's identity and accomplishments
+  from given data.
+- The task is to synthesize a short biography from a list of specific facts about
+  someone.
+- The task involves summarizing a person's career and life events based on provided
+  information.
+- The task is to write a brief overview of a historical or notable figure using given
+  details.
+- The task requires turning a set of facts about a person into a readable biographical
+  sketch.
+- The task is to construct a life story from basic details like name, birth, death,
+  and profession.
+- The task involves creating a short description of a person's life using structured
+  data points.
+- The task is to compose a biographical statement from key facts about an individual.
+- The task requires writing a summary of a person's life based on their background
+  and achievements.
+- The task is to generate a brief biography using provided personal and professional
+  details.
+- The task involves forming a narrative about a person's life from discrete pieces
+  of information.
+- The task is to produce a concise life story using facts like nationality, occupation,
+  and notable events.
+- The task requires assembling a short biography from fragmented details about a person.
+- The task is to describe a person's significance and life journey using given facts.
+- The task involves writing a compact biography by organizing and interpreting provided
+  data points.
+ds_kwargs:
+  path: wiki_bio_who
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

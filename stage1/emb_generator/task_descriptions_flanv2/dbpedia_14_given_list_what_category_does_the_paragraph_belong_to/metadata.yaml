@@ -1,0 +1,42 @@
+assistant_prefill: ''
+descriptions:
+- The task involves identifying the category that best describes the subject of a
+  given paragraph.
+- The task requires classifying a described entity into one of several predefined
+  categories.
+- The task is about determining the most fitting category for a described person,
+  object, or concept.
+- The task involves reading a passage and assigning it to the correct thematic category.
+- The task is to match a given description with the appropriate classification from
+  a set list.
+- The task requires recognizing the type of entity being described in a paragraph.
+- The task is about categorizing a described subject based on its defining characteristics.
+- The task involves analyzing a text to determine the category of the main subject.
+- The task is to identify the broad group that the described item or person belongs
+  to.
+- The task requires selecting the category that aligns with the content of the provided
+  paragraph.
+- The task is about understanding the nature of the described entity and classifying
+  it accordingly.
+- The task involves discerning the general classification of the subject in the given
+  text.
+- The task is to determine the overarching category that fits the described topic.
+- The task requires associating the described entity with its correct thematic group.
+- The task is about placing the described subject into its most relevant category.
+- The task involves identifying the classification that best represents the main idea
+  of the paragraph.
+- The task is to recognize the category that encompasses the described person, place,
+  or thing.
+- The task requires linking the described content to its appropriate general classification.
+- The task is about assigning the described subject to its most fitting broad category.
+- The task involves determining which predefined group the described entity belongs
+  to.
+ds_kwargs:
+  path: dbpedia_14_given_list_what_category_does_the_paragraph_belong_to
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

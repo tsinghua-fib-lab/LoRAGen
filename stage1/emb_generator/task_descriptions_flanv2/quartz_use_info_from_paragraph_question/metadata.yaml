@@ -1,0 +1,43 @@
+assistant_prefill: ''
+descriptions:
+- The task involves reading a paragraph and using the information to answer a related
+  question.
+- The task requires understanding a scientific or factual statement and applying it
+  to a specific scenario.
+- The task tests the ability to infer the correct answer based on given factual information.
+- The task involves interpreting a short passage to determine the correct response
+  to a question.
+- The task assesses comprehension of cause-and-effect relationships described in a
+  paragraph.
+- The task requires drawing logical conclusions from provided scientific or factual
+  statements.
+- The task involves analyzing a statement to answer a question about a real-world
+  situation.
+- The task checks the ability to use factual knowledge to predict outcomes or behaviors.
+- The task involves understanding how changing one variable affects another based
+  on a given explanation.
+- The task requires identifying the relationship between two concepts described in
+  a paragraph.
+- The task tests the ability to apply general principles to specific examples.
+- The task involves reasoning about natural phenomena using provided information.
+- The task requires deducing the correct answer based on a scientific or factual rule.
+- The task assesses whether the participant can correctly interpret descriptive statements.
+- The task involves answering questions by recalling or inferring details from a given
+  passage.
+- The task requires understanding how properties or conditions change under different
+  circumstances.
+- The task tests knowledge of basic scientific or factual concepts through applied
+  questions.
+- The task involves using a given explanation to determine how something behaves or
+  changes.
+- The task requires matching the correct outcome to a described scenario.
+- The task assesses the ability to use logical reasoning based on provided information.
+ds_kwargs:
+  path: quartz_use_info_from_paragraph_question
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

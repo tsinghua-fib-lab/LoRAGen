@@ -1,0 +1,517 @@
+assistant_prefill: ''
+descriptions:
+- Your objective is to delve into questions that reflect principles of natural sciences
+  or social studies, selecting the answer that aligns closest with established knowledge.
+- Essentially, this task is about applying your knowledge in science to select statements
+  that accurately reflect natural occurrences, cellular capabilities, or energy classifications.
+- In each provided scenario, apply your educational background in science to decipher
+  which statement provides the clearest explanation for what is being asked.
+- Here, you'll delve into scientific queries, which ask for clarity on topics like
+  energy transformation or ecological interactions that showcase how entities function
+  naturally.
+- This task prompts you to recognize the patterns of metamorphosis in butterflies,
+  assessing your grasp of life stages in insects.
+- Immerse yourself in inquiries regarding scientific facts or scenarios. Rely on logic
+  and established theories to discern which option correlates correctly with the question
+  posed.
+- The challenge involves identifying characteristics that indicate sexual reproduction
+  in green algae, demanding comprehension of biological reproduction processes.
+- This task involves using your understanding of natural sciences to draw conclusions
+  about the features and behaviors of celestial bodies, geological layers, ecological
+  composition, and biological adaptations.
+- Assess multiple statements related to different fields and identify which one serves
+  as the appropriate answer to each question based on logical reasoning.
+- Engage with the content by utilizing your expertise across various domains to derive
+  the right answers from the given questions.
+- In this activity, you will explore concepts from various scientific fields, including
+  cellular biology and environmental science, determining how different elements interact
+  and change.
+- In this task, you explore key concepts from various scientific fields, working to
+  articulate which statement most effectively explains a specific interaction or characteristic.
+- Dive into a variety of scientific questions that regard natural laws or experimental
+  methods. Determine the most logical answer based on learned facts and concepts.
+- Your task is to analyze scientific concepts and determine the best answer to questions
+  related to astronomy, geology, soil science, and biology.
+- You will be drawing on your scientific literacy and reasoning skills. Investigate
+  the relationships among different concepts in science through the context provided
+  in each question.
+- Navigate a range of questions, leveraging both analytical skills and existing knowledge
+  bases relevant to individual inquiries for optimal response accuracy.
+- Your role is to interpret questions from various scientific fields and identify
+  the most fitting answer based on your knowledge.
+- This task tasks you with making connections between theoretical knowledge and observable
+  evidence across different domains of science through carefully constructed questions.
+- Investigate how phytoplankton reduction affects ecosystems by applying concepts
+  from biology about population dynamics and food webs.
+- The task challenges you to utilize your academic background in science as you discern
+  relationships between different environmental entities or processes based on provided
+  questions.
+- Your task is to interpret questions based on various scientific principles and select
+  the most appropriate explanation or conclusion among different options.
+- Investigate biological and physical concepts through this task. Your comprehension
+  of how organisms adapt and react to their environment will aid in selecting correct
+  statements.
+- Your task is to evaluate scientific questions that involve physical principles and
+  biological interactions to arrive at accurate conclusions.
+- The focus here is clearly on comprehension and application of scientific knowledge.
+  By analyzing each prompt, you'll discern which factors influence behaviors or classifications
+  in science-related contexts.
+- Your job is to synthesize information from various sciences and relate it back to
+  questions posed, ultimately selecting the answer choice with precise relevance.
+- Examine the provided statements based on scientific principles. Your goal is to
+  select the most accurate statement that aligns with established scientific knowledge
+  in different fields.
+- The focus here is on evaluating scientific questions and determining which statements
+  are accurate reflections of real-world processes or phenomena.
+- Your challenge is to reflect upon foundational scientific ideas to arrive at the
+  correct interpretations of given scenarios related to environment, organisms, and
+  materials.
+- Engage with questions that challenge your understanding of fundamental biological
+  processes and classify different forms of energy effectively while considering environmental
+  implications.
+- Familiarize yourself with various scientific concepts through questions that require
+  you to focus on identifiers within galaxies, Earth's geology, soil types, and living
+  creature adaptations.
+- This task invites you to explore foundational concepts within science, ranging from
+  geological formations to chemical substances. Accurate reasoning will be essential
+  for determining correct answers.
+- This exercise requires you to explore scientific principles through multiple-choice
+  formats, identifying which statements effectively explain complex ideas or observations.
+- Engage with questions centered on earth science and biology by using critical thinking
+  skills to determine the most accurate explanations or classifications.
+- The objective is to discern correct answers from a series of scientific inquiries
+  that pertain to energy principles, biology, or chemical reactions.
+- Engage with questions related to biology and energy forms. Your understanding of
+  these subjects will guide you in finding the right responses based on core scientific
+  principles.
+- You will evaluate several questions covering topics such as space, chemistry, ecology,
+  and safety practices. Use your understanding of these subjects to find the correct
+  answer.
+- You are tasked with evaluating questions from various subjects and determining the
+  most accurate response based on your knowledge of the topic.
+- Evaluate a range of statements across disciplines such as meteorology or biology.
+  Identify which one resonates as factually accurate in relation to a query provided.
+- Consider different hypothetical situations involving biological functions and physical
+  principles. Your capacity to differentiate between accurate statements is critical
+  here.
+- Approach these science-related questions as puzzles where you must apply reasoning
+  skills along with knowledge from previous learning experiences to find clarity among
+  options.
+- You will classify organisms based on specific features given in descriptions, enhancing
+  your skills in biological categorization and observations.
+- Assess essential relationships in scientific phenomena presented in the inquiries;
+  this will involve thoughtful reflection on diverse areas of science such as biology
+  and physics.
+- The aim is to respond correctly to fundamental scientific inquiries using rational
+  analysis and background knowledge in various disciplines related to science.
+- "Navigate through diverse topics in science by comparing elements from galaxy shapes\
+  \ to layers of Earth\u2019s crust while evaluating their significance based on established\
+  \ facts."
+- The task involves parsing through relevant inquiries related to experiments and
+  biological mechanisms by relying on a solid grasp of scientific principles.
+- The focus here is on assessing your knowledge in biology and earth sciences. You'll
+  need to identify key principles that govern life processes and environmental changes.
+- Approach a series of questions rooted in scientific inquiry or factual information.
+  Your role is to pinpoint the correct assertion among several choices that fits the
+  question best.
+- Navigate through various inquiries and utilize your comprehension of factual content
+  in areas like biology, weather science, and earth sciences to find the optimal response.
+- Your job involves considering questions about environmental or physical concepts
+  and deciding which answer showcases true understanding of those topics.
+- Analyze given questions that test understanding of basic scientific concepts related
+  to motion, physics, and biology in order to select the right answer.
+- You will evaluate questions based on fundamental scientific tenets involving human
+  physiology, chemical properties, and the laws of motion.
+- Learn about the transformation stages in butterflies, reinforcing your understanding
+  of biological processes that govern growth and development.
+- This task involves assessing questions related to science and nature. You need to
+  understand the concepts being asked to pick the most accurate response.
+- Identify the sexual reproduction process within algae by isolating key characteristics
+  that define how genetic material is exchanged between parents.
+- For each prompt, you will draw on your knowledge of science and reasoning to ascertain
+  the most fitting response based on factual information.
+- Evaluate multiple-choice questions that challenge your understanding of fundamental
+  scientific theories and principles. Make connections between concepts to reach your
+  conclusion.
+- "Gather insights from your educational background in science to tackle questions\
+  \ about natural processes and properties across different settings\u2014celestial\
+  \ bodies, geological formations, and organic matter in ecosystems."
+- You are tasked with applying knowledge from biology, physics, or chemistry in order
+  to identify accurate descriptions of natural processes. Understanding how these
+  processes interact is crucial for selecting the right answer.
+- Your job is to identify the correct mechanism of reproduction in a specific organism,
+  reflecting your understanding of life cycles and reproductive strategies.
+- Your task is to evaluate statements and determine which one conveys an inference,
+  requiring critical thinking and interpretation skills.
+- Engage with questions that evaluate your grasp of foundational scientific concepts.
+  You are expected to make connections regarding substances, organisms, and mechanical
+  principles using your existing knowledge.
+- You will evaluate scenarios involving organisms and their adaptations or physical
+  processes in the environment. Understanding fundamental science allows you to discern
+  the most relevant answer choice.
+- Hone your analytical skills by critically evaluating scientific assertions concerning
+  galaxies' characteristics, Earth layer compositions, humus quality indicators in
+  soil, and animal behavioral traits.
+- Approach this task with a focus on integrating aspects of biology and earth sciences,
+  leading you through questions that delve into the effects of different conditions
+  on ecosystems.
+- In this exercise, you will analyze the effects of ocean pollution on ecosystems,
+  emphasizing your understanding of ecological relationships.
+- Your role is to interpret questions that cover diverse topics, harness your understanding,
+  and select an answer that best represents the situation described.
+- Navigate through questions anchored in science that require a clear understanding
+  of systems, energy conservation, and experimental practices.
+- You will explore the stages of a butterfly's life cycle, calling on your understanding
+  of metamorphosis and developmental biology.
+- Your mission is to pinpoint valid statements from posed science-related questions
+  that probe into subjects like physiology dynamics or conservation laws.
+- Solve questions related to natural phenomena or biological processes by analyzing
+  choices and utilizing your understanding of the underlying science involved.
+- This activity invites you to utilize your grasp of science concepts in evaluating
+  varied scenarios. The correct selection should reflect accurate knowledge about
+  biological or environmental conditions.
+- Engage with abstract scientific questions that demand clarity on the interaction
+  between different bodily systems or physical laws governing motion and matter.
+- This exercise revolves around evaluating scenarios related to everyday materials
+  and their properties. Identifying correct relationships and classifications within
+  these scenarios is key for effective responses.
+- Delve into scientific questions that assess knowledge about structures, processes,
+  or theories. The challenge lies in selecting the most accurate statement reflecting
+  reality.
+- You will navigate through a set of questions that challenge your proficiency in
+  basic science principles, requiring a clear understanding of how different aspects
+  of nature function together.
+- Analyze questions that require knowledge of natural sciences, including biology
+  and physics, to choose the best supporting statement or reason among provided alternatives.
+- Dissect various queries focused on academic themes or physical characteristics,
+  then carefully determine which statement correctly answers the posed question.
+- Engage with questions that challenge your knowledge in fields such as health sciences
+  or earth sciences and evaluate the given choices for correctness.
+- Interpret questions relating to body functions and physical laws while employing
+  critical thinking skills to identify scientifically accurate statements.
+- You will be tasked with answering queries regarding basic scientific principles
+  and understanding how different ideas interact within their context.
+- In this task, you will be analyzing scenarios involving common scientific subjects
+  such as geology and biology. Each question expects you to reason carefully about
+  which option best reflects accepted theories.
+- Analyze thought-provoking scientific queries that relate to space, Earth sciences,
+  ecology, and biology. This requires comprehensive knowledge of these domains.
+- By examining descriptions of organisms, you will classify them, demonstrating your
+  knowledge in taxonomy and biological diversity.
+- This task assesses your knowledge of natural sciences. You will evaluate different
+  scenarios and processes to select the most accurate answer that fits the given context.
+- Your mission involves interpreting a question about scientific observations or environmental
+  conditions and picking out the most precise answer from several statements.
+- This task involves understanding and interpreting questions across different areas
+  of study, requiring critical thinking to select the most appropriate answer.
+- Use your understanding of scientific context or geographic awareness to find which
+  provided statement stands out as correct given a specific question prompt.
+- In this exercise, you're tasked with reflecting on your knowledge of various sciences.
+  Understanding key concepts will help you recognize which statements about life forms
+  and energy are true.
+- You must demonstrate your understanding of essential scientific principles by evaluating
+  how variables impact interactions in nature or behavior of natural substances.
+- Approach this task by gathering information presented through various queries, focusing
+  on extracting the core essence of each question you need to answer.
+- Your objective is to pinpoint accurate descriptions of scientific phenomena involving
+  materials, ecosystems, and forces. An understanding of basic scientific principles
+  is essential for success.
+- Analyze each question carefully, employing your reasoning abilities to make informed
+  selections that resonate with widely accepted facts or theories.
+- This task centers around synthesizing knowledge from science disciplines like geology
+  and ecology to pinpoint the most accurate answers concerning observable events.
+- You will need to apply your foundational knowledge in science subjects, focusing
+  on energy transformations, interactions of organ systems, and experimental validity.
+- Utilize your educational background to tackle questions that span multiple subjects,
+  discerning the most accurate interpretations based on the information given.
+- Engage with questions that require not only recall but also analytical skills as
+  you evaluate potential solutions based on your understanding of key scientific ideas
+  and their implications.
+- Analyze statements related to living organisms and energy types. This activity requires
+  an understanding of how cells function and the impact of both natural processes
+  and human actions on the environment.
+- The exercise involves synthesizing information across various branches of science.
+  Careful consideration is needed to match each question's context with your existing
+  knowledge of the subject matter.
+- Investigate an array of questions associated with different educational subjects.
+  Your goal is to deduce which sentence holds true in accordance with academic principles.
+- This task challenges you to connect scientific theories with practical examples.
+  You must evaluate given statements critically to find the one that accurately describes
+  a certain process or relationship.
+- "Engage with questions that test your knowledge of various scientific subjects,\
+  \ requiring you to identify key characteristics or facts about the universe, Earth\u2019\
+  s structure, organic materials, and animal adaptations."
+- Engage with questions that explore scientific phenomena. Your task is to discern
+  which of the presented statements reflects the truth.
+- For each question presented, you must use critical thinking and scientific knowledge
+  to deduce which provided statement correctly describes a specific situation or principle.
+- You will assess a range of inquiries across different fields of science. Use deductive
+  reasoning to sift through choices and find the one that best fits the context given
+  by the question.
+- Your role is to demonstrate your comprehension of fundamental scientific concepts
+  by choosing the option that best explains a phenomenon or describes a scientific
+  principle.
+- This exercise involves examining scientific scenarios and utilizing your comprehension
+  of energy, organ systems, and experiments to determine the appropriate choice.
+- This task requires you to analyze questions focused on natural sciences, using your
+  understanding of how different elements and organisms interact within ecosystems.
+- Analyze various statements related to scientific concepts and their real-world applications,
+  highlighting your analytical abilities regarding environmental issues and relationships
+  among species.
+- Engage with questions that necessitate comprehension of competition in ecosystems
+  or chemical reactions, then pick the option that aligns with known principles in
+  those areas.
+- The focus here is on evaluating scientific principles related to weather patterns,
+  biological interactions, and material properties, helping you demonstrate your knowledge
+  in these areas.
+- In this task, navigate through inquiries regarding molecules, elements, or physics.
+  Your insight into these subjects will help guide your selection of the answer.
+- Engage with queries about the human body, physics, and chemistry to pinpoint the
+  most accurate statements regarding energy and interactions.
+- Analyze pressing ecological and physical science-related inquiries, sharpening your
+  ability to connect theory with practical knowledge when selecting responses.
+- Analyze the provided questions to make well-informed choices. This task demands
+  familiarity with fundamental concepts in science, mathematics, and other subjects.
+- You are tasked with discerning among multiple statements related to natural phenomena,
+  requiring a solid grasp of scientific terminology and principles.
+- "Your role is to apply your understanding of various educational subjects\u2014\
+  like astronomy and environmental science\u2014to carefully determine which answer\
+  \ best resolves each query."
+- Your task involves understanding basic biological and physical concepts. You need
+  to identify the correct statement regarding cell functions, energy types, or environmental
+  impacts.
+- This task challenges your grasp of science by asking questions about various topics.
+  You will need to rely on your knowledge to pinpoint the most correct option.
+- Engage with a mix of scientific scenarios and concepts, evaluating how well each
+  option aligns with understood principles before determining the best-fit answer.
+- In this task, you will apply your background knowledge to discern which statement
+  most appropriately satisfies each question regarding science, geography, or human
+  behavior.
+- Reflect on questions touching upon science or geographical facts and select the
+  statement that reflects sound understanding and accurate information from those
+  presented.
+- This task requires analytical thinking as you assess information about living organisms,
+  environmental changes, and energy transformations to find the most reasonable explanation.
+- Rely on your foundational knowledge of science to navigate through a set of scenarios
+  involving life forms and energy relationships, honing in on the most fitting choice
+  based on scientific accuracy.
+- "Use your expertise in science as you work through questions regarding the Milky\
+  \ Way Galaxy\u2019s similarities with other galaxies, Earth\u2019s physical layers,\
+  \ and characteristics indicative of humus-rich soil."
+- In this task, you must showcase your understanding of complex scientific phenomena
+  by identifying pivotal information regarding galaxies, Earth's layers, soil characteristics,
+  and adaptations in animals.
+- You will be assessing relationships and processes in nature, deciding on the best
+  description of how different factors influence environmental outcomes.
+- In this activity, you will navigate through different queries and apply your reasoning
+  skills to determine which statement aligns best with established facts or principles.
+- Analyze queries that touch on fundamental scientific concepts and select responses
+  that are supported by your understanding of natural laws.
+- The task involves interpreting questions related to science topics and relying on
+  your academic knowledge to select the option that most accurately explains a phenomenon.
+- Utilize your background knowledge in science to tackle questions about energy usage
+  or biological interactions and determine the correct assertions accordingly.
+- Your role is to interpret various scientific scenarios and determine which descriptions
+  are factually correct based on established theories and definitions from relevant
+  fields.
+- Your goal is comprehending various subject matter through well-crafted questions
+  and using careful reasoning processes to identify which statements are correct.
+- "Engage with scientifically relevant questions that demand both factual recall and\
+  \ analytical thinking concerning dynamics present in space and within our planet\u2019\
+  s interior."
+- Your focus will be on critical analysis of scientific scenarios presented in the
+  questions where your understanding of chemistry, biology, and physics will play
+  a crucial role.
+- Encounter a range of questions that challenge your grasp of science, requiring you
+  to choose answers that correctly represent underlying theories or truths.
+- "Dive into questions about important scientific principles and concepts regarding\
+  \ the universe's structure and function while considering key factors influencing\
+  \ Earth\u2019s composition and biological systems."
+- Examine prompts concerning biological functions or physical concepts while leveraging
+  your scientific literacy to identify valid reasoning behind each option.
+- Tackle questions related to everyday phenomena or academic concepts and determine
+  which listed statement accurately captures the essence of the inquiry presented.
+- In this task, cultivate your ability to think critically about science topics by
+  refining choices that accurately encapsulate interactions found within ecological
+  and geological systems.
+- Engage with scientific questions that require an understanding of how forces in
+  nature align or how components like organisms or substances behave under certain
+  conditions.
+- Utilize reasoning skills in response to scientific queries, selecting statements
+  that represent factual accuracy relative to natural laws or historical data.
+- The task focuses on recognizing the fundamental definitions and classifications
+  within physical science. It requires critical thinking to decipher which statements
+  align correctly with established science.
+- Using critical thinking, interpret questions about natural phenomena or academic
+  subjects, leading you to the most accurate choice based on your understanding.
+- Your task is to classify a described organism by interpreting its physical traits
+  and behaviors relevant to its taxonomy.
+- "This task emphasizes scientific literacy by prompting you to connect concepts across\
+  \ biology and environmental science\u2014essentially gauging your grasp of how nature\
+  \ works."
+- Utilize your insights into environmental science to examine situational questions
+  and draw conclusions that reflect established knowledge in areas like chemical weathering
+  and biological competition.
+- You are prompted with various academic questions requiring analysis. Your task is
+  to extract the most relevant piece of information that properly answers each inquiry.
+- This task tests your familiarity with scientific disciplines by prompting you to
+  select answers that accurately depict relationships between various elements or
+  concepts.
+- Interpret a variety of scientific inquiries, applying your knowledge to discern
+  which provided answers are factually correct or most likely true.
+- "Your role is to explore scientific inquiries that challenge your understanding\
+  \ of nature's processes\u2014from the cosmic scale down to Earth's inner workings\
+  \ and living organisms\u2019 behavior."
+- This requires you to connect environmental science concepts regarding pollution
+  impact with the broader implications for marine life and ecosystems.
+- Your responsibility is to comprehend complex scientific ideas and report on them
+  succinctly, sharpening skills that bridge theory with practical applications observable
+  in nature.
+- This task involves assessing your understanding of scientific concepts related to
+  geology, chemistry, and physics. You will identify the correct principles that explain
+  different natural phenomena.
+- Utilize your knowledge in science to assess inquiries related to properties of matter,
+  energy relationships, and biological systems in order to find correct conclusions.
+- The objective is to decipher questions from different fields and use your academic
+  insights to arrive at the most fitting answer in each case.
+- "This task encourages critical engagement with information through selective reasoning,\
+  \ as you\u2019ll interpret multiple choice scenarios drawn from diverse academic\
+  \ themes."
+- Engage with a range of questions covering various scientific areas. You'll assess
+  information critically to pinpoint accurate descriptions or indicators related to
+  planets, soil quality, and ecological adaptation.
+- You are asked to classify an organism based on specific traits, showcasing your
+  knowledge of biology and classification systems.
+- Examine the ecological consequences of reduced phytoplankton populations due to
+  pollution, requiring an integration of ecological and environmental knowledge.
+- For each question given, you will assess statements pertaining to scientific principles,
+  environmental factors, or general knowledge and discern which statement best answers
+  the question.
+- This task emphasizes discerning connections within various scientific topics. Your
+  ability to relate concepts accurately will enable you to choose the best answers
+  informed by foundational knowledge.
+- You will be engaging with a mixture of factual and conceptual inquiries, applying
+  logical reasoning to identify the correct responses based on your learned knowledge.
+- Your challenge is to merge reasoning skills with knowledge of science, examining
+  each provided option critically in relation to the topic at hand before arriving
+  at a decision.
+- Interact with a series of questions by evaluating their contents thoughtfully, using
+  your educational experiences as a foundation for determining suitable answers.
+- Analyze provided statements about an experiment to determine which indicates a conclusion
+  drawn from observations, testing your logical reasoning skills.
+- Analyze life cycle stages of butterflies with a focus on understanding biological
+  processes and development phases common in metamorphic insects.
+- The goal is to sift through information and leverage your academic knowledge to
+  pinpoint correct answers to a series of questions.
+- You are required to apply your knowledge in science to determine relationships between
+  various processes and their outcomes. This requires both analytical thinking and
+  a good grasp of scientific terminology.
+- Delve into multidimensional aspects of science involving astronomy, geology, chemistry
+  in soils, and biological adaptations by identifying correct statements that reflect
+  your understanding.
+- This task highlights your ability to apply scientific principles across diverse
+  areas such as cellular biology and energy forms. You'll need to critically assess
+  each situation presented.
+- Your task is to evaluate a set of statements related to various subjects and determine
+  which statement accurately addresses the inquiry posed.
+- This task involves responding to queries that assess your grasp of environmental
+  science, chemistry reactions, or safety protocols in labs. Draw on what you've learned
+  to identify the right choice.
+- "You will need to reflect on your knowledge of science to identify relationships\
+  \ and commonalities in the elements of the universe, Earth\u2019s internal layers,\
+  \ soil composition, and the adaptive behaviors of living organisms."
+- Consider the implications of various scientific statements regarding energy transformations
+  or biological systems while making a statistically sound selection based on reasoning.
+- Assess subject matter related to celestial bodies as well as terrestrial environments.
+  You will need to skillfully deduce answers based on your grasp of scientific details.
+- The focus here is on understanding nuanced queries and integrating your background
+  knowledge to efficiently deduce the most accurate answer possible.
+- The task involves understanding scientific concepts related to Earth's geography,
+  biology, and chemistry in order to identify correct relationships or classifications.
+- The goal is to explore key concepts across multiple scientific disciplines. You
+  will need to select answers based on your comprehension of how natural processes
+  work and affect the world around us.
+- You'll face questions exploring critical concepts in science where it's essential
+  to use deductive reasoning to arrive at the correct interpretation.
+- "Utilize your comprehensive science education as you contemplate essential traits\
+  \ that define galaxies, Earth\u2019s structure, soil integrity, and survival strategies\
+  \ among species."
+- In this task, you will evaluate statements concerning basic scientific facts and
+  processes. Accurate comprehension and reasoning are key skills needed to infer the
+  right answers.
+- You will utilize your understanding of physical laws and biological classifications
+  for this task. Identifying which principles apply in different contexts will lead
+  you to make informed selections based on what you know.
+- Your task is centered around responding accurately to a variety of inquiries by
+  drawing on your understanding of essential concepts across several disciplines.
+- Engage critically with diverse questions; this activity involves both comprehension
+  of content and precise selection based on established knowledge or common sense
+  reasoning.
+- Analyze the provided information and select the statement that correctly responds
+  to the question, drawing on your knowledge of science, geography, or other subjects.
+- This task requires a blend of comprehension and judgment as you evaluate statements
+  related to scientific principles, human behavior, or mathematical calculations.
+- Engage with questions spanning various topics by identifying and choosing the statement
+  that is most factually correct and relevant.
+- Your role is to apply knowledge of environmental factors, organism interactions,
+  and physical properties to select the most applicable statements about various phenomena.
+- This endeavor requires exploring crucial scientific relationships through a series
+  of thought-provoking questions aimed at testing your familiarity with essential
+  environmental concepts.
+- Analyze questions related to natural phenomena or laboratory protocols, employing
+  your understanding of relevant theories to establish which answer is most valid.
+- Delve into scientific inquiries by examining statements related to cellular characteristics,
+  evolutionary traits, energy types, or soil changes. Precision in understanding these
+  topics is essential.
+- This activity requires you to delve into basic scientific concepts regarding how
+  materials interact and behave under different conditions. Understanding these interactions
+  can guide your selections effectively.
+- Explore questions relating to scientific concepts, and utilize your knowledge to
+  identify the most accurate response from the selections provided.
+- You will encounter questions that require a thorough comprehension of scientific
+  principles. It's important to choose the statement that best aligns with established
+  science.
+- In this task, you need to discern implications from given statements, showcasing
+  your analytical reasoning and ability to draw conclusions.
+- "Engage with scientific inquiries that assess your understanding of concepts. You\u2019\
+  ll need a solid foundation in science to provide appropriate responses."
+- "Apply your comprehension of fundamental science topics\u2014such as ecosystems\
+  \ and material properties\u2014to ensure you select the best representations of\
+  \ each described situation."
+- Determine the significance of specific reproductive traits in an organism's lifecycle,
+  which requires knowledge about basic reproductive biology.
+- This involves assessing statements for their inferential quality, sharpening your
+  abilities to understand implicit meanings based on evidence stated.
+- "Sort through questions that challenge your understanding of various scientific\
+  \ disciplines\u2014like biology and physics\u2014and find the one option that best\
+  \ fits the query posed."
+ds_kwargs:
+  name: ARC-Challenge
+  path: allenai/ai2_arc
+  split: train
+
+# ds_kwargs:
+#   name: ARC-Challenge
+#   path: ai2_arc           
+#   split: train
+#   cache_dir: /data/MaoXiaowei/models/huangh/_download/cache/datasets
+
+response_field: answerKey
+system_message: ''
+user_prompt_template: 'Answer the question below by choosing the correct choice.
+
+
+  {question}
+
+
+  {choices[label][0]}: {choices[text][0]}
+
+  {choices[label][1]}: {choices[text][1]}
+
+  {choices[label][2]}: {choices[text][2]}
+
+  {choices[label][3]}: {choices[text][3]}
+
+
+  You must respond with the letter corresponding to the correct choice without any
+  explanation.'

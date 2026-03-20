@@ -1,0 +1,34 @@
+assistant_prefill: ''
+descriptions:
+- The task involves checking whether a given answer correctly responds to a specific
+  question.
+- The task is about verifying if the provided answer matches the question's intent.
+- The task requires determining if the answer fully addresses the question asked.
+- The task is to assess whether the response is relevant and accurate for the given
+  question.
+- The task involves evaluating if the answer sufficiently answers the question.
+- The task is to decide whether the answer directly corresponds to the question.
+- The task is about confirming if the answer provides the correct information for
+  the question.
+- The task requires judging if the answer is a valid solution to the question.
+- The task involves analyzing whether the answer fits the question's requirements.
+- The task is to determine if the answer is a proper reply to the question.
+- The task is about checking if the answer logically follows from the question.
+- The task requires verifying if the answer is factually correct for the question.
+- The task involves examining whether the answer clarifies the question.
+- The task is to see if the answer resolves the question's inquiry.
+- The task is about confirming whether the answer satisfies the question's demand.
+- The task requires evaluating if the answer is a precise response to the question.
+- The task involves determining if the answer is complete for the question.
+- The task is to assess whether the answer is on-topic for the question.
+- The task is about verifying if the answer meets the question's expectations.
+- The task requires deciding if the answer is a suitable match for the question.
+ds_kwargs:
+  path: glue_qnli
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'

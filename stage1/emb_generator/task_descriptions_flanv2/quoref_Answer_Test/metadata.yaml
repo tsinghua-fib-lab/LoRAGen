@@ -1,0 +1,49 @@
+assistant_prefill: ''
+descriptions:
+- The task involves reading a passage and identifying a specific person mentioned
+  in the text based on a given question.
+- The task requires locating a named individual in a provided article who fits the
+  description in the question.
+- The task is about finding the correct name of a character or person in a story based
+  on details from the text.
+- The task involves extracting the name of a person from a passage who matches the
+  criteria in the question.
+- The task is to read a narrative and determine who a particular question is referring
+  to.
+- The task requires identifying a specific individual from a story based on their
+  actions or role.
+- The task is about recognizing a person in a passage who is connected to a certain
+  event or situation.
+- The task involves finding the name of a person in a text who is described in the
+  question.
+- The task is to pinpoint a character in a story who fulfills the conditions given
+  in the question.
+- The task requires determining who a question is asking about by referring to the
+  details in the passage.
+- The task is about matching a person in a narrative to the description provided in
+  the question.
+- The task involves identifying a named individual in a text who is relevant to the
+  question.
+- The task is to locate a specific person in a passage based on their involvement
+  in an event.
+- The task requires finding out who a question is referring to by reading the given
+  article.
+- The task is about discovering the name of a person in a story who meets the question's
+  criteria.
+- The task involves selecting the correct individual from a passage who matches the
+  question's description.
+- The task is to determine which person in the text is being asked about in the question.
+- The task requires identifying a character or real person in a narrative based on
+  the question's details.
+- The task is about extracting the name of someone from a passage who fits the question's
+  context.
+- The task involves reading a story and finding out who the question is describing.
+ds_kwargs:
+  path: quoref_Answer_Test
+  split: train
+response_field: label
+system_message: ''
+user_prompt_template: '{task_def}
+
+
+  {problem}'
