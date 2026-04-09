@@ -63,6 +63,7 @@ The evaluation scripts download datasets directly from the Hugging Face Hub. At 
 Before running, please ensure you have the necessary data and models:
 
 * **LoRA Library**: A collection of fine-tuned LoRA modules. Please update the `data_dir` path in the Stage 1 configuration files (e.g., `stage1/configs/lora_config_bench_tasks.yaml`) to point to your dataset path.
+* **FLAN subset**: The FLAN subset used in this project can be downloaded from [lorahub on Hugging Face](https://huggingface.co/lorahub). After downloading, please update the relevant `data_dir` paths in the FLAN configuration files accordingly.
 * **Task Descriptions**: Textual descriptions for each task are located in `stage1/emb_generator/task_descriptions_.../`.
 * **Base LLM**: The base Large Language Model for which the LoRA modules are designed (e.g., `FLAN-T5-Large`, and `Gemma-2-2b-it`). Please specify the model's path or its Hugging Face Hub identifier where required in the scripts and configs.
 
