@@ -49,7 +49,6 @@ def _safe_cosine(a: Tensor, b: Tensor, eps: float = 1e-12) -> Tensor:
 
 
 def _canon_AB(A: Tensor, B: Tensor) -> Tuple[Tensor, Tensor]:
-    """Canonicalize A, B so that the tall dimension is dim -2."""
     if A.shape[-2] < A.shape[-1]:
         A = A.transpose(-1, -2).contiguous()
     if B.shape[-2] < B.shape[-1]:
@@ -58,13 +57,6 @@ def _canon_AB(A: Tensor, B: Tensor) -> Tuple[Tensor, Tensor]:
 
 
 def _qr_svd_vals(A: Tensor, B: Tensor) -> Tensor:
-    """
-    Efficiently compute singular values of ΔW = A @ B^T via QR + small SVD
-    (Appendix A.4). Avoids forming the full d×d matrix.
-
-    A: [..., d, r],  B: [..., d, r]
-    Returns: singular values [..., r] in descending order.
-    """
     QA, RA = torch.linalg.qr(A.float(), mode='reduced')
     QB, RB = torch.linalg.qr(B.float(), mode='reduced')
     K = torch.matmul(RA, RB.transpose(-1, -2))
@@ -74,10 +66,6 @@ def _qr_svd_vals(A: Tensor, B: Tensor) -> Tensor:
 
 @torch.no_grad()
 def _select_topk_energy(S: Tensor, keep: float = 0.85, min_k: int = 1) -> int:
-    """
-    Determine the minimal k such that the top-k singular values explain
-    at least a fraction `keep` (ρ) of the squared Frobenius norm.
-    """
     energy = S ** 2
     cum = energy.cumsum(dim=-1)
     tot = energy.sum(dim=-1, keepdim=True).clamp_min(1e-12)
@@ -96,11 +84,9 @@ class LoRAloss(nn.Module):
 
     Components:
       - Reconstruction loss (L1/L2) on structured weights.
-      - Direction loss: 1 - cosine(pred, gt) on the full adaptation matrix ΔW.
-      - Spectral loss (Eq. 3): weighted ℓp norm between leading singular values
-        of ΔW, computed efficiently via QR decomposition.  The spectral-energy
-        threshold ρ (`spec_energy_keep`) controls how many singular values to
-        compare.
+      - Direction loss: 1 - cosine(pred, gt).
+      - Spectral loss on LoRA A/B pairs, where `spec_energy_keep` selects the
+        smallest number of singular values needed to cover rho energy.
       - KL divergence for VAE posteriors.
 
     All components are optional and weighted.
@@ -137,11 +123,6 @@ class LoRAloss(nn.Module):
         self.spec_energy_keep = float(spec_energy_keep)
 
     def _find_ab_pairs(self, flat: Dict[str, Tensor]):
-        """
-        Discover (A, B) pairs from flattened keys.
-        E.g. "encoder.lora_qa" + "encoder.lora_qb" -> pair for encoder-q.
-        Returns list of (key_a, key_b) tuples.
-        """
         pairs = []
         a_keys = {k for k in flat if k.endswith("_qa") or k.endswith("_va")}
         for ka in sorted(a_keys):
@@ -151,6 +132,10 @@ class LoRAloss(nn.Module):
         return pairs
 
     def _pairwise_terms(self, gt: Dict[str, Tensor], pred: Dict[str, Tensor]) -> Dict[str, Tensor]:
+        """
+        Computes per-key losses and aggregates them.
+        Returns a dict of scalar tensors for each enabled component.
+        """
         rec_terms = []
         dir_terms = []
         spec_terms = []
@@ -183,30 +168,28 @@ class LoRAloss(nn.Module):
 
         if self.use_spec:
             ab_pairs = self._find_ab_pairs(gt)
-            if ab_pairs:
-                for ka, kb in ab_pairs:
-                    if ka not in pred or kb not in pred:
-                        continue
-                    ga, gb = gt[ka], gt[kb]
-                    pa, pb = pred[ka], pred[kb]
-                    ga = ga.to(pa.dtype).to(pa.device)
-                    gb = gb.to(pb.dtype).to(pb.device)
-                    ga, gb = _canon_AB(ga, gb)
-                    pa, pb = _canon_AB(pa, pb)
+            for ka, kb in ab_pairs:
+                if ka not in pred or kb not in pred:
+                    continue
+                ga, gb = gt[ka], gt[kb]
+                pa, pb = pred[ka], pred[kb]
+                ga = ga.to(pa.dtype).to(pa.device)
+                gb = gb.to(pb.dtype).to(pb.device)
+                ga, gb = _canon_AB(ga, gb)
+                pa, pb = _canon_AB(pa, pb)
 
-                    S_gt = _qr_svd_vals(ga, gb)
-                    S_pred = _qr_svd_vals(pa, pb)
-                    k = _select_topk_energy(S_gt, keep=self.spec_energy_keep)
-                    S_gt_k = S_gt[..., :k]
-                    S_pred_k = S_pred[..., :k]
-                    omega = (S_gt_k / S_gt_k.sum(dim=-1, keepdim=True).clamp_min(1e-12)).detach()
+                S_gt = _qr_svd_vals(ga, gb)
+                S_pred = _qr_svd_vals(pa, pb)
+                k = _select_topk_energy(S_gt, keep=self.spec_energy_keep)
+                S_gt_k = S_gt[..., :k]
+                S_pred_k = S_pred[..., :k]
+                omega = (S_gt_k / S_gt_k.sum(dim=-1, keepdim=True).clamp_min(1e-12)).detach()
 
-                    diff = S_pred_k - S_gt_k
-                    if self.spec_p == 1:
-                        spec = (omega * diff.abs()).mean()
-                    else:
-                        spec = (omega * diff ** 2).mean()
-                    spec_terms.append(spec)
+                if self.spec_p == 1:
+                    spec = (omega * (S_pred_k - S_gt_k).abs()).mean()
+                else:
+                    spec = (omega * (S_pred_k - S_gt_k) ** 2).mean()
+                spec_terms.append(spec)
 
         out: Dict[str, Tensor] = {}
         if rec_terms:
