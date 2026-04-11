@@ -26,6 +26,7 @@ model:
         w_dir: 1.0
         w_spec: 2.0               
         spec_p: 1
+        spec_energy_keep: 0.85
         coupled_qv: true
         num_layers: 24
         sched_cfg:
