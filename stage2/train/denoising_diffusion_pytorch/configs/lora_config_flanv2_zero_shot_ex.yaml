@@ -25,13 +25,6 @@ model:
         w_spec: 2.0               
         spec_p: 1
         spec_energy_keep: 0.85
-        coupled_qv: true
-        num_layers: 24
-        sched_cfg:
-          f_warm: 0.0
-          f_mid: 1.0
-          w_dir_end: 1.0
-          rec_core_mid: 0.0
 
     ddconfig:
       encoder:
