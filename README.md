@@ -37,6 +37,7 @@ LoRAGen/
 │       ├── evaluation/        
 │       └── Transformer/   
 │
+├── text-to-lora/              # Git submodule: https://github.com/SakanaAI/text-to-lora
 └── utils/                
 ```
 
@@ -51,7 +52,11 @@ conda activate LoRAGen
 
 pip install -r requirements.txt
 
-pip install LoRAGen/text-to-lora/src/fishfarm
+git submodule update --init --recursive
+
+# Install fishfarm from the embedded text-to-lora submodule:
+# https://github.com/SakanaAI/text-to-lora
+pip install ./text-to-lora/src/fishfarm
 ```
 
 ### 2. Data and Pre-trained Models
