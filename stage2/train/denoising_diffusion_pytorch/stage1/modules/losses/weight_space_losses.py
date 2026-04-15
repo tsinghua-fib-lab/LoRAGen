@@ -3,7 +3,6 @@
 from __future__ import annotations
 import torch
 import torch.nn as nn
-import torch.nn.functional as F
 from typing import Dict, Tuple, Any
 
 Tensor = torch.Tensor
@@ -103,7 +102,6 @@ class LoRAloss(nn.Module):
         w_spec: float = 1.0,
         spec_p: int = 2,
         spec_energy_keep: float = 0.85,
-        **kwargs,
     ):
         super().__init__()
         rec_metric = rec_metric.lower()
@@ -263,6 +261,3 @@ class LoRAloss(nn.Module):
         log[f"{split}/aeloss"] = total.detach()
 
         return total, log
-
-    def __call__(self, *args, **kwargs):
-        return super().__call__(*args, **kwargs)
